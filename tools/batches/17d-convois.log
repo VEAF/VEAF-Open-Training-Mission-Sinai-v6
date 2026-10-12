@@ -1,0 +1,9 @@
+[1] edit_route: {"group": "combatZone_ConvoiElArish-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[2] edit_route: {"group": "combatZone_ConvoiElArish-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[3] edit_route: {"group": "combatZone_ConvoiElArish-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[4] edit_route: {"group": "combatZone_ConvoiNakhl-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[5] edit_route: {"group": "combatZone_ConvoiNakhl-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[6] edit_route: {"group": "combatZone_ConvoiNakhl-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[7] edit_route: {"group": "combatZone_ConvoiFeiran-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[8] edit_route: {"group": "combatZone_ConvoiFeiran-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}
+[9] edit_route: {"group": "combatZone_ConvoiFeiran-Convoi", "operation": "set", "changed": {"speed": {"from": 5.5555555555556, "to": 11.832212, "to_kt": 23.0}}, "warnings": [], "durable": true}

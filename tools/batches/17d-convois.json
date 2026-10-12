@@ -1,0 +1,92 @@
+[
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiElArish-Convoi",
+   "operation": "set",
+   "index": 1,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiElArish-Convoi",
+   "operation": "set",
+   "index": 2,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiElArish-Convoi",
+   "operation": "set",
+   "index": 3,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiNakhl-Convoi",
+   "operation": "set",
+   "index": 1,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiNakhl-Convoi",
+   "operation": "set",
+   "index": 2,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiNakhl-Convoi",
+   "operation": "set",
+   "index": 3,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiFeiran-Convoi",
+   "operation": "set",
+   "index": 1,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiFeiran-Convoi",
+   "operation": "set",
+   "index": 2,
+   "speed_kt": 23
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_ConvoiFeiran-Convoi",
+   "operation": "set",
+   "index": 3,
+   "speed_kt": 23
+  }
+ }
+]
