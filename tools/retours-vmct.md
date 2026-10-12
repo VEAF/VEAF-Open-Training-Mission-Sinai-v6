@@ -1,0 +1,27 @@
+# Retours pour VMCT — construction de l'OT Sinaï v6 (12/10/2026)
+
+Tenu au fil de la construction (prompt `new-open-training-mission.fr.md`, veaf-tools 6.29.0 installé par `scaffold_mission`, actions MCP sur VMCT `develop` e322fa89).
+Chaque entrée : quoi, où, comment je l'ai vu, ce que j'ai fait à la place.
+Les entrées déjà signalées par l'OT Golfe Persique le même jour sont seulement rappelées.
+
+1. **`capabilities` annonce toujours 6.28.0**, alors que `scaffold_mission` installe 6.29.0 (déjà vu sur le Golfe Persique, entrée 1).
+2. **Le prompt demande de vider les listes d'exemple de CTLD (`extract1`…, `logistic1`…), que le gabarit 6.29.0 livre déjà vides.**
+   `ctld-config.yaml` du scaffold : `extractableGroups: []`, `logisticUnits: []`. Rien à faire ; la consigne du prompt (§4.1) peut être retirée ou dire « vérifie qu'elles sont vides ».
+3. **Pas de grille d'altitude ni de données de parking pour SinaiMap** (`terrain_elevation` : `available: false` ; limitation `no-parking-data-outside-three-theatres`).
+   Conséquences : aucun contrôle terre / mer des placements au sol sans balayage, QRA en départ en vol, et pas de slot A-10 au parking dans la mission de test. Balayage `veaf-tools dcs terrain-sweep SinaiMap` fait avec David devant DCS (2 min 20, 13,4 M points, `~/.veaf/terrain/SinaiMap.terrain`), puis capture des parkings (entrée 8) : les QRA ont été refaites en départ piste (lot 09b). La grille pourrait être livrée avec les outils, comme les parkings.
+4. **`terrain-sweep` bute sur un `dcs-serve` déjà lancé par une autre session** : « Le dcs-serve déjà lancé refuse notre clé (HTTP 401) ».
+   Le serveur ouvert par la session du Golfe Persique tournait depuis le dépôt `VEAF-dcs-bridge` avec sa configuration par défaut. Contourné par `--config D:/dev/_VEAF/VEAF-dcs-bridge/dcs-serve.yaml`. La commande pourrait essayer d'elle-même la configuration du dépôt dcs-bridge voisin, ou le message la nommer.
+5. **`geocode` tombe sur des homonymes hors du théâtre sans le signaler dans le résultat principal** (déjà vu aux Mariannes et au Golfe Persique).
+   « El Qantara » → Liban ; « Mount Sinai » → New York ; « Tabuk » → Philippines ; « Fayoum » → Guinée ; « Tanta » → Pérou ; « Zafarana » → Sicile ; « Haql » et « Bir Tamada » → Yémen ; « Mount Hermon » → New Jersey ; « Jebel Maghara » → un sommet israélien homonyme. Le champ `in_theatre_bounds` existe, mais la requête ne restreint pas la recherche à l'étendue de la carte (Nominatim accepte une `viewbox` bornée). Remplacés par les coordonnées géographiques réelles dans `tools/lib.py`.
+6. **`add_air_group` n'a pas de départ au sol (`From Ground Area`)**, seulement parking, piste, vol et pont.
+   Sur une carte sans données de parking, un slot client au sol (la mission de test : un A-10C II à la base mère) n'a aucune voie MCP. `tools/make_test_mission.py` tente le parking et retombe sur un départ en vol au-dessus de Cairo West.
+7. **Portée du SA-15 : l'outil `verify.py` hérité de l'OT Golfe Persique la notait 8,6 nm ; `list_unit_types` donne 12 000 m, soit 6,5 nm.**
+   Ce n'est pas un défaut de VMCT, mais d'un chiffre tapé dans les outils d'une mission ; corrigé ici, à reporter dans l'OT Golfe Persique (`tools/verify.py`, `THREAT_NM`).
+8. **`capture-map --parking` écrit le format brut, que `add_air_group` ne lit pas.**
+   La capture donne `parking/SinaiMap.json` avec `parking_by_airbase` et les champs DCS (`Term_Index`, `vTerminalPos.x`…) ; l'outil lit `veaf_libs/data/parking/<théâtre>.json`, au format réduit `by_airbase` (`p`, `x`, `y`, `alt`, `t`, `d`). Passé par `veaf_build.dcs_data.parking.slim_dump` du checkout VMCT. Les deux fichiers sont ajoutés **non commités** dans le checkout VMCT (`veaf_build/dcs_data/airbase_dumps/parking/SinaiMap.json` et `src/python/veaf-tools/veaf_libs/data/parking/SinaiMap.json`) : à livrer par une PR VMCT, avec la grille d'altitude si on la livre aussi. La commande pourrait écrire directement le format réduit, ou dire dans sa sortie comment l'installer.
+9. **Le build annonce « Rapport de validation écrit dans presets-validation-report.md », et le fichier n'existe pas.**
+   Vu sur les deux builds serveur du 12/10/2026 ; aucun fichier de ce nom dans le dossier (il est pourtant dans le `.gitignore` du gabarit).
+10. **`veaf-tools dcs inject-bridge` affiche « Appuyez sur Entrée pour quitter... »** quand il est lancé par un script (`tools/make_test_mission.py`, sortie redirigée). Il n'a pas bloqué (entrée standard fermée), mais un outil appelé en sous-processus ne devrait pas attendre une touche.
+11. **La grille d'altitude ne voit pas l'eau sous le niveau de la mer.**
+    Le champ de tir d'Arad de la v5 tombe dans les bassins de la mer Morte : la grille y lit 2 m (DCS ne descend jamais sous 0, limitation `dcs-ground-never-below-sea-level`), donc le test « terre = au-dessus de 0 » l'a accepté ; `land.getSurfaceType` y répond 3 (eau) pour les 12 véhicules. Trouvé par la sonde DCS (`tools/probe_scenery.py`), champ déplacé (lot 17). Le balayage pourrait enregistrer le type de sol avec l'altitude, comme le proposait déjà l'OT Golfe Persique (sebkha).
+12. **`world.searchObjects` sur une sphère de 60 m a rendu un avion à 54 km**, pour deux points de la zone d'Abu Rudeis : un MiG-31 en activation différée, à 11 580 m au-dessus de St Catherine (position relue par `Unit.getByName`). La sonde l'a compté comme « occupé » et n'a pas jugé ces points, qui étaient dans les bâtiments. Mesure isolée, cause non établie ; la sonde juge maintenant aussi le sol des points « occupés » par `probe_points.py`.

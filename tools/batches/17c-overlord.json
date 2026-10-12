@@ -1,0 +1,48 @@
+[
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Overlord 1",
+   "move_to": {
+    "x": 50000,
+    "y": -50000
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Overlord 1 - Escort",
+   "move_to": {
+    "x": 47000,
+    "y": -53000
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "name": "Piste Overlord 1",
+   "position": {
+    "x": 50000,
+    "y": -50000
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "name": "Piste Overlord 1 étiquette",
+   "position": {
+    "x": 10000,
+    "y": -44000
+   }
+  }
+ }
+]

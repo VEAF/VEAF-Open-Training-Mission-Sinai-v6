@@ -1,0 +1,84 @@
+[1] add_air_group: {"group_id": 1, "name": "Texaco 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[2] edit_route: {"group": "Texaco 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[3] edit_route: {"group": "Texaco 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[4] edit_route: {"group": "Texaco 1", "operation": "add_task", "changed": {"task_added": {"task": "activate_beacon", "number": 2}}, "warnings": [], "durable": true}
+[5] edit_route: {"group": "Texaco 1", "operation": "add_task", "changed": {"task_added": {"task": "tanker", "number": 3}}, "warnings": [], "durable": true}
+[6] edit_route: {"group": "Texaco 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[7] add_air_group: {"group_id": 2, "name": "Texaco 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Texaco 1 - Escort': 'Texaco' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Enfield11"]}
+[8] edit_route: {"group": "Texaco 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[9] edit_route: {"group": "Texaco 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[10] add_air_group: {"group_id": 3, "name": "Arco 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[11] edit_route: {"group": "Arco 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[12] edit_route: {"group": "Arco 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[13] edit_route: {"group": "Arco 1", "operation": "add_task", "changed": {"task_added": {"task": "activate_beacon", "number": 2}}, "warnings": [], "durable": true}
+[14] edit_route: {"group": "Arco 1", "operation": "add_task", "changed": {"task_added": {"task": "tanker", "number": 3}}, "warnings": [], "durable": true}
+[15] edit_route: {"group": "Arco 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[16] add_air_group: {"group_id": 4, "name": "Arco 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Arco 1 - Escort': 'Arco' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Springfield11"]}
+[17] edit_route: {"group": "Arco 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[18] edit_route: {"group": "Arco 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[19] add_air_group: {"group_id": 5, "name": "Texaco 2", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[20] edit_route: {"group": "Texaco 2", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[21] edit_route: {"group": "Texaco 2", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[22] edit_route: {"group": "Texaco 2", "operation": "add_task", "changed": {"task_added": {"task": "activate_beacon", "number": 2}}, "warnings": [], "durable": true}
+[23] edit_route: {"group": "Texaco 2", "operation": "add_task", "changed": {"task_added": {"task": "tanker", "number": 3}}, "warnings": [], "durable": true}
+[24] edit_route: {"group": "Texaco 2", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[25] add_air_group: {"group_id": 6, "name": "Texaco 2 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Texaco 2 - Escort': 'Texaco' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Uzi11"]}
+[26] edit_route: {"group": "Texaco 2 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[27] edit_route: {"group": "Texaco 2 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[28] add_air_group: {"group_id": 7, "name": "Arco 2", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[29] edit_route: {"group": "Arco 2", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[30] edit_route: {"group": "Arco 2", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[31] edit_route: {"group": "Arco 2", "operation": "add_task", "changed": {"task_added": {"task": "activate_beacon", "number": 2}}, "warnings": [], "durable": true}
+[32] edit_route: {"group": "Arco 2", "operation": "add_task", "changed": {"task_added": {"task": "tanker", "number": 3}}, "warnings": [], "durable": true}
+[33] edit_route: {"group": "Arco 2", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[34] add_air_group: {"group_id": 8, "name": "Arco 2 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Arco 2 - Escort': 'Arco' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Colt11"]}
+[35] edit_route: {"group": "Arco 2 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[36] edit_route: {"group": "Arco 2 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[37] add_air_group: {"group_id": 9, "name": "Overlord 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[38] edit_route: {"group": "Overlord 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[39] edit_route: {"group": "Overlord 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[40] edit_route: {"group": "Overlord 1", "operation": "add_task", "changed": {"task_added": {"task": "awacs", "number": 2}}, "warnings": [], "durable": true}
+[41] edit_route: {"group": "Overlord 1", "operation": "add_task", "changed": {"task_added": {"task": "eplrs", "number": 3}}, "warnings": [], "durable": true}
+[42] edit_route: {"group": "Overlord 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[43] add_air_group: {"group_id": 10, "name": "Overlord 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Overlord 1 - Escort': 'Overlord' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Dodge11"]}
+[44] edit_route: {"group": "Overlord 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[45] edit_route: {"group": "Overlord 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[46] add_air_group: {"group_id": 11, "name": "Magic 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[47] edit_route: {"group": "Magic 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[48] edit_route: {"group": "Magic 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[49] edit_route: {"group": "Magic 1", "operation": "add_task", "changed": {"task_added": {"task": "awacs", "number": 2}}, "warnings": [], "durable": true}
+[50] edit_route: {"group": "Magic 1", "operation": "add_task", "changed": {"task_added": {"task": "eplrs", "number": 3}}, "warnings": [], "durable": true}
+[51] edit_route: {"group": "Magic 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[52] add_air_group: {"group_id": 12, "name": "Magic 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": [], "warnings": ["group 'Magic 1 - Escort': 'Magic' is not a callsign family of task 'Escort' (Enfield, Springfield, Uzi, Colt, Dodge, Ford, Chevy, Pontiac); given Ford11"]}
+[53] edit_route: {"group": "Magic 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[54] edit_route: {"group": "Magic 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[55] add_air_group: {"group_id": 13, "name": "Shell 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[56] edit_route: {"group": "Shell 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[57] edit_route: {"group": "Shell 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[58] edit_route: {"group": "Shell 1", "operation": "add_task", "changed": {"task_added": {"task": "tanker", "number": 2}}, "warnings": [], "durable": true}
+[59] edit_route: {"group": "Shell 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 3}}, "warnings": [], "durable": true}
+[60] add_air_group: {"group_id": 14, "name": "Shell 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[61] edit_route: {"group": "Shell 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[62] edit_route: {"group": "Shell 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[63] add_air_group: {"group_id": 15, "name": "Wizard 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[64] edit_route: {"group": "Wizard 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[65] edit_route: {"group": "Wizard 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[66] edit_route: {"group": "Wizard 1", "operation": "add_task", "changed": {"task_added": {"task": "awacs", "number": 2}}, "warnings": [], "durable": true}
+[67] edit_route: {"group": "Wizard 1", "operation": "add_task", "changed": {"task_added": {"task": "eplrs", "number": 3}}, "warnings": [], "durable": true}
+[68] edit_route: {"group": "Wizard 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[69] add_air_group: {"group_id": 16, "name": "Wizard 1 - Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[70] edit_route: {"group": "Wizard 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[71] edit_route: {"group": "Wizard 1 - Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 2}}, "warnings": [], "durable": true}
+[72] add_air_group: {"group_id": 17, "name": "Darkstar 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[73] edit_route: {"group": "Darkstar 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[74] edit_route: {"group": "Darkstar 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[75] edit_route: {"group": "Darkstar 1", "operation": "add_task", "changed": {"task_added": {"task": "awacs", "number": 2}}, "warnings": [], "durable": true}
+[76] edit_route: {"group": "Darkstar 1", "operation": "add_task", "changed": {"task_added": {"task": "eplrs", "number": 3}}, "warnings": [], "durable": true}
+[77] edit_route: {"group": "Darkstar 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[78] add_air_group: {"group_id": 18, "name": "Focus 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[79] edit_route: {"group": "Focus 1", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[80] edit_route: {"group": "Focus 1", "operation": "add_task", "changed": {"task_added": {"task": "set_unlimited_fuel", "number": 1}}, "warnings": [], "durable": true}
+[81] edit_route: {"group": "Focus 1", "operation": "add_task", "changed": {"task_added": {"task": "awacs", "number": 2}}, "warnings": [], "durable": true}
+[82] edit_route: {"group": "Focus 1", "operation": "add_task", "changed": {"task_added": {"task": "eplrs", "number": 3}}, "warnings": [], "durable": true}
+[83] edit_route: {"group": "Focus 1", "operation": "add_task", "changed": {"task_added": {"task": "orbit", "number": 4}}, "warnings": [], "durable": true}
+[84] add_air_group: {"group_id": 19, "name": "Reaper 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}

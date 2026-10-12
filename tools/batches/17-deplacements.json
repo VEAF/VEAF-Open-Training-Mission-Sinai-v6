@@ -1,0 +1,275 @@
+[
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-T-72B-1",
+   "move_to": {
+    "x": 140600,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-T-72B-2",
+   "move_to": {
+    "x": 140350,
+    "y": 384606
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-BMP-2-3",
+   "move_to": {
+    "x": 139750,
+    "y": 384433
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-BMP-2-4",
+   "move_to": {
+    "x": 139200,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-BRDM-2-5",
+   "move_to": {
+    "x": 139700,
+    "y": 383480
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-Ural-375-6",
+   "move_to": {
+    "x": 140350,
+    "y": 383394
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Easy-Inert-Ural-375-7",
+   "move_to": {
+    "x": 140346,
+    "y": 383800
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Medium-H2-1",
+   "move_to": {
+    "x": 138961,
+    "y": 383400
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Medium-H2-2",
+   "move_to": {
+    "x": 140000,
+    "y": 382900
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Medium-H2-3",
+   "move_to": {
+    "x": 138874,
+    "y": 384650
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Medium-H2-4",
+   "move_to": {
+    "x": 139550,
+    "y": 383221
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-1",
+   "move_to": {
+    "x": 139060,
+    "y": 383658
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-2",
+   "move_to": {
+    "x": 139658,
+    "y": 383060
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-3",
+   "move_to": {
+    "x": 138851,
+    "y": 383036
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-4",
+   "move_to": {
+    "x": 138600,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Easy",
+   "position": {
+    "x": 140000,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Medium",
+   "position": {
+    "x": 140000,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Hard",
+   "position": {
+    "x": 140000,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Texaco 2",
+   "move_bearing": 90,
+   "move_distance_m": 10000
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Texaco 2 - Escort",
+   "move_bearing": 90,
+   "move_distance_m": 10000
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_UsinesPortFouad-Z09-2",
+   "move_bearing": 270,
+   "move_distance_m": 50
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "name": "Zone combatZone_Arad",
+   "position": {
+    "x": 140000,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "name": "Zone combatZone_Arad étiquette",
+   "position": {
+    "x": 143300,
+    "y": 384000
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "name": "Piste Texaco 2",
+   "position": {
+    "x": 150000,
+    "y": 395000
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "name": "Piste Texaco 2 étiquette",
+   "position": {
+    "x": 120000,
+    "y": 401000
+   }
+  }
+ }
+]

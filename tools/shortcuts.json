@@ -1,0 +1,2075 @@
+{
+ "units": [
+  {
+   "aliases": [
+    "hq7"
+   ],
+   "unitType": "HQ-7_LN_SP"
+  },
+  {
+   "aliases": [
+    "hq7eo"
+   ],
+   "unitType": "HQ-7_LN_EO"
+  },
+  {
+   "aliases": [
+    "sa8",
+    "sa-8"
+   ],
+   "unitType": "Osa 9A33 ln"
+  },
+  {
+   "aliases": [
+    "sa9",
+    "sa-9"
+   ],
+   "unitType": "Strela-1 9P31"
+  },
+  {
+   "aliases": [
+    "sa13",
+    "sa-13"
+   ],
+   "unitType": "Strela-10M3"
+  },
+  {
+   "aliases": [
+    "sa15",
+    "sa-15"
+   ],
+   "unitType": "Tor 9A331"
+  },
+  {
+   "aliases": [
+    "sa18",
+    "sa-18",
+    "manpad"
+   ],
+   "unitType": "SA-18 Igla-S manpad"
+  },
+  {
+   "aliases": [
+    "dogear"
+   ],
+   "unitType": "Dog Ear radar"
+  },
+  {
+   "aliases": [
+    "shilka"
+   ],
+   "unitType": "ZSU-23-4 Shilka"
+  },
+  {
+   "aliases": [
+    "tarawa"
+   ],
+   "unitType": "LHA_Tarawa"
+  },
+  {
+   "aliases": [
+    "blue-ewr"
+   ],
+   "unitType": "FPS-117"
+  },
+  {
+   "aliases": [
+    "red-ewr"
+   ],
+   "unitType": "1L13 EWR"
+  },
+  {
+   "aliases": [
+    "avenger"
+   ],
+   "unitType": "M1097 Avenger"
+  },
+  {
+   "aliases": [
+    "mi8"
+   ],
+   "unitType": "Mi-8MT"
+  },
+  {
+   "aliases": [
+    "mi26"
+   ],
+   "unitType": "Mi-26"
+  },
+  {
+   "aliases": [
+    "uh1"
+   ],
+   "unitType": "UH-1H"
+  },
+  {
+   "aliases": [
+    "ch47"
+   ],
+   "unitType": "CH-47Fbl1"
+  },
+  {
+   "aliases": [
+    "mi24"
+   ],
+   "unitType": "Mi-24P"
+  },
+  {
+   "aliases": [
+    "ka50"
+   ],
+   "unitType": "Ka-50_3"
+  },
+  {
+   "aliases": [
+    "ah64"
+   ],
+   "unitType": "AH-64D_BLK_II"
+  },
+  {
+   "aliases": [
+    "gazelle"
+   ],
+   "unitType": "SA342M"
+  }
+ ],
+ "groups": [
+  {
+   "aliases": [
+    "hq7"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7 SAM site"
+  },
+  {
+   "aliases": [
+    "hq7_single"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7 SAM site"
+  },
+  {
+   "aliases": [
+    "hq7-noew"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7 SAM site without STR"
+  },
+  {
+   "aliases": [
+    "hq7eo"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7EO SAM site"
+  },
+  {
+   "aliases": [
+    "hq7eo_single"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7EO SAM site"
+  },
+  {
+   "aliases": [
+    "hq7eo-noew"
+   ],
+   "groupName": "HQ-7",
+   "description": "HQ-7EO SAM site without STR"
+  },
+  {
+   "aliases": [
+    "sa2",
+    "sa-2",
+    "fs"
+   ],
+   "groupName": "SA2",
+   "description": "SA-2 SAM site"
+  },
+  {
+   "aliases": [
+    "sa3",
+    "sa-3",
+    "lb"
+   ],
+   "groupName": "SA3",
+   "description": "SA-3 SAM site"
+  },
+  {
+   "aliases": [
+    "sa5",
+    "sa-5",
+    "S-200",
+    "S200",
+    "s200",
+    "s-200"
+   ],
+   "groupName": "S200",
+   "description": "S200 SAM site"
+  },
+  {
+   "aliases": [
+    "sa6",
+    "sa-6",
+    "06"
+   ],
+   "groupName": "SA6",
+   "description": "SA-6 SAM site"
+  },
+  {
+   "aliases": [
+    "sa8_squad"
+   ],
+   "groupName": "SA8",
+   "description": "Sa-8 SAM site"
+  },
+  {
+   "aliases": [
+    "sa9_squad"
+   ],
+   "groupName": "SA9",
+   "description": "Sa-9 SAM site"
+  },
+  {
+   "aliases": [
+    "sa10",
+    "s300",
+    "bb"
+   ],
+   "groupName": "S300",
+   "description": "S300 SAM site"
+  },
+  {
+   "aliases": [
+    "sa11",
+    "sa-11",
+    "sd"
+   ],
+   "groupName": "SA11",
+   "description": "SA-11 SAM site"
+  },
+  {
+   "aliases": [
+    "sa13_squad"
+   ],
+   "groupName": "SA13",
+   "description": "Sa-13 SAM site"
+  },
+  {
+   "aliases": [
+    "sa15_squad"
+   ],
+   "groupName": "SA15",
+   "description": "Sa-15 SAM site"
+  },
+  {
+   "aliases": [
+    "sa15m2_squad"
+   ],
+   "groupName": "SA15",
+   "description": "Sa-15M2 SAM site"
+  },
+  {
+   "aliases": [
+    "sa22_squad"
+   ],
+   "groupName": "SA22",
+   "description": "SA-22 SAM site"
+  },
+  {
+   "aliases": [
+    "insurgent_manpad_squad",
+    "ins_manpad"
+   ],
+   "groupName": "Insurgent Manpad Squad",
+   "description": "Insurgent Sa-18 Manpad Squad"
+  },
+  {
+   "aliases": [
+    "sa18_squad"
+   ],
+   "groupName": "Red Manpad Squad",
+   "description": "Sa-18 Manpad Squad"
+  },
+  {
+   "aliases": [
+    "sa18s_squad"
+   ],
+   "groupName": "Red Modern Manpad Squad",
+   "description": "Sa-18S Manpad Squad"
+  },
+  {
+   "aliases": [
+    "sa19_squad"
+   ],
+   "groupName": "SA19",
+   "description": "Sa-19 SAM site"
+  },
+  {
+   "aliases": [
+    "red_ewr",
+    "ewr"
+   ],
+   "groupName": "Red EWR",
+   "description": "Red EWR"
+  },
+  {
+   "aliases": [
+    "rapier_optical",
+    "rpo"
+   ],
+   "groupName": "Rapier",
+   "description": "Rapier SAM site"
+  },
+  {
+   "aliases": [
+    "rapier_radar",
+    "rpr"
+   ],
+   "groupName": "Rapier-radar",
+   "description": "Rapier SAM site with radar"
+  },
+  {
+   "aliases": [
+    "stinger_squad"
+   ],
+   "groupName": "Blue Manpad Squad",
+   "description": "Stinger Manpad Squad"
+  },
+  {
+   "aliases": [
+    "avenger_squad"
+   ],
+   "groupName": "Avenger",
+   "description": "Avenger SAM site"
+  },
+  {
+   "aliases": [
+    "roland"
+   ],
+   "groupName": "Roland",
+   "description": "Roland SAM site"
+  },
+  {
+   "aliases": [
+    "roland-noew"
+   ],
+   "groupName": "Roland",
+   "description": "Roland SAM site"
+  },
+  {
+   "aliases": [
+    "nasams_c",
+    "nasams",
+    "NASAMS",
+    "NASAMS_C"
+   ],
+   "groupName": "NASAMS C battery",
+   "description": "NASAMS C battery"
+  },
+  {
+   "aliases": [
+    "nasams_b",
+    "NASAMS_B"
+   ],
+   "groupName": "NASAMS B battery",
+   "description": "NASAMS B battery"
+  },
+  {
+   "aliases": [
+    "hawk",
+    "ha",
+    "mim-23"
+   ],
+   "groupName": "Hawk",
+   "description": "Hawk SAM site"
+  },
+  {
+   "aliases": [
+    "patriot",
+    "pa",
+    "mim-104"
+   ],
+   "groupName": "Patriot",
+   "description": "Patriot SAM site"
+  },
+  {
+   "aliases": [
+    "blue_ewr"
+   ],
+   "groupName": "Blue EWR",
+   "description": "Blue EWR"
+  },
+  {
+   "aliases": [
+    "infantry section",
+    "infsec"
+   ],
+   "groupName": "Mechanized infantry section",
+   "description": "Mechanized infantry section with APCs"
+  },
+  {
+   "aliases": [
+    "US infgroup"
+   ],
+   "groupName": "US infantry group",
+   "description": "US infantry group"
+  },
+  {
+   "aliases": [
+    "insurgent_arty"
+   ],
+   "groupName": "Insurgent artillery battery",
+   "description": "Insurgent artillery battery"
+  },
+  {
+   "aliases": [
+    "mortar"
+   ],
+   "groupName": "2B11 Mortar team",
+   "description": "2B11 Mortar team"
+  },
+  {
+   "aliases": [
+    "M-109"
+   ],
+   "groupName": "M-109 artillery battery",
+   "description": "M-109 artillery battery"
+  },
+  {
+   "aliases": [
+    "PLZ05"
+   ],
+   "groupName": "PLZ05 artillery battery",
+   "description": "PLZ05 artillery battery"
+  },
+  {
+   "aliases": [
+    "Msta"
+   ],
+   "groupName": "Msta artillery battery",
+   "description": "Msta artillery battery"
+  },
+  {
+   "aliases": [
+    "MLRS"
+   ],
+   "groupName": "M270 MLRS artillery battery",
+   "description": "M270 MLRS artillery battery"
+  },
+  {
+   "aliases": [
+    "SmerchCM"
+   ],
+   "groupName": "Smerch (CM) MLRS artillery battery",
+   "description": "Smerch (CM) MLRS artillery battery"
+  },
+  {
+   "aliases": [
+    "SmerchHE"
+   ],
+   "groupName": "Smerch (HE) MLRS artillery battery",
+   "description": "Smerch (HE) MLRS artillery battery"
+  },
+  {
+   "aliases": [
+    "Uragan"
+   ],
+   "groupName": "Uragan MLRS artillery battery",
+   "description": "Uragan MLRS artillery battery"
+  },
+  {
+   "aliases": [
+    "Grad"
+   ],
+   "groupName": "Grad MLRS artillery battery",
+   "description": "Grad MLRS artillery battery"
+  },
+  {
+   "aliases": [
+    "US supply convoy",
+    "blueconvoy"
+   ],
+   "groupName": "US supply convoy",
+   "description": "US supply convoy"
+  },
+  {
+   "aliases": [
+    "RU supply convoy with defense",
+    "redconvoy-def"
+   ],
+   "groupName": "RU supply convoy with defense",
+   "description": "RU supply convoy with defense"
+  },
+  {
+   "aliases": [
+    "RU supply convoy with light defense",
+    "redconvoy-lightdef"
+   ],
+   "groupName": "RU supply convoy with light defense",
+   "description": "RU supply convoy with light defense"
+  },
+  {
+   "aliases": [
+    "RU supply convoy with no defense",
+    "redconvoy-nodef"
+   ],
+   "groupName": "RU supply convoy with no defense",
+   "description": "RU supply convoy with no defense"
+  },
+  {
+   "aliases": [
+    "RU small supply convoy with defense",
+    "redsmallconvoy-def"
+   ],
+   "groupName": "RU small supply convoy with defense",
+   "description": "RU small supply convoy with defense"
+  },
+  {
+   "aliases": [
+    "RU small supply convoy with light defense",
+    "redsmallconvoy-lightdef"
+   ],
+   "groupName": "RU small supply convoy with light defense",
+   "description": "RU small supply convoy with light defense"
+  },
+  {
+   "aliases": [
+    "RU small supply convoy with no defense",
+    "redsmallconvoy-nodef",
+    "redconvoy",
+    "convoy"
+   ],
+   "groupName": "RU small supply convoy with no defense",
+   "description": "RU small supply convoy with no defense"
+  },
+  {
+   "aliases": [
+    "hv_convoy_red"
+   ],
+   "groupName": "High Value Attack convoy red",
+   "description": "High Value Attack convoy red"
+  },
+  {
+   "aliases": [
+    "attack_convoy_red"
+   ],
+   "groupName": "Attack convoy red",
+   "description": "Attack convoy red"
+  },
+  {
+   "aliases": [
+    "QRC_red"
+   ],
+   "groupName": "Quick reaction convoy red",
+   "description": "Quick reaction convoy red"
+  },
+  {
+   "aliases": [
+    "civilian_convoy_red"
+   ],
+   "groupName": "Civilian convoy red",
+   "description": "Civilian convoy red"
+  },
+  {
+   "aliases": [
+    "QRC_blue"
+   ],
+   "groupName": "Quick reaction convoy blue",
+   "description": "Quick reaction convoy blue"
+  },
+  {
+   "aliases": [
+    "cargoships-nodef",
+    "cargoships"
+   ],
+   "groupName": "Cargo ships with no defense",
+   "description": "Cargo ships with no defense"
+  },
+  {
+   "aliases": [
+    "cargoships-escorted"
+   ],
+   "groupName": "Cargo ships with escort",
+   "description": "Cargo ships with escort"
+  },
+  {
+   "aliases": [
+    "combatships"
+   ],
+   "groupName": "Combat ships",
+   "description": "Combat ships with possible FFG defense"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-5"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-5",
+   "description": "generateAirDefenseGroup-BLUE-5"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-4"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-4",
+   "description": "generateAirDefenseGroup-BLUE-4"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-3"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-3",
+   "description": "generateAirDefenseGroup-BLUE-3"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-2"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-2",
+   "description": "generateAirDefenseGroup-BLUE-2"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-1"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-1",
+   "description": "generateAirDefenseGroup-BLUE-1"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-0"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-0",
+   "description": "generateAirDefenseGroup-BLUE-0"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-5"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-5",
+   "description": "generateAirDefenseGroup-RED-5"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-4"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-4",
+   "description": "generateAirDefenseGroup-RED-4"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-3"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-3",
+   "description": "generateAirDefenseGroup-RED-3"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-2"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-2",
+   "description": "generateAirDefenseGroup-RED-2"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-1"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-1",
+   "description": "generateAirDefenseGroup-RED-1"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-0"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-0",
+   "description": "generateAirDefenseGroup-RED-0"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-COLD_WAR-3"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-COLD_WAR-3",
+   "description": "generateAirDefenseGroup-BLUE-COLD_WAR-3"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-COLD_WAR-2"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-COLD_WAR-2",
+   "description": "generateAirDefenseGroup-BLUE-COLD_WAR-2"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-COLD_WAR-1"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-COLD_WAR-1",
+   "description": "generateAirDefenseGroup-BLUE-COLD_WAR-1"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-COLD_WAR-5"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-COLD_WAR-5",
+   "description": "generateAirDefenseGroup-RED-COLD_WAR-5"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-5"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-5",
+   "description": "generateAirDefenseGroup-BLUE-WW2-5"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-4"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-4",
+   "description": "generateAirDefenseGroup-BLUE-WW2-4"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-3"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-3",
+   "description": "generateAirDefenseGroup-BLUE-WW2-3"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-2"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-2",
+   "description": "generateAirDefenseGroup-BLUE-WW2-2"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-1"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-1",
+   "description": "generateAirDefenseGroup-BLUE-WW2-1"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-BLUE-WW2-0"
+   ],
+   "groupName": "generateAirDefenseGroup-BLUE-WW2-0",
+   "description": "generateAirDefenseGroup-BLUE-WW2-0"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-5"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-5",
+   "description": "generateAirDefenseGroup-RED-WW2-5"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-4"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-4",
+   "description": "generateAirDefenseGroup-RED-WW2-4"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-3"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-3",
+   "description": "generateAirDefenseGroup-RED-WW2-3"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-2"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-2",
+   "description": "generateAirDefenseGroup-RED-WW2-2"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-1"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-1",
+   "description": "generateAirDefenseGroup-RED-WW2-1"
+  },
+  {
+   "aliases": [
+    "generateAirDefenseGroup-RED-WW2-0"
+   ],
+   "groupName": "generateAirDefenseGroup-RED-WW2-0",
+   "description": "generateAirDefenseGroup-RED-WW2-0"
+  },
+  {
+   "aliases": [
+    "RU-SAM-Shilka-Battery",
+    "shilka-battery"
+   ],
+   "groupName": "ZSU-23-4 battery",
+   "description": "ZSU-23-4 battery"
+  },
+  {
+   "aliases": [
+    "RU-SAM-S60-Battery",
+    "s60-battery"
+   ],
+   "groupName": "S-60 battery",
+   "description": "S-60 battery"
+  },
+  {
+   "aliases": [
+    "RU-SAM-SA9-Battery",
+    "sa9-battery"
+   ],
+   "groupName": "SA-9 battery",
+   "description": "SA-9 battery"
+  },
+  {
+   "aliases": [
+    "RU-SAM-SA13-Battery",
+    "sa13-battery"
+   ],
+   "groupName": "SA-13 battery",
+   "description": "SA-13 battery"
+  },
+  {
+   "aliases": [
+    "US-refuel",
+    "refuel-group"
+   ],
+   "groupName": "US refuel group",
+   "description": "US refuel group"
+  }
+ ],
+ "commands": [
+  {
+   "aliases": [
+    "-samLR"
+   ],
+   "description": "Random medium range air defense group (defense level 4-5)",
+   "veafCommand": "_spawn samgroup, skynet true, spacing 1, radius 0",
+   "randomParameters": {
+    "defense": {
+     "min": 4,
+     "max": 5
+    }
+   },
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-samVLR"
+   ],
+   "description": "Random long range SAM battery for the mission's era",
+   "veafCommand": "_spawn longrangesam, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-samSR"
+   ],
+   "description": "Random short range SAM battery",
+   "veafCommand": "_spawn samgroup, skynet true, spacing 1, radius 0",
+   "randomParameters": {
+    "defense": {
+     "min": 2,
+     "max": 3
+    }
+   },
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7"
+   ],
+   "description": "HQ-7 (Red Banner) battery",
+   "veafCommand": "_spawn group, name hq7, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7_single"
+   ],
+   "description": "HQ-7 (Red Banner) launcher",
+   "veafCommand": "_spawn group, name hq7_single, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7noew"
+   ],
+   "description": "HQ-7 (Red Banner) battery without EWR",
+   "veafCommand": "_spawn group, name hq7-noew, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7eo"
+   ],
+   "description": "HQ-7EO (Red Banner) battery",
+   "veafCommand": "_spawn group, name hq7eo, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7eo_single"
+   ],
+   "description": "HQ-7EO (Red Banner) launcher",
+   "veafCommand": "_spawn group, name hq7eo_single, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hq7eo_noew"
+   ],
+   "description": "HQ-7EO (Red Banner) battery without EWR",
+   "veafCommand": "_spawn group, name hq7eo-noew, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa2"
+   ],
+   "description": "SA-2 Guideline (S-75 Dvina) battery",
+   "veafCommand": "_spawn group, name sa2, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa5"
+   ],
+   "description": "SA-5 Gammon (S-200 Dubna) battery",
+   "veafCommand": "_spawn group, name sa5, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa3"
+   ],
+   "description": "SA-3 Goa (S-125 Neva/Pechora) battery",
+   "veafCommand": "_spawn group, name sa3, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa6"
+   ],
+   "description": "SA-6 Gainful (2K12 Kub) battery",
+   "veafCommand": "_spawn group, name sa6, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa8"
+   ],
+   "description": "SA-8 Osa (9K33 Osa) sam vehicle",
+   "veafCommand": "_spawn group, name sa8_squad, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa9"
+   ],
+   "description": "SA-9 Strela-1 (9K31 Strela-1) sam vehicle",
+   "veafCommand": "_spawn unit, name Strela-1 9P31",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa9_squad"
+   ],
+   "description": "SA-9 Strela-1 (9K31 Strela-1) sam vehicle and logistic",
+   "veafCommand": "_spawn group, name sa9_squad, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa10"
+   ],
+   "description": "SA-10 Grumble (S-300) battery",
+   "veafCommand": "_spawn group, name sa10, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa11"
+   ],
+   "description": "SA-11 Gadfly (9K37 Buk) battery",
+   "veafCommand": "_spawn group, name sa11, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa13"
+   ],
+   "description": "SA-13 Strela (9A35M3) sam vehicle",
+   "veafCommand": "_spawn unit, name Strela-10M3",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa13_squad"
+   ],
+   "description": "SA-13 Strela (9A35M3) sam vehicle and logistic",
+   "veafCommand": "_spawn group, name sa13_squad, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa15"
+   ],
+   "description": "SA-15 Gauntlet (9K330 Tor) sam vehicle",
+   "veafCommand": "_spawn group, name sa15_squad, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa15m2"
+   ],
+   "description": "SA-15M2 Gauntlet (9K330 TorM2) sam vehicle",
+   "veafCommand": "_spawn group, name sa15m2_squad, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa22"
+   ],
+   "description": "SA-22 Greyhound (Pantsir-S1) sam vehicle",
+   "veafCommand": "_spawn group, name sa22_squad, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-insurgent_manpad"
+   ],
+   "description": "Insurgent SA-18 manpad squad",
+   "veafCommand": "_spawn group, name ins_manpad",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa18"
+   ],
+   "description": "SA-18 manpad squad",
+   "veafCommand": "_spawn group, name sa18_squad",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa18s"
+   ],
+   "description": "SA-18S manpad squad",
+   "veafCommand": "_spawn group, name sa18s_squad",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-sa19"
+   ],
+   "description": "SA-19 Tunguska (2K22 Tunguska) sam vehicle and logistic",
+   "veafCommand": "_spawn group, name sa19_squad, skynet true",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-shilka"
+   ],
+   "description": "ZSU-23-4 Shilka AAA vehicle",
+   "veafCommand": "_spawn unit, name ZSU-23-4 Shilka",
+   "randomParameters": {},
+   "category": "AAA"
+  },
+  {
+   "aliases": [
+    "-zu23"
+   ],
+   "description": "ZU-23 AAA vehicle",
+   "veafCommand": "_spawn unit, name Ural-375 ZU-23",
+   "randomParameters": {},
+   "category": "AAA"
+  },
+  {
+   "aliases": [
+    "-manpads"
+   ],
+   "description": "mutiple SA-18S manpad soldier peppered in a wide radius",
+   "veafCommand": "_spawn unit, name SA-18 Igla-S manpad, radius 5000",
+   "randomParameters": {
+    "multiplier": {
+     "min": 3,
+     "max": 6
+    }
+   },
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-rapier"
+   ],
+   "description": "Rapier battery with Radar (US by default)",
+   "veafCommand": "_spawn group, name rapier_radar, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-roland"
+   ],
+   "description": "Roland battery with EWR (US by default)",
+   "veafCommand": "_spawn group, name roland, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-rolandnoew"
+   ],
+   "description": "Roland battery without EWR (US by default)",
+   "veafCommand": "_spawn group, name roland-noew, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-nasams"
+   ],
+   "description": "NASAMS battery with 120C (US by default)",
+   "veafCommand": "_spawn group, name nasams_c, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-nasams_b"
+   ],
+   "description": "NASAMS battery with 120B (US by default)",
+   "veafCommand": "_spawn group, name nasams_b, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-hawk"
+   ],
+   "description": "Hawk battery (US by default)",
+   "veafCommand": "_spawn group, name hawk, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-patriot"
+   ],
+   "description": "Patriot battery (US by default)",
+   "veafCommand": "_spawn group, name patriot, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-stinger"
+   ],
+   "description": "Stinger manpad squad (US by default)",
+   "veafCommand": "_spawn group, name stinger_squad, country USA, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-avenger"
+   ],
+   "description": "Avenger SAM (US by default)",
+   "veafCommand": "_spawn unit, name avenger, country USA",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-avenger_squad"
+   ],
+   "description": "Avenger SAM (US by default) and logistic",
+   "veafCommand": "_spawn group, name avenger_squad, country USA, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-dogear"
+   ],
+   "description": "Dogear Radar",
+   "veafCommand": "_spawn unit, name dogear, skynet true, ewr",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-blue_ewr"
+   ],
+   "description": "F-117 Domed EWR (US by default)",
+   "veafCommand": "_spawn group, name blue_ewr, country USA, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "ewr"
+  },
+  {
+   "aliases": [
+    "-ewr"
+   ],
+   "description": "55G6 Mast EWR",
+   "veafCommand": "_spawn group, name ewr, skynet true, spacing 1, radius 0",
+   "randomParameters": {},
+   "category": "ewr"
+  },
+  {
+   "aliases": [
+    "-burke"
+   ],
+   "description": "USS Arleigh Burke IIa destroyer (US by default)",
+   "veafCommand": "_spawn unit, name USS_Arleigh_Burke_IIa, country USA",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-perry"
+   ],
+   "description": "O.H. Perry destroyer (US by default)",
+   "veafCommand": "_spawn unit, name PERRY, country USA",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-ticonderoga"
+   ],
+   "description": "Ticonderoga frigate (US by default)",
+   "veafCommand": "_spawn unit, name TICONDEROG, country USA",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-rezky"
+   ],
+   "description": "FF 1135M Rezky frigate (RU by default)",
+   "veafCommand": "_spawn unit, name REZKY, country RUSSIA",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-pyotr"
+   ],
+   "description": "CGN 1144.2 Pyotr Velikiy (RU by default)",
+   "veafCommand": "_spawn unit, name PIOTR, country RUSSIA",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-hv_convoy_red"
+   ],
+   "description": "Red High Value Attack convoy",
+   "veafCommand": "_spawn group, name hv_convoy_red, country RUSSIA, skynet false, alarm 0",
+   "randomParameters": {},
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-attack_convoy_red"
+   ],
+   "description": "Red Attack convoy",
+   "veafCommand": "_spawn group, name convoy_red, country RUSSIA, skynet true",
+   "randomParameters": {},
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-QRC_red"
+   ],
+   "description": "Quick Reaction Convoy red",
+   "veafCommand": "_spawn group, name QRC_red, country RUSSIA, skynet true, speed 90, spacing 2",
+   "randomParameters": {},
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-civilian_convoy_red"
+   ],
+   "description": "Red Civilian convoy",
+   "veafCommand": "_spawn group, name civilian_convoy_red, country RUSSIA",
+   "randomParameters": {},
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-QRC_blue"
+   ],
+   "description": "Quick Reaction Convoy blue",
+   "veafCommand": "_spawn group, name QRC_blue, country USA, skynet true, speed 90, spacing 2",
+   "randomParameters": {},
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-point"
+   ],
+   "description": "Name a point on the map",
+   "veafCommand": "_name point",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-destroy"
+   ],
+   "description": "Destroy any unit within 100m",
+   "veafCommand": "_destroy, radius 100",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-mortar"
+   ],
+   "description": "Mortar team",
+   "veafCommand": "_spawn group, name mortar, country USA",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty"
+   ],
+   "description": "M-109 artillery battery",
+   "veafCommand": "_spawn group, name M-109, country USA",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-msta"
+   ],
+   "description": "Msta artillery battery",
+   "veafCommand": "_spawn group, name msta",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-plz05"
+   ],
+   "description": "PLZ-05 artillery battery",
+   "veafCommand": "_spawn group, name plz05",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-mlrs"
+   ],
+   "description": "MLRS artillery battery",
+   "veafCommand": "_spawn group, name mlrs, country USA",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-smerch_he"
+   ],
+   "description": "Smerch HE artillery battery",
+   "veafCommand": "_spawn group, name smerchhe",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-smerch_cm"
+   ],
+   "description": "Smerch CM artillery battery",
+   "veafCommand": "_spawn group, name smerchcm",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-uragan"
+   ],
+   "description": "Uragan artillery battery",
+   "veafCommand": "_spawn group, name uragan",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-grad"
+   ],
+   "description": "Grad artillery battery",
+   "veafCommand": "_spawn group, name grad",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-cargoships"
+   ],
+   "description": "Cargo ships",
+   "veafCommand": "_spawn group, name cargoships-nodef, country RUSSIA, offroad, speed 60, skynet true",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-escortedcargoships"
+   ],
+   "description": "Cargo ships (escorted)",
+   "veafCommand": "_spawn group, name cargoships-escorted, country RUSSIA, offroad, speed 60, skynet true",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-combatships"
+   ],
+   "description": "Combat ships",
+   "veafCommand": "_spawn group, name combatships, country RUSSIA, offroad, speed 60, skynet true",
+   "randomParameters": {},
+   "category": "naval"
+  },
+  {
+   "aliases": [
+    "-sam"
+   ],
+   "description": "Random SAM battery",
+   "veafCommand": "_spawn samgroup, skynet true, spacing 1, radius 0",
+   "randomParameters": {
+    "defense": {
+     "min": 1,
+     "max": 5
+    }
+   },
+   "category": "SAM"
+  },
+  {
+   "aliases": [
+    "-aaa"
+   ],
+   "description": "Random AAA battery",
+   "veafCommand": "_spawn samgroup, skynet true, spacing 1, radius 0",
+   "randomParameters": {
+    "defense": {
+     "min": 1,
+     "max": 2
+    }
+   },
+   "category": "AAA"
+  },
+  {
+   "aliases": [
+    "-armor"
+   ],
+   "description": "Dynamic armor group",
+   "veafCommand": "_spawn armorgroup",
+   "randomParameters": {
+    "defense": {
+     "min": 1,
+     "max": 3
+    },
+    "armor": {
+     "min": 2,
+     "max": 4
+    },
+    "size": {
+     "min": 4,
+     "max": 8
+    }
+   },
+   "category": "armor"
+  },
+  {
+   "aliases": [
+    "-infantry"
+   ],
+   "description": "Dynamic infantry section",
+   "veafCommand": "_spawn infantrygroup",
+   "randomParameters": {
+    "defense": {
+     "min": 0,
+     "max": 5
+    },
+    "armor": {
+     "min": 0,
+     "max": 5
+    },
+    "size": {
+     "min": 4,
+     "max": 8
+    }
+   },
+   "category": "infantry"
+  },
+  {
+   "aliases": [
+    "-transport"
+   ],
+   "description": "Dynamic transport company",
+   "veafCommand": "_spawn transportgroup",
+   "randomParameters": {
+    "defense": {
+     "min": 0,
+     "max": 3
+    },
+    "size": {
+     "min": 10,
+     "max": 25
+    }
+   },
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-combat"
+   ],
+   "description": "Dynamic combat group",
+   "veafCommand": "_spawn combatgroup",
+   "randomParameters": {
+    "defense": {
+     "min": 1,
+     "max": 3
+    },
+    "armor": {
+     "min": 2,
+     "max": 4
+    },
+    "size": {
+     "min": 1,
+     "max": 4
+    }
+   },
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-cas"
+   ],
+   "description": "Generate a random CAS group for training",
+   "veafCommand": "_cas, disperse",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-cargo"
+   ],
+   "description": "Generate a cargo for sling loading",
+   "veafCommand": "_spawn cargo, side blue, radius 0",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-refuel"
+   ],
+   "description": "spawns an US refuel group",
+   "veafCommand": "_spawn group, name US-refuel, country usa, radius 0",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-send"
+   ],
+   "description": "",
+   "veafCommand": "_radio transmit, message",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-play"
+   ],
+   "description": "",
+   "veafCommand": "_radio play, path",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-convoy"
+   ],
+   "description": "",
+   "veafCommand": "_spawn convoy",
+   "randomParameters": {
+    "defense": {
+     "min": 0,
+     "max": 3
+    },
+    "armor": {
+     "min": 0,
+     "max": 4
+    },
+    "size": {
+     "min": 6,
+     "max": 15
+    }
+   },
+   "category": "transport"
+  },
+  {
+   "aliases": [
+    "-jtac"
+   ],
+   "description": "JTAC humvee",
+   "veafCommand": "_spawn jtac",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-afac"
+   ],
+   "description": "AFAC MQ-9 Reaper",
+   "veafCommand": "_spawn afac",
+   "randomParameters": {},
+   "category": "air"
+  },
+  {
+   "aliases": [
+    "-afachere"
+   ],
+   "description": "move an afac to a specific location ; must follow with the afac group name ; can also set speed, alt and hdg",
+   "veafCommand": "_move afac, name",
+   "randomParameters": {},
+   "category": "air"
+  },
+  {
+   "aliases": [
+    "-ai_set"
+   ],
+   "description": "Sets an AI handler for a group of units ; must follow with the handler name",
+   "veafCommand": "_gc",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-arty1"
+   ],
+   "description": "Spawns ARTY-1",
+   "veafCommand": "",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty1_aim"
+   ],
+   "description": "Orders ARTY-1 to fire for aim",
+   "veafCommand": "_gc arty-1, radius 15-30, aim",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty1_fire"
+   ],
+   "description": "Orders ARTY-1 to fire for effect",
+   "veafCommand": "_gc arty-1, radius 50-150, shells 40-80, fire",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty1_stop"
+   ],
+   "description": "Orders ARTY-1 to stop listening for orders",
+   "veafCommand": "_gc arty-1, stop",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty1_start"
+   ],
+   "description": "Orders ARTY-1 to start listening for orders",
+   "veafCommand": "_gc arty-1, start",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty2"
+   ],
+   "description": "Spawns ARTY-2",
+   "veafCommand": "",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty2_aim"
+   ],
+   "description": "Orders ARTY-2 to fire for aim",
+   "veafCommand": "_gc arty-2, radius 15-30, aim",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty2_fire"
+   ],
+   "description": "Orders ARTY-2 to fire for effect",
+   "veafCommand": "_gc arty-2, radius 50-150, shells 40-80, fire",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty2_stop"
+   ],
+   "description": "Orders ARTY-2 to stop listening for orders",
+   "veafCommand": "_gc arty-2, stop",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty2_start"
+   ],
+   "description": "Orders ARTY-2 to start listening for orders",
+   "veafCommand": "_gc arty-2, start",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty3"
+   ],
+   "description": "Spawns ARTY-3",
+   "veafCommand": "",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty3_aim"
+   ],
+   "description": "Orders ARTY-3 to fire for aim",
+   "veafCommand": "_gc arty-3, radius 15-30, aim",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty3_fire"
+   ],
+   "description": "Orders ARTY-3 to fire for effect",
+   "veafCommand": "_gc arty-3, radius 50-150, shells 40-80, fire",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty3_stop"
+   ],
+   "description": "Orders ARTY-3 to stop listening for orders",
+   "veafCommand": "_gc arty-3, stop",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-arty3_start"
+   ],
+   "description": "Orders ARTY-3 to start listening for orders",
+   "veafCommand": "_gc arty-3, start",
+   "randomParameters": {},
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-light"
+   ],
+   "description": "Illumination by artillery shelling of a zone",
+   "veafCommand": "_spawn flare, radius 1500",
+   "randomParameters": {
+    "shells": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   "category": "artillery"
+  },
+  {
+   "aliases": [
+    "-smoke"
+   ],
+   "description": "Spawn a single white smoke",
+   "veafCommand": "_spawn smoke, color white, shells 1, radius 1",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-longsmoke"
+   ],
+   "description": "Spawn a single white smoke, renewed every 5 minutes for 30 minutes",
+   "veafCommand": "_spawn smoke, color white, shells 1, radius 1, repeat 5, delay 300",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-signal"
+   ],
+   "description": "Spawn a single signal flare",
+   "veafCommand": "_spawn signal, color green, shells 1, radius 1",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-tankerhere"
+   ],
+   "description": "move a tanker to a specific location ; must follow with the tanker group name ; can also set speed, alt, hdg and distance",
+   "veafCommand": "_move tanker, teleport, name",
+   "randomParameters": {},
+   "category": "armor"
+  },
+  {
+   "aliases": [
+    "-tanker"
+   ],
+   "description": "alias for '-tankerhere'",
+   "veafCommand": "-tankerhere",
+   "randomParameters": {},
+   "category": "armor"
+  },
+  {
+   "aliases": [
+    "-tankerlow"
+   ],
+   "description": "sets the closest tanker to FL120 at 200 KIAS",
+   "veafCommand": "_move tankermission, alt 12000, speed 250",
+   "randomParameters": {},
+   "category": "armor"
+  },
+  {
+   "aliases": [
+    "-tankerhigh"
+   ],
+   "description": "sets the closest tanker to FL220 at 300 KIAS",
+   "veafCommand": "_move tankermission, alt 22000, speed 450",
+   "randomParameters": {},
+   "category": "armor"
+  },
+  {
+   "aliases": [
+    "-tacan"
+   ],
+   "description": "create a portable TACAN beacon",
+   "veafCommand": "_spawn tacan, band X, channel 99",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-beacon"
+   ],
+   "description": "create a radio beacon (VHF/UHF/FM) through CTLD",
+   "veafCommand": "_spawn beacon",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-farp"
+   ],
+   "description": "create a new FARP",
+   "veafCommand": "_spawn farp, side blue, radius 0, name ",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-farpNoMarker"
+   ],
+   "description": "create a new invisible FARP, skipping the special vehicles that mark its position",
+   "veafCommand": "_spawn farp, side blue, radius 0, noFarpMarkers, name ",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-fob"
+   ],
+   "description": "create a new FOB",
+   "veafCommand": "_spawn fob, side blue, radius 0",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-draw"
+   ],
+   "description": "start a drawing on the map, or add a point to an existing drawing ; name is mandatory",
+   "veafCommand": "_drawing add, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-arrow"
+   ],
+   "description": "start drawing an arrow on the map, or add a point to an existing arrow ; name is mandatory",
+   "veafCommand": "_drawing add, arrow, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-square"
+   ],
+   "description": "add a square to the map; name is mandatory",
+   "veafCommand": "_drawing square, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-circle"
+   ],
+   "description": "add a circle to the map; name is mandatory",
+   "veafCommand": "_drawing circle, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-erasedrawing"
+   ],
+   "description": "erase a drawing from the map ; name is mandatory",
+   "veafCommand": "_drawing erase, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-cap"
+   ],
+   "description": "Dynamic combat air patrol",
+   "veafCommand": "_spawn cap, name",
+   "randomParameters": {},
+   "category": "air"
+  },
+  {
+   "aliases": [
+    "-awacs"
+   ],
+   "description": "AWACS on a race-track from the marker, in Skynet and with its datalink on; can add an escort",
+   "veafCommand": "_spawn awacs",
+   "randomParameters": {},
+   "category": "air"
+  },
+  {
+   "aliases": [
+    "-escort"
+   ],
+   "description": "Fighters escorting the friendly or neutral airplane the marker is placed next to",
+   "veafCommand": "_spawn escort, name",
+   "randomParameters": {},
+   "category": "air"
+  },
+  {
+   "aliases": [
+    "-flag"
+   ],
+   "description": "Mission Master : get flag value",
+   "veafCommand": "_mm getflag, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-flagon"
+   ],
+   "description": "Mission Master : set flag value to ON",
+   "veafCommand": "_mm flagon, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-flagoff"
+   ],
+   "description": "Mission Master : set flag value to OFF",
+   "veafCommand": "_mm flagoff, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-run"
+   ],
+   "description": "Mission Master : run runnable",
+   "veafCommand": "_mm run, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-airstart"
+   ],
+   "description": "Run a combat mission",
+   "veafCommand": "start, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-airstop"
+   ],
+   "description": "Stop a combat mission",
+   "veafCommand": "stop, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-zonestart"
+   ],
+   "description": "Activate a combat zone",
+   "veafCommand": "start, name",
+   "randomParameters": {},
+   "category": "other"
+  },
+  {
+   "aliases": [
+    "-zonestop"
+   ],
+   "description": "Desactivate a combat zone",
+   "veafCommand": "stop, name",
+   "randomParameters": {},
+   "category": "other"
+  }
+ ]
+}

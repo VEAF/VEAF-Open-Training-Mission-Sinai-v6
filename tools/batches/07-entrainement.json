@@ -1,0 +1,887 @@
+[
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Easy",
+   "position": {
+    "x": 138265,
+    "y": 400241
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "Inert-T-72B-1",
+     "position": {
+      "x": 138865,
+      "y": 400241
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-T-72B-2",
+     "position": {
+      "x": 138615,
+      "y": 400847
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BMP-2-3",
+     "position": {
+      "x": 138015,
+      "y": 400674
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BMP-2-4",
+     "position": {
+      "x": 137465,
+      "y": 400241
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BRDM-2-5",
+     "position": {
+      "x": 137965,
+      "y": 399721
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BRDM-2",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-Ural-375-6",
+     "position": {
+      "x": 138615,
+      "y": 399635
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-Ural-375-7",
+     "position": {
+      "x": 138611,
+      "y": 400041
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "H1 Hélico Arad — facile",
+    "radio_group_name": "Entraînement hélicoptères",
+    "training": true,
+    "briefing": "Champ de tir hélicoptères d'Arad, dans le désert de Judée à 10 nm du FARP Range : cibles inertes (chars, blindés et camions immobiles, tir interdit).\nPosition : bullseye 057°/123 nm (N31°17.018' E035°25.607'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 16 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 8 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Medium",
+   "position": {
+    "x": 138265,
+    "y": 400241
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "H2-1",
+     "position": {
+      "x": 137226,
+      "y": 399641
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #spawngroup=\"H2AAA\" #spawncount=2 #H2-1"
+      }
+     ]
+    },
+    {
+     "name": "H2-2",
+     "position": {
+      "x": 138265,
+      "y": 399141
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #spawngroup=\"H2AAA\" #spawncount=2 #H2-2"
+      }
+     ]
+    },
+    {
+     "name": "H2-3",
+     "position": {
+      "x": 137139,
+      "y": 400891
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #spawngroup=\"H2AAA\" #spawncount=2 #H2-3"
+      }
+     ]
+    },
+    {
+     "name": "H2-4",
+     "position": {
+      "x": 137815,
+      "y": 399462
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #spawnchance=50 #H2-4"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "H2 Hélico Arad — moyen",
+    "radio_group_name": "Entraînement hélicoptères",
+    "training": true,
+    "briefing": "Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) en plus des cibles du niveau facile.\nPosition : bullseye 057°/123 nm (N31°17.018' E035°25.607'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 16 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 8 nm.",
+    "includes": [
+     "combatZone_Arad_Easy"
+    ]
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Arad_Hard",
+   "position": {
+    "x": 138265,
+    "y": 400241
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "H3-1",
+     "position": {
+      "x": 137325,
+      "y": 399899
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13, country russia\" #spawngroup=\"H3SR\" #spawncount=1 #H3-1"
+      }
+     ]
+    },
+    {
+     "name": "H3-2",
+     "position": {
+      "x": 137923,
+      "y": 399301
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13, country russia\" #spawngroup=\"H3SR\" #spawncount=1 #H3-2"
+      }
+     ]
+    },
+    {
+     "name": "H3-3",
+     "position": {
+      "x": 137116,
+      "y": 399277
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "SA-18 Igla manpad",
+       "name": "#command=\"-sa18, country russia\" #spawngroup=\"H3MP\" #spawncount=1 #H3-3"
+      }
+     ]
+    },
+    {
+     "name": "H3-4",
+     "position": {
+      "x": 136865,
+      "y": 400241
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "SA-18 Igla manpad",
+       "name": "#command=\"-sa18, country russia\" #spawngroup=\"H3MP\" #spawncount=1 #H3-4"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "H3 Hélico Arad — difficile",
+    "radio_group_name": "Entraînement hélicoptères",
+    "training": true,
+    "briefing": "Champ de tir hélicoptères d'Arad, avec une défense courte portée réaliste : un SA-13 et une équipe de lance-missiles portatifs SA-18, à guidage infrarouge.\nPosition : bullseye 057°/123 nm (N31°17.018' E035°25.607'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 16 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 8 nm.",
+    "includes": [
+     "combatZone_Arad_Medium"
+    ]
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertGizeh_Easy",
+   "position": {
+    "x": -10000,
+    "y": -60000
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "Inert-T-72B-1",
+     "position": {
+      "x": -9300,
+      "y": -60000
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-T-72B-2",
+     "position": {
+      "x": -9311,
+      "y": -59421
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-T-72B-3",
+     "position": {
+      "x": -9896,
+      "y": -59409
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BMP-2-4",
+     "position": {
+      "x": -10400,
+      "y": -59307
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BMP-2-5",
+     "position": {
+      "x": -10470,
+      "y": -59829
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BTR-80-6",
+     "position": {
+      "x": -10658,
+      "y": -60239
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-BTR-80-7",
+     "position": {
+      "x": -10450,
+      "y": -60779
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-Ural-375-8",
+     "position": {
+      "x": -9896,
+      "y": -60591
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-Ural-375-9",
+     "position": {
+      "x": -9387,
+      "y": -60514
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "name": "Inert-KAMAZ-10",
+     "position": {
+      "x": -9606,
+      "y": -60069
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "KAMAZ Truck",
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "A1 Attaque désert de Gizeh — facile",
+    "radio_group_name": "Entraînement attaque",
+    "training": true,
+    "briefing": "Champ de tir air-sol dans le désert au sud-ouest de Cairo West, à 17 nm de la base : blindés et camions immobiles en tir interdit, dépôt de carburant et poste de commandement. Le drone Reaper 1 tourne au-dessus.\nPosition : bullseye 265°/146 nm (N29°56.835' E030°37.497'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 59 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 49 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertGizeh_Medium",
+   "position": {
+    "x": -10000,
+    "y": -60000
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "A2-1",
+     "position": {
+      "x": -10996,
+      "y": -60836
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 0, country russia\" #A2-1"
+      }
+     ]
+    },
+    {
+     "name": "A2-2",
+     "position": {
+      "x": -9250,
+      "y": -58701
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #spawngroup=\"A2AAA\" #spawncount=1 #A2-2"
+      }
+     ]
+    },
+    {
+     "name": "A2-3",
+     "position": {
+      "x": -9300,
+      "y": -61212
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #spawngroup=\"A2AAA\" #spawncount=1 #A2-3"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "A2 Attaque désert de Gizeh — moyen",
+    "radio_group_name": "Entraînement attaque",
+    "training": true,
+    "briefing": "Champ de tir du désert de Gizeh : une compagnie blindée active et de l'artillerie antiaérienne légère en plus des cibles du niveau facile.\nPosition : bullseye 265°/146 nm (N29°56.835' E030°37.497'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 59 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 49 nm.",
+    "includes": [
+     "combatZone_DesertGizeh_Easy"
+    ]
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertGizeh_Hard",
+   "position": {
+    "x": -10000,
+    "y": -60000
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "A3-1",
+     "position": {
+      "x": -10278,
+      "y": -61576
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 1, country russia\" #A3-1"
+      }
+     ]
+    },
+    {
+     "name": "A3-2",
+     "position": {
+      "x": -11128,
+      "y": -60410
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13, country russia\" #spawngroup=\"A3SR\" #spawncount=1 #A3-2"
+      }
+     ]
+    },
+    {
+     "name": "A3-3",
+     "position": {
+      "x": -9081,
+      "y": -60771
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-1 9P31",
+       "name": "#command=\"-sa9, country russia\" #spawngroup=\"A3SR\" #spawncount=1 #A3-3"
+      }
+     ]
+    },
+    {
+     "name": "A3-4",
+     "position": {
+      "x": -10274,
+      "y": -60752
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #A3-4"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "A3 Attaque désert de Gizeh — difficile",
+    "radio_group_name": "Entraînement attaque",
+    "training": true,
+    "briefing": "Champ de tir du désert de Gizeh : un second groupe blindé et une défense courte portée à guidage infrarouge (SA-13 ou SA-9), avec un Shilka.\nPosition : bullseye 265°/146 nm (N29°56.835' E030°37.497'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 59 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 49 nm.",
+    "includes": [
+     "combatZone_DesertGizeh_Medium"
+    ]
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertOuest_Easy",
+   "position": {
+    "x": -45000,
+    "y": -115000
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "S1-1",
+     "position": {
+      "x": -45000,
+      "y": -115000
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Kub 2P25 ln",
+       "name": "#command=\"-sa6, country russia\" #spawngroup=\"S1MR\" #spawncount=1 #S1-1"
+      }
+     ]
+    },
+    {
+     "name": "S1-2",
+     "position": {
+      "x": -45000,
+      "y": -114700
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "SA-11 Buk LN 9A310M1",
+       "name": "#command=\"-sa11, country russia\" #spawngroup=\"S1MR\" #spawncount=1 #S1-2"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "S1 SEAD désert occidental — facile",
+    "radio_group_name": "Entraînement SEAD",
+    "training": true,
+    "briefing": "Site SEAD dans le désert occidental, à 52 nm au sud-ouest de Cairo West : une batterie sol-air moyenne portée, SA-6 ou SA-11 tirée au sort.\nPosition : bullseye 259°/178 nm (N29°37.218' E030°03.892'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 89 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 78 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertOuest_Medium",
+   "position": {
+    "x": -45000,
+    "y": -115000
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "S2-1",
+     "position": {
+      "x": -43939,
+      "y": -113939
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #spawngroup=\"S2SR\" #spawncount=2 #S2-1"
+      }
+     ]
+    },
+    {
+     "name": "S2-2",
+     "position": {
+      "x": -46449,
+      "y": -114612
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Osa 9A33 ln",
+       "name": "#command=\"-sa8, country russia\" #spawngroup=\"S2SR\" #spawncount=2 #S2-2"
+      }
+     ]
+    },
+    {
+     "name": "S2-3",
+     "position": {
+      "x": -44612,
+      "y": -116449
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #spawngroup=\"S2SR\" #spawncount=2 #S2-3"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "S2 SEAD désert occidental — moyen",
+    "radio_group_name": "Entraînement SEAD",
+    "training": true,
+    "briefing": "Site SEAD du désert occidental : la batterie moyenne portée est protégée par une défense courte portée (SA-15, SA-8).\nPosition : bullseye 259°/178 nm (N29°37.218' E030°03.892'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 89 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 78 nm.",
+    "includes": [
+     "combatZone_DesertOuest_Easy"
+    ]
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_DesertOuest_Hard",
+   "position": {
+    "x": -45000,
+    "y": -115000
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "S3-1",
+     "position": {
+      "x": -46100,
+      "y": -113095
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "55G6 EWR",
+       "name": "#command=\"-ewr, country russia\" #S3-1"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "S3 SEAD désert occidental — difficile",
+    "radio_group_name": "Entraînement SEAD",
+    "training": true,
+    "briefing": "Site SEAD du désert occidental en réseau Skynet : un radar d'alerte avancée guide les batteries, qui restent éteintes jusqu'au dernier moment.\nPosition : bullseye 259°/178 nm (N29°37.218' E030°03.892'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 89 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 78 nm.",
+    "includes": [
+     "combatZone_DesertOuest_Medium"
+    ]
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-1",
+   "position": {
+    "x": -10191,
+    "y": -58917
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_DesertGizeh_Easy",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-2",
+   "position": {
+    "x": -10410,
+    "y": -58872
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_DesertGizeh_Easy",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Command-3",
+   "position": {
+    "x": -8778,
+    "y": -59555
+   },
+   "units": [
+    {
+     "type": ".Command Center"
+    }
+   ],
+   "for_combat_zone": "combatZone_DesertGizeh_Easy",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Pyramides",
+   "position": {
+    "x": -8213,
+    "y": -10629
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Autocars",
+     "position": {
+      "x": -8213,
+      "y": -10029
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "LAZ Bus",
+       "count": 3
+      }
+     ]
+    },
+    {
+     "name": "4x4",
+     "position": {
+      "x": -7813,
+      "y": -9936
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Land_Rover_101_FC",
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "T Tourisme — pyramides de Gizeh",
+    "radio_group_name": "Tourisme",
+    "training": true,
+    "completable": false,
+    "briefing": "Visite aérienne des pyramides, hors combat, au départ du FARP Pyramides (2 nm au sud-ouest du plateau). Circuit : Gizeh (Khéops, Khéphren, Mykérinos, le Sphinx), puis Saqqarah (pyramide à degrés de Djoser, 8 nm au sud-sud-est), puis Dahchour (pyramide rouge et pyramide rhomboïdale, 4 nm plus au sud). Une balise radio FM à chaque site (GIZ 31.0, SAQ 32.0, DAH 33.0) ; survolez un monument à moins de 1 500 ft sol et un guide vous le raconte. Excursion : la pyramide effondrée de Meïdoum, 25 nm au sud de Dahchour. Dans le sanctuaire bleu du Caire : un appareil rouge y est détruit.\nPosition : bullseye 264°/119 nm (N29°58.296' E031°08.157')."
+   }
+  }
+ }
+]

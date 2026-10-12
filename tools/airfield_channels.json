@@ -1,0 +1,742 @@
+{
+ "theatre": "SinaiMap",
+ "candidates": [
+  {
+   "airdrome_id": 2,
+   "name": "Abu Suwayr",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.1,
+    "vhf": 118.85,
+    "fm": 39.5
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 24,
+   "name": "Ben-Gurion",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.8,
+    "vhf": 134.6,
+    "fm": 39.2
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 33,
+   "name": "Beni Suef",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.3,
+    "vhf": 127.1,
+    "fm": 39.7
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 18,
+   "name": "Cairo West",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.45,
+    "vhf": 131.2,
+    "fm": 38.85
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 29,
+   "name": "El Arish",
+   "coalition": "red",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.05,
+    "vhf": 121.0,
+    "fm": 39.45
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 6,
+   "name": "Fayed",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.1,
+    "vhf": 119.7,
+    "fm": 40.5
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 7,
+   "name": "Hatzerim",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.15,
+    "vhf": 119.75,
+    "fm": 40.55
+   },
+   "tacan": "96X",
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 38,
+   "name": "Hurghada International Airport",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.55,
+    "vhf": 119.6,
+    "fm": 39.95
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 19,
+   "name": "Inshas Airbase",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.5,
+    "vhf": 118.4,
+    "fm": 38.9
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 12,
+   "name": "Kedem",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.15,
+    "vhf": 118.15,
+    "fm": 38.55
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 5,
+   "name": "Melez",
+   "coalition": "red",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.05,
+    "vhf": 119.65,
+    "fm": 40.45
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 8,
+   "name": "Nevatim",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.2,
+    "vhf": 132.4,
+    "fm": 40.6
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 9,
+   "name": "Ramon Airbase",
+   "coalition": "blue",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.25,
+    "vhf": 119.8,
+    "fm": 40.65
+   },
+   "tacan": "105X",
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 25,
+   "name": "St Catherine",
+   "coalition": "red",
+   "dynamic_slots": true,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.85,
+    "vhf": 124.5,
+    "fm": 39.25
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 0
+  },
+  {
+   "airdrome_id": 26,
+   "name": "Abu Rudeis",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.9,
+    "vhf": 118.5,
+    "fm": 39.3
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 44,
+   "name": "Al Bahr al Ahmar",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.9,
+    "vhf": 119.5,
+    "fm": 40.3
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 4,
+   "name": "Al Ismailiyah",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 252.0,
+    "vhf": 118.1,
+    "fm": 40.4
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 31,
+   "name": "Al Khatatbah",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.2,
+    "vhf": 118.95,
+    "fm": 39.6
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 14,
+   "name": "Al Mansurah",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.25,
+    "vhf": 118.25,
+    "fm": 38.65
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 32,
+   "name": "Al Rahmaniyah Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.25,
+    "vhf": 119.05,
+    "fm": 39.65
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 3,
+   "name": "As Salihiyah",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.65,
+    "vhf": 119.35,
+    "fm": 40.05
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 15,
+   "name": "AzZaqaziq",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.3,
+    "vhf": 118.3,
+    "fm": 38.7
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 27,
+   "name": "Baluza",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.95,
+    "vhf": 118.75,
+    "fm": 39.35
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 16,
+   "name": "Bilbeis Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.35,
+    "vhf": 118.35,
+    "fm": 38.75
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 28,
+   "name": "Bir Hasanah",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.0,
+    "vhf": 118.8,
+    "fm": 39.4
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 34,
+   "name": "Birma Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.35,
+    "vhf": 119.15,
+    "fm": 39.75
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 35,
+   "name": "Borg El Arab International Airport",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.4,
+    "vhf": 119.1,
+    "fm": 39.8
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 17,
+   "name": "Cairo International Airport",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.4,
+    "vhf": 118.1,
+    "fm": 38.8
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 1,
+   "name": "Difarsuwar Airfield",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.55,
+    "vhf": 118.45,
+    "fm": 38.95
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 52,
+   "name": "Ein Shamer",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 227.85,
+    "vhf": 124.55,
+    "fm": 41.45
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 30,
+   "name": "El Gora",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.15,
+    "vhf": 118.2,
+    "fm": 39.55
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 36,
+   "name": "El Minya",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.45,
+    "vhf": 119.2,
+    "fm": 39.85
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 37,
+   "name": "Gebel El Basur Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.5,
+    "vhf": 119.25,
+    "fm": 39.9
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 20,
+   "name": "Hatzor",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.6,
+    "vhf": 118.55,
+    "fm": 39.0
+   },
+   "tacan": "106X",
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 39,
+   "name": "Jiyanklis Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.6,
+    "vhf": 119.3,
+    "fm": 40.0
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 11,
+   "name": "Kibrit Air Base",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.1,
+    "vhf": 118.05,
+    "fm": 38.5
+   },
+   "tacan": "55X",
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 40,
+   "name": "Kom Awshim",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.7,
+    "vhf": 119.4,
+    "fm": 40.1
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 51,
+   "name": "Megiddo",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 225.9,
+    "vhf": 123.0,
+    "fm": 41.15
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 10,
+   "name": "Ovda",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.05,
+    "vhf": 129.9,
+    "fm": 38.45
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 21,
+   "name": "Palmachim",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.65,
+    "vhf": 118.6,
+    "fm": 39.05
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 45,
+   "name": "Quwaysina",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.95,
+    "vhf": 119.55,
+    "fm": 40.35
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 50,
+   "name": "Ramat David",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.1,
+    "vhf": 118.0,
+    "fm": 38.4
+   },
+   "tacan": "84X",
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 41,
+   "name": "Ramon International Airport",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.75,
+    "vhf": 119.0,
+    "fm": 40.15
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 22,
+   "name": "Sde Dov",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.7,
+    "vhf": 118.65,
+    "fm": 39.1
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 42,
+   "name": "Sharm El Sheikh International Airport",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.8,
+    "vhf": 118.9,
+    "fm": 40.2
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 53,
+   "name": "Taba International Airport",
+   "coalition": "red",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 227.15,
+    "vhf": 121.9,
+    "fm": 42.2
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 23,
+   "name": "Tel Nof",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.75,
+    "vhf": 118.7,
+    "fm": 39.15
+   },
+   "tacan": "87X",
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 43,
+   "name": "Wadi Abu Rish",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 251.85,
+    "vhf": 119.45,
+    "fm": 40.25
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  },
+  {
+   "airdrome_id": 13,
+   "name": "Wadi al Jandali",
+   "coalition": "blue",
+   "dynamic_slots": false,
+   "parked_slots": 0,
+   "freqs": {
+    "uhf": 250.2,
+    "vhf": 118.9,
+    "fm": 38.6
+   },
+   "tacan": null,
+   "channel": null,
+   "tier": 1
+  }
+ ],
+ "bases_channels": [],
+ "on_a_radio": []
+}

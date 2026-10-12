@@ -1,0 +1,49 @@
+[
+ {
+  "name": "set_mission_date",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "date": "2025-10-15",
+   "start_time": "09:00"
+  }
+ },
+ {
+  "name": "set_weather",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "metar": "HECA 150700Z 35008KT 9999 FEW040 26/14 Q1015"
+  }
+ },
+ {
+  "name": "set_bullseye",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "position": {
+    "x": 15112,
+    "y": 208961
+   }
+  }
+ },
+ {
+  "name": "set_bullseye",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "position": {
+    "x": 15112,
+    "y": 208961
+   }
+  }
+ },
+ {
+  "name": "set_briefing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "sortie": "VEAF Open Training — Sinaï",
+   "situation": "VEAF Open Training — Sinaï (moderne, octobre 2025).\nUne force hostile a envahi la péninsule du Sinaï. L'Égypte et Israël, appuyés par les États-Unis, la prennent en tenaille : à l'ouest depuis le canal de Suez, à l'est depuis le Néguev. Deux fronts : le canal, de Port-Saïd à Suez, et la frontière, de Rafah à Taba. Bullseye commun : l'aérodrome de Bir Hasanah, au centre du Sinaï.\n\nBASES BLEUES (slots dynamiques) : Cairo West (U250.45 / V131.20), Inshas (U250.50 / V118.40), Beni Suef (U251.30 / V127.10), Abu Suwayr (U251.10 / V118.85), Fayed (U252.10 / V119.70), Hurghada (U251.55 / V119.60), Hatzerim (U252.15 / V119.75, TACAN 96X), Kedem (U250.15 / V118.15), Nevatim (U252.20 / V132.40), Ramon AB (U252.25 / V119.80, TACAN 105X), Ben-Gurion (U250.80 / V134.60). FARP Pyramides (V127.5), FARP Range (V128.0), FARP Canal (V128.5), FARP Negev (V129.0).\nPORTE-AVIONS : Stennis U305.0, TACAN 74X, ICLS 11, Link 4 336.0 ; Roosevelt U306.0, TACAN 71X, ICLS 12, Link 4 337.0 ; Tarawa U307.0, TACAN 73X, ICLS 13.\nSOUTIEN : AWACS Overlord 1 U282.0 (à l'ouest du Caire) et Magic 1 U283.0 (Néguev). Ravitailleurs : Texaco 1 (perche) 50Y U290.0 FL220, Arco 1 (panier) 51Y U291.0 FL180, Texaco 2 (perche) 52Y U292.0 FL240, Arco 2 (panier) 53Y U293.0 FL200 ; S-3B du Stennis 56Y U296.0, du Roosevelt 57Y U297.0. Tous escortés. Drones laser : Reaper 1 (code 1511, FM 35.55) sur le champ de tir d'attaque, Reaper 2 (1512, FM 35.6) sur le col de Mitla.\n\nENTRAÎNEMENT (menu F10 VEAF, zones) : H Arad (hélicoptères), A désert de Gizeh (attaque), S désert occidental (SEAD), trois niveaux chacun.\nTOURISME : visite aérienne des pyramides de Gizeh, Saqqarah et Dahchour depuis le FARP Pyramides, balises FM GIZ 31.0, SAQ 32.0, DAH 33.0, et un guide qui raconte chaque monument survolé bas.\nCOMBAT : 16 zones (front, SEAD, convois, frappes, bases aériennes, antinavire), chacune avec son briefing dans le menu. Missions à la demande : CAP rouges et bleues, raid rouge sur Abu Suwayr, interception d'un transport VIP.\nQRA rouges : Melez (25 nm), El Arish (25 nm) ; QRA bleues : Abu Suwayr (20 nm), Hatzerim (20 nm). Décollage 90 s après l'entrée du premier intrus ; elles ignorent les hélicoptères. Couloirs sans QRA : tout le sud du Sinaï (golfe de Suez, St Catherine, Sharm, Tiran), Mitla et Nakhl.\nJOUEURS CONTRE JOUEURS : libre hors des sanctuaires. Sanctuaire bleu : Le Caire, les pyramides et les champs de tir de l'ouest (75 km) ; rouge : St Catherine (20 km). Un intrus y est détruit après 60 s ; un missile tiré sur un défenseur est détruit. Arène AirQuake en Méditerranée, au nord-ouest du delta, slots en vol Fox 1 et Fox 3.\n\nPlan radio, cartes et détail de chaque zone : voir les images du briefing et le README de la mission.",
+   "blue_task": "Reprendre le Sinaï : s'entraîner sur les champs de tir H, A et S, puis frapper les zones de combat rouges. Cairo West est la base mère ; Abu Suwayr et Fayed tiennent le canal, Hatzerim et Ramon le Néguev, Hurghada la mer Rouge ; le Stennis et le Tarawa croisent en Méditerranée, le Roosevelt en mer Rouge.",
+   "red_task": "Tenir le Sinaï. Bases rouges avec slots : El Arish (U251.05 / V121.00), Melez (U252.05 / V119.65), St Catherine (U250.85 / V124.50). AWACS Wizard 1 U284.0, ravitailleur Shell 1 (IL-78) U294.0 FL200. Arène : AWACS Focus 1 U286.0. Le sanctuaire bleu du Caire (pyramides comprises) détruit tout appareil rouge qui y entre."
+  }
+ }
+]

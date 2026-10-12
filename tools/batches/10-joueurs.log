@@ -1,0 +1,31 @@
+[1] add_trigger_zone: {"zone_id": 5, "name": "SANCT-LeCaire", "durable": true}
+[2] add_trigger_zone: {"zone_id": 6, "name": "SANCT-StCatherine", "durable": true}
+[3] add_trigger_zone: {"zone_id": 7, "name": "Arene", "durable": true}
+[4] add_air_group: {"group_id": 42, "name": "Arène bleue F-14B Fox 3", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[5] add_air_group: {"group_id": 43, "name": "Arène bleue F-14B Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[6] add_air_group: {"group_id": 44, "name": "Arène bleue F/A-18C Fox 3", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[7] add_air_group: {"group_id": 45, "name": "Arène bleue F/A-18C Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[8] add_air_group: {"group_id": 46, "name": "Arène bleue M-2000C Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[9] add_air_group: {"group_id": 47, "name": "Arène rouge F-14B Fox 3", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[10] add_air_group: {"group_id": 48, "name": "Arène rouge F-14B Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[11] add_air_group: {"group_id": 49, "name": "Arène rouge F/A-18C Fox 3", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[12] add_air_group: {"group_id": 50, "name": "Arène rouge F/A-18C Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[13] add_air_group: {"group_id": 51, "name": "Arène rouge M-2000C Fox 1", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[14] add_air_group: {"group_id": 52, "name": "SC-Defense-AbuSuwayr-SEAD", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[15] edit_route: {"group": "SC-Defense-AbuSuwayr-SEAD", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[16] edit_route: {"group": "SC-Defense-AbuSuwayr-SEAD", "operation": "add", "changed": {"added": {"index": 3, "name": "WP3"}}, "warnings": [], "durable": true}
+[17] add_air_group: {"group_id": 53, "name": "SC-Defense-AbuSuwayr-Bombers", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[18] edit_route: {"group": "SC-Defense-AbuSuwayr-Bombers", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[19] edit_route: {"group": "SC-Defense-AbuSuwayr-Bombers", "operation": "add", "changed": {"added": {"index": 3, "name": "WP3"}}, "warnings": [], "durable": true}
+[20] add_air_group: {"group_id": 54, "name": "SC-Defense-AbuSuwayr-Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[21] edit_route: {"group": "SC-Defense-AbuSuwayr-Escort", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[22] edit_route: {"group": "SC-Defense-AbuSuwayr-Escort", "operation": "add", "changed": {"added": {"index": 3, "name": "WP3"}}, "warnings": [], "durable": true}
+[23] add_air_group: {"group_id": 55, "name": "SC-Intercept-VIP-Il76", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[24] edit_route: {"group": "SC-Intercept-VIP-Il76", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[25] edit_route: {"group": "SC-Intercept-VIP-Il76", "operation": "add", "changed": {"added": {"index": 3, "name": "WP3"}}, "warnings": [], "durable": true}
+[26] add_air_group: {"group_id": 56, "name": "SC-Intercept-VIP-Escort", "durable": true, "start": "air", "category": "plane", "airdrome_id": null, "stands": []}
+[27] edit_route: {"group": "SC-Intercept-VIP-Escort", "operation": "add", "changed": {"added": {"index": 2, "name": "WP2"}}, "warnings": [], "durable": true}
+[28] edit_route: {"group": "SC-Intercept-VIP-Escort", "operation": "add", "changed": {"added": {"index": 3, "name": "WP3"}}, "warnings": [], "durable": true}
+[29] edit_route: {"group": "SC-Defense-AbuSuwayr-Bombers", "operation": "add_task", "changed": {"task_added": {"task": "bombing", "number": 1}}, "warnings": [], "durable": true}
+[30] edit_route: {"group": "SC-Defense-AbuSuwayr-Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 1}}, "warnings": [], "durable": true}
+[31] edit_route: {"group": "SC-Intercept-VIP-Escort", "operation": "add_task", "changed": {"task_added": {"task": "escort", "number": 1}}, "warnings": [], "durable": true}

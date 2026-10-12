@@ -1,0 +1,136 @@
+[
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Z12-1",
+   "move_to": {
+    "x": -123792,
+    "y": 193268
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Z12-2",
+   "move_to": {
+    "x": -124392,
+    "y": 193268
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Fuel-1",
+   "move_to": {
+    "x": -123962,
+    "y": 193343
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Fuel-2",
+   "move_to": {
+    "x": -123992,
+    "y": 193441
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Fuel-3",
+   "move_to": {
+    "x": -124092,
+    "y": 193418
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Tank-4",
+   "move_to": {
+    "x": -124192,
+    "y": 193441
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Tank-5",
+   "move_to": {
+    "x": -124284,
+    "y": 193429
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Electric-6",
+   "move_to": {
+    "x": -124152,
+    "y": 193164
+   }
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_AbuRudeis-Static-Workshop-7",
+   "move_to": {
+    "x": -124017,
+    "y": 193138
+   }
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_AbuRudeis",
+   "position": {
+    "x": -124092,
+    "y": 193268
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "name": "Zone combatZone_AbuRudeis",
+   "position": {
+    "x": -124092,
+    "y": 193268
+   }
+  }
+ },
+ {
+  "name": "edit_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "name": "Zone combatZone_AbuRudeis étiquette",
+   "position": {
+    "x": -122092,
+    "y": 193268
+   }
+  }
+ }
+]

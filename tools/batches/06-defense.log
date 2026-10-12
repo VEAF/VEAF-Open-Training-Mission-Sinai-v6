@@ -1,0 +1,38 @@
+[1] add_group: {"group_id": 81, "name": "AD Cairo West Patriot", "durable": true, "warnings": []}
+[2] add_group: {"group_id": 82, "name": "AD Cairo West Hawk", "durable": true, "warnings": []}
+[3] add_group: {"group_id": 83, "name": "AD Cairo West Avenger", "durable": true, "warnings": []}
+[4] add_group: {"group_id": 84, "name": "AD Inshas Patriot", "durable": true, "warnings": []}
+[5] add_group: {"group_id": 85, "name": "AD Inshas Avenger", "durable": true, "warnings": []}
+[6] add_group: {"group_id": 86, "name": "AD Beni Suef Hawk", "durable": true, "warnings": []}
+[7] add_group: {"group_id": 87, "name": "AD Beni Suef Avenger", "durable": true, "warnings": []}
+[8] add_group: {"group_id": 88, "name": "AD Abu Suwayr Hawk", "durable": true, "warnings": []}
+[9] add_group: {"group_id": 89, "name": "AD Abu Suwayr Avenger", "durable": true, "warnings": []}
+[10] add_group: {"group_id": 90, "name": "AD Fayed Hawk", "durable": true, "warnings": []}
+[11] add_group: {"group_id": 91, "name": "AD Fayed Avenger", "durable": true, "warnings": []}
+[12] add_group: {"group_id": 92, "name": "AD Hurghada Hawk", "durable": true, "warnings": []}
+[13] add_group: {"group_id": 93, "name": "AD Hurghada Avenger", "durable": true, "warnings": []}
+[14] add_group: {"group_id": 94, "name": "AD Hatzerim Hawk", "durable": true, "warnings": []}
+[15] add_group: {"group_id": 95, "name": "AD Hatzerim NASAMS", "durable": true, "warnings": []}
+[16] add_group: {"group_id": 96, "name": "AD Kedem Avenger", "durable": true, "warnings": []}
+[17] add_group: {"group_id": 97, "name": "AD Ramon Hawk", "durable": true, "warnings": []}
+[18] add_group: {"group_id": 98, "name": "AD Ramon NASAMS", "durable": true, "warnings": []}
+[19] add_group: {"group_id": 99, "name": "AD Nevatim Patriot", "durable": true, "warnings": []}
+[20] add_group: {"group_id": 100, "name": "AD Nevatim Avenger", "durable": true, "warnings": []}
+[21] add_group: {"group_id": 101, "name": "AD Ben Gurion Patriot", "durable": true, "warnings": []}
+[22] add_group: {"group_id": 102, "name": "AD Ben Gurion Avenger", "durable": true, "warnings": []}
+[23] add_group: {"group_id": 103, "name": "EWR Mokattam", "durable": true, "warnings": []}
+[24] add_group: {"group_id": 104, "name": "EWR Ain Sokhna", "durable": true, "warnings": []}
+[25] add_group: {"group_id": 105, "name": "EWR Mitzpe Ramon", "durable": true, "warnings": []}
+[26] add_group: {"group_id": 106, "name": "EWR Dimona", "durable": true, "warnings": []}
+[27] add_group: {"group_id": 107, "name": "AD El Arish SA-11", "durable": true, "warnings": []}
+[28] add_group: {"group_id": 108, "name": "AD El Arish SA-15", "durable": true, "warnings": []}
+[29] add_group: {"group_id": 109, "name": "AD Melez SA-11", "durable": true, "warnings": []}
+[30] add_group: {"group_id": 110, "name": "AD Melez SA-15", "durable": true, "warnings": []}
+[31] add_group: {"group_id": 111, "name": "AD St Catherine SA-10", "durable": true, "warnings": []}
+[32] add_group: {"group_id": 112, "name": "AD St Catherine SA-15", "durable": true, "warnings": []}
+[33] add_group: {"group_id": 113, "name": "AD Sinai Centre SA-10", "durable": true, "warnings": []}
+[34] add_group: {"group_id": 114, "name": "AD Sharm SA-15", "durable": true, "warnings": []}
+[35] add_group: {"group_id": 115, "name": "EWR El Arish", "durable": true, "warnings": []}
+[36] add_group: {"group_id": 116, "name": "EWR Bir Hasanah", "durable": true, "warnings": []}
+[37] add_group: {"group_id": 117, "name": "EWR Ras Sudr", "durable": true, "warnings": []}
+[38] add_group: {"group_id": 118, "name": "EWR St Catherine", "durable": true, "warnings": []}

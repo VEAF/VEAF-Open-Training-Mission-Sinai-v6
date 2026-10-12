@@ -1,0 +1,674 @@
+[
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Melez",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-Melez",
+   "position": {
+    "x": 38907,
+    "y": 183605
+   },
+   "radius": 46300,
+   "groups": [
+    {
+     "name": "QRA-Melez-MiG29",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 38907,
+      "y": 183605
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Melez",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    },
+    {
+     "name": "QRA-Melez-Su27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 40407,
+      "y": 185105
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Melez",
+     "payload": "R-73*4,R-27ER*6"
+    },
+    {
+     "name": "QRA-Melez-Su30",
+     "units": [
+      {
+       "type": "Su-30",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 38907,
+      "y": 183605
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Melez",
+     "payload": "R-73*4,R-77*4,R-27ER*2"
+    },
+    {
+     "name": "QRA-Melez-MiG29x4",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 40407,
+      "y": 185105
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Melez",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-Melez-MiG29",
+       "QRA-Melez-Su27"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-Melez-Su30",
+       "QRA-Melez-MiG29x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Melez"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA El Arish",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-ElArish",
+   "position": {
+    "x": 108775,
+    "y": 247388
+   },
+   "radius": 46300,
+   "groups": [
+    {
+     "name": "QRA-ElArish-Su27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 108775,
+      "y": 247388
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-27ER*6"
+    },
+    {
+     "name": "QRA-ElArish-MiG29",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 110275,
+      "y": 248888
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "El Arish",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    },
+    {
+     "name": "QRA-ElArish-Su30",
+     "units": [
+      {
+       "type": "Su-30",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 108775,
+      "y": 247388
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-77*4,R-27ER*2"
+    },
+    {
+     "name": "QRA-ElArish-Su27x4",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 110275,
+      "y": 248888
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-27ER*6"
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-ElArish-Su27",
+       "QRA-ElArish-MiG29"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-ElArish-Su30",
+       "QRA-ElArish-Su27x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "El Arish"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Abu Suwayr",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "trigger_zone": "QRA-AbuSuwayr",
+   "position": {
+    "x": 55000,
+    "y": 60000
+   },
+   "radius": 37000,
+   "groups": [
+    {
+     "name": "QRA-AbuSuwayr-F16",
+     "units": [
+      {
+       "type": "F-16C bl.52d",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 57580,
+      "y": 82565
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Abu Suwayr",
+     "payload": "AIM-120C*4,AIM-9M*2,ECM,Fuel*2"
+    },
+    {
+     "name": "QRA-AbuSuwayr-M2000",
+     "units": [
+      {
+       "type": "Mirage 2000-5",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 59080,
+      "y": 84065
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Abu Suwayr",
+     "payload": "R 550*2,MICA AR*4,Fuel*3"
+    },
+    {
+     "name": "QRA-AbuSuwayr-F16x4",
+     "units": [
+      {
+       "type": "F-16C bl.52d",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 57580,
+      "y": 82565
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Abu Suwayr",
+     "payload": "AIM-120C*4,AIM-9M*2,ECM,Fuel*2"
+    },
+    {
+     "name": "QRA-AbuSuwayr-M2000x4",
+     "units": [
+      {
+       "type": "Mirage 2000-5",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 59080,
+      "y": 84065
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Abu Suwayr",
+     "payload": "R 550*2,MICA AR*4,Fuel*3"
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-AbuSuwayr-F16",
+       "QRA-AbuSuwayr-M2000"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-AbuSuwayr-F16x4",
+       "QRA-AbuSuwayr-M2000x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Abu Suwayr"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Hatzerim",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "trigger_zone": "QRA-Hatzerim",
+   "position": {
+    "x": 140000,
+    "y": 340000
+   },
+   "radius": 37000,
+   "groups": [
+    {
+     "name": "QRA-Hatzerim-F15",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 131918,
+      "y": 327168
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Hatzerim",
+     "payload": "AIM-9*4,AIM-120*4,Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F16",
+     "units": [
+      {
+       "type": "F-16C bl.50",
+       "count": 2
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 133418,
+      "y": 328668
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Hatzerim",
+     "payload": "AIM-120C*4, AIM-9M*2, Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F15x4",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 131918,
+      "y": 327168
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Hatzerim",
+     "payload": "AIM-9*4,AIM-120*4,Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F16x4",
+     "units": [
+      {
+       "type": "F-16C bl.50",
+       "count": 4
+      }
+     ],
+     "start": "air",
+     "position": {
+      "x": 133418,
+      "y": 328668
+     },
+     "altitude_ft": 5000,
+     "speed_kt": 350,
+     "airfield": "Hatzerim",
+     "payload": "AIM-120C*4, AIM-9M*2, Fuel"
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-Hatzerim-F15",
+       "QRA-Hatzerim-F16"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-Hatzerim-F15x4",
+       "QRA-Hatzerim-F16x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Hatzerim"
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "CAP-Centre-MiG29",
+   "units": [
+    {
+     "type": "MiG-29S",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": 20000,
+    "y": 190000
+   },
+   "route": [
+    {
+     "x": 50000,
+     "y": 215000,
+     "altitude_ft": 22000
+    }
+   ],
+   "altitude_ft": 22000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP rouge MiG-29S (Fox 1) — centre du Sinaï — FL220",
+    "briefing": "Deux MiG-29S armés de R-27R, R-73 et R-60 patrouillent entre Bir Hasanah et Bir Gifgafa, au FL220. Emport : R-73*2,R-60M*2,R-27R*2,Fuel-1500."
+   },
+   "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "CAP-Nord-Su27",
+   "units": [
+    {
+     "type": "Su-27",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": 110000,
+    "y": 200000
+   },
+   "route": [
+    {
+     "x": 100000,
+     "y": 250000,
+     "altitude_ft": 26000
+    }
+   ],
+   "altitude_ft": 26000,
+   "speed_kt": 450,
+   "cap": {
+    "menu_name": "CAP rouge Su-27 (Fox 1, longue portée) — nord du Sinaï — FL260",
+    "briefing": "Deux Su-27 armés de R-27ER et R-73 patrouillent le long de la côte nord, de Bir al-Abd à El Arish, au FL260. Emport : R-73*4,R-27ER*6."
+   },
+   "payload": "R-73*4,R-27ER*6"
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "CAP-Sud-MiG31",
+   "units": [
+    {
+     "type": "MiG-31",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -140000,
+    "y": 245000
+   },
+   "route": [
+    {
+     "x": -100000,
+     "y": 285000,
+     "altitude_ft": 38000
+    }
+   ],
+   "altitude_ft": 38000,
+   "speed_kt": 520,
+   "cap": {
+    "menu_name": "CAP rouge MiG-31 (intercepteur haut et rapide, R-33) — sud du Sinaï — FL380",
+    "briefing": "Deux MiG-31 armés de R-33 patrouillent haut et vite au-dessus de St Catherine, au FL380. Emport : R-40R*2,R-33*4."
+   },
+   "payload": "R-40R*2,R-33*4"
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "Raid-Tu22M",
+   "units": [
+    {
+     "type": "Tu-22M3",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -20000,
+    "y": 230000
+   },
+   "route": [
+    {
+     "x": 15000,
+     "y": 260000,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 450,
+   "cap": {
+    "menu_name": "Raid rouge Tu-22M3 à intercepter — Nakhl — FL300",
+    "briefing": "Deux bombardiers Tu-22M3 chargés de bombes tournent au-dessus de Nakhl, au FL300, prêts à frapper le canal : les intercepter. Emport : FAB-500*33."
+   },
+   "payload": "FAB-500*33"
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "CAP-Canal-F16",
+   "units": [
+    {
+     "type": "F-16C bl.52d",
+     "count": 2
+    }
+   ],
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "position": {
+    "x": 40000,
+    "y": 70000
+   },
+   "route": [
+    {
+     "x": 0,
+     "y": 80000,
+     "altitude_ft": 22000
+    }
+   ],
+   "altitude_ft": 22000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP bleue F-16C (Fox 3) — rive ouest du canal — FL220",
+    "briefing": "Deux F-16C égyptiens patrouillent sur la rive ouest du canal, d'Ismaïlia à Suez, au FL220. Emport : AIM-120C*4,AIM-9M*2,ECM,Fuel*2."
+   },
+   "payload": "AIM-120C*4,AIM-9M*2,ECM,Fuel*2"
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "mission_name": "CAP-Negev-F15",
+   "units": [
+    {
+     "type": "F-15C",
+     "count": 2
+    }
+   ],
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "position": {
+    "x": 120000,
+    "y": 320000
+   },
+   "route": [
+    {
+     "x": 70000,
+     "y": 340000,
+     "altitude_ft": 25000
+    }
+   ],
+   "altitude_ft": 25000,
+   "speed_kt": 440,
+   "cap": {
+    "menu_name": "CAP bleue F-15C (Fox 3) — Néguev — FL250",
+    "briefing": "Deux F-15C israéliens couvrent le Néguev, de Hatzerim à Ramon, au FL250. Emport : AIM-9*4,AIM-120*4,Fuel."
+   },
+   "payload": "AIM-9*4,AIM-120*4,Fuel"
+  }
+ }
+]

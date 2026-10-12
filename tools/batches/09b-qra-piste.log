@@ -1,0 +1,25 @@
+[1] remove_group: {"group": "QRA-Melez-MiG29", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 20, "remaining": 24, "durable": true, "warnings": []}
+[2] remove_group: {"group": "QRA-Melez-Su27", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 21, "remaining": 23, "durable": true, "warnings": []}
+[3] remove_group: {"group": "QRA-Melez-Su30", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 22, "remaining": 22, "durable": true, "warnings": []}
+[4] remove_group: {"group": "QRA-Melez-MiG29x4", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 23, "remaining": 21, "durable": true, "warnings": []}
+[5] edit_zone: {"zone": "QRA-Melez", "changed": {"removed": {"name": "QRA-Melez", "zone_id": 1}}, "warnings": ["a combat zone, a QRA or a mission.yaml entry may reference this zone by name; nothing here can see those references, so check what pointed at it"], "durable": true}
+[6] remove_group: {"group": "QRA-ElArish-Su27", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 24, "remaining": 20, "durable": true, "warnings": []}
+[7] remove_group: {"group": "QRA-ElArish-MiG29", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 25, "remaining": 19, "durable": true, "warnings": []}
+[8] remove_group: {"group": "QRA-ElArish-Su30", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 26, "remaining": 18, "durable": true, "warnings": []}
+[9] remove_group: {"group": "QRA-ElArish-Su27x4", "category": "plane", "coalition": "red", "country": "Russia", "group_id": 27, "remaining": 17, "durable": true, "warnings": []}
+[10] edit_zone: {"zone": "QRA-ElArish", "changed": {"removed": {"name": "QRA-ElArish", "zone_id": 2}}, "warnings": ["a combat zone, a QRA or a mission.yaml entry may reference this zone by name; nothing here can see those references, so check what pointed at it"], "durable": true}
+[11] remove_group: {"group": "QRA-AbuSuwayr-F16", "category": "plane", "coalition": "blue", "country": "Egypt", "group_id": 28, "remaining": 7, "durable": true, "warnings": []}
+[12] remove_group: {"group": "QRA-AbuSuwayr-M2000", "category": "plane", "coalition": "blue", "country": "Egypt", "group_id": 29, "remaining": 6, "durable": true, "warnings": []}
+[13] remove_group: {"group": "QRA-AbuSuwayr-F16x4", "category": "plane", "coalition": "blue", "country": "Egypt", "group_id": 30, "remaining": 5, "durable": true, "warnings": []}
+[14] remove_group: {"group": "QRA-AbuSuwayr-M2000x4", "category": "plane", "coalition": "blue", "country": "Egypt", "group_id": 31, "remaining": 4, "durable": true, "warnings": []}
+[15] edit_zone: {"zone": "QRA-AbuSuwayr", "changed": {"removed": {"name": "QRA-AbuSuwayr", "zone_id": 3}}, "warnings": ["a combat zone, a QRA or a mission.yaml entry may reference this zone by name; nothing here can see those references, so check what pointed at it"], "durable": true}
+[16] remove_group: {"group": "QRA-Hatzerim-F15", "category": "plane", "coalition": "blue", "country": "Israel", "group_id": 32, "remaining": 7, "durable": true, "warnings": []}
+[17] remove_group: {"group": "QRA-Hatzerim-F16", "category": "plane", "coalition": "blue", "country": "Israel", "group_id": 33, "remaining": 6, "durable": true, "warnings": []}
+[18] remove_group: {"group": "QRA-Hatzerim-F15x4", "category": "plane", "coalition": "blue", "country": "Israel", "group_id": 34, "remaining": 5, "durable": true, "warnings": []}
+[19] remove_group: {"group": "QRA-Hatzerim-F16x4", "category": "plane", "coalition": "blue", "country": "Israel", "group_id": 35, "remaining": 4, "durable": true, "warnings": []}
+[20] edit_zone: {"zone": "QRA-Hatzerim", "changed": {"removed": {"name": "QRA-Hatzerim", "zone_id": 4}}, "warnings": ["a combat zone, a QRA or a mission.yaml entry may reference this zone by name; nothing here can see those references, so check what pointed at it"], "durable": true}
+[21] set_mission_module: {"module": "QRA", "shape": "extended", "inserted": false, "backup": "D:\\dev\\_VEAF\\VEAF-Open-Training-Mission-Sinai-v6\\.veaf-backups\\mission.20261012-105740.yaml"}
+[22] create_qra: {"qra": "QRA Melez", "trigger_zone": "QRA-Melez", "zone_id": 34, "warnings": []}
+[23] create_qra: {"qra": "QRA El Arish", "trigger_zone": "QRA-ElArish", "zone_id": 35, "warnings": []}
+[24] create_qra: {"qra": "QRA Abu Suwayr", "trigger_zone": "QRA-AbuSuwayr", "zone_id": 36, "warnings": []}
+[25] create_qra: {"qra": "QRA Hatzerim", "trigger_zone": "QRA-Hatzerim", "zone_id": 37, "warnings": []}

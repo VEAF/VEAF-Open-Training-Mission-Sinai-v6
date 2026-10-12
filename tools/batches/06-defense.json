@@ -1,0 +1,838 @@
+[
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Cairo West Patriot",
+   "position": {
+    "x": 11108,
+    "y": -32171
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, hdg 60, country egypt\"] #Cairo-West-Patriot"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Cairo West Hawk",
+   "position": {
+    "x": 3120,
+    "y": -35078
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 60, country egypt\"] #Cairo-West-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Cairo West Avenger",
+   "position": {
+    "x": 6494,
+    "y": -31190
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Cairo-West-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Inshas Patriot",
+   "position": {
+    "x": 35533,
+    "y": 19894
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, hdg 90, country egypt\"] #Inshas-Patriot"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Inshas Avenger",
+   "position": {
+    "x": 29533,
+    "y": 19894
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Inshas-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Beni Suef Hawk",
+   "position": {
+    "x": -93776,
+    "y": -19879
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 90, country egypt\"] #Beni-Suef-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Beni Suef Avenger",
+   "position": {
+    "x": -93776,
+    "y": -25179
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Beni-Suef-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Abu Suwayr Hawk",
+   "position": {
+    "x": 56383,
+    "y": 79276
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 90, country egypt\"] #Abu-Suwayr-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Abu Suwayr Avenger",
+   "position": {
+    "x": 58480,
+    "y": 84124
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Abu-Suwayr-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Fayed Hawk",
+   "position": {
+    "x": 30164,
+    "y": 94806
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 90, country egypt\"] #Fayed-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Fayed Avenger",
+   "position": {
+    "x": 28364,
+    "y": 98806
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Fayed-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Hurghada Hawk",
+   "position": {
+    "x": -319085,
+    "y": 243648
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 60, country egypt\"] #Hurghada-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "AD Hurghada Avenger",
+   "position": {
+    "x": -317285,
+    "y": 247648
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country egypt\"] #Hurghada-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Hatzerim Hawk",
+   "position": {
+    "x": 134168,
+    "y": 331065
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 240, country israel\"] #Hatzerim-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Hatzerim NASAMS",
+   "position": {
+    "x": 129569,
+    "y": 326313
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, hdg 240, country israel\"] #Hatzerim-NASAMS"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Kedem Avenger",
+   "position": {
+    "x": 135371,
+    "y": 324764
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country israel\"] #Kedem-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Ramon Hawk",
+   "position": {
+    "x": 82825,
+    "y": 332125
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, hdg 240, country israel\"] #Ramon-Hawk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Ramon NASAMS",
+   "position": {
+    "x": 79825,
+    "y": 326929
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, hdg 240, country israel\"] #Ramon-NASAMS"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Nevatim Patriot",
+   "position": {
+    "x": 133020,
+    "y": 363156
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, hdg 240, country israel\"] #Nevatim-Patriot"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Nevatim Avenger",
+   "position": {
+    "x": 127564,
+    "y": 360006
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country israel\"] #Nevatim-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Ben Gurion Patriot",
+   "position": {
+    "x": 215468,
+    "y": 351500
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, hdg 210, country israel\"] #Ben-Gurion-Patriot"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "AD Ben Gurion Avenger",
+   "position": {
+    "x": 218368,
+    "y": 346477
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, hdg 0, country israel\"] #Ben-Gurion-Avenger"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "EWR Mokattam",
+   "position": {
+    "x": -2142,
+    "y": 7153
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "FPS-117 Dome",
+     "name": "#veafInterpreter[\"-blue_ewr, hdg 0, country egypt\"] #EWR-Mokattam"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "EWR Ain Sokhna",
+   "position": {
+    "x": -45049,
+    "y": 90649
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "FPS-117 Dome",
+     "name": "#veafInterpreter[\"-blue_ewr, hdg 0, country egypt\"] #EWR-Ain-Sokhna"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "EWR Mitzpe Ramon",
+   "position": {
+    "x": 64721,
+    "y": 341945
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "FPS-117 Dome",
+     "name": "#veafInterpreter[\"-blue_ewr, hdg 0, country israel\"] #EWR-Mitzpe-Ramon"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "category": "vehicle",
+   "name": "EWR Dimona",
+   "position": {
+    "x": 113933,
+    "y": 367967
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "FPS-117 Dome",
+     "name": "#veafInterpreter[\"-blue_ewr, hdg 0, country israel\"] #EWR-Dimona"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD El Arish SA-11",
+   "position": {
+    "x": 108775,
+    "y": 242388
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, hdg 60\"] #El-Arish-SA-11"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD El Arish SA-15",
+   "position": {
+    "x": 107775,
+    "y": 249120
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#veafInterpreter[\"-sa15, hdg 0\"] #El-Arish-SA-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD Melez SA-11",
+   "position": {
+    "x": 38907,
+    "y": 188605
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, hdg 270\"] #Melez-SA-11"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD Melez SA-15",
+   "position": {
+    "x": 39907,
+    "y": 181873
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#veafInterpreter[\"-sa15, hdg 0\"] #Melez-SA-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD St Catherine SA-10",
+   "position": {
+    "x": -146549,
+    "y": 270037
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "S-300PS 5P85C ln",
+     "name": "#veafInterpreter[\"-sa10, hdg 0\"] #St-Catherine-SA-10"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD St Catherine SA-15",
+   "position": {
+    "x": -153477,
+    "y": 274037
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#veafInterpreter[\"-sa15, hdg 0\"] #St-Catherine-SA-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD Sinai Centre SA-10",
+   "position": {
+    "x": -50000,
+    "y": 215000
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "S-300PS 5P85C ln",
+     "name": "#veafInterpreter[\"-sa10, hdg 0\"] #Sinai-Centre-SA-10"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD Sharm SA-15",
+   "position": {
+    "x": -227685,
+    "y": 306247
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#veafInterpreter[\"-sa15, hdg 0\"] #Sharm-SA-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "EWR El Arish",
+   "position": {
+    "x": 97499,
+    "y": 243284
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "#veafInterpreter[\"-ewr, hdg 0\"] #EWR-El-Arish"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "EWR Bir Hasanah",
+   "position": {
+    "x": 19112,
+    "y": 208961
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "#veafInterpreter[\"-ewr, hdg 0\"] #EWR-Bir-Hasanah"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "EWR Ras Sudr",
+   "position": {
+    "x": -51254,
+    "y": 158007
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "#veafInterpreter[\"-ewr, hdg 0\"] #EWR-Ras-Sudr"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "EWR St Catherine",
+   "position": {
+    "x": -147745,
+    "y": 279965
+   },
+   "keep_position": true,
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "#veafInterpreter[\"-ewr, hdg 0\"] #EWR-St-Catherine"
+    }
+   ]
+  }
+ }
+]

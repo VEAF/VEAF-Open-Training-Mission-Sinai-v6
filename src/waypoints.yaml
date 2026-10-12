@@ -1,0 +1,150 @@
+# Plans de vol injectés dans les groupes joueurs (Open Training Sinaï) — écrit par tools/gen_13_waypoints.py.
+# TX1/AR1/TX2/AR2 = début de piste des ravitailleurs bleus ; SH1 = ravitailleur rouge ; RNG_H/A/S = champs de tir
+# hélicoptères (Arad), attaque (désert de Gizeh), SEAD (désert occidental) ; FARP_PYR / CNL / NGV / RNG = FARP
+# Pyramides, Canal, Negev et Range. Le build ajoute le BULLSEYE (Bir Hasanah) à chaque plan.
+waypoints:
+  TX1:
+    type: Turning Point
+    action: Turning Point
+    alt: 6706
+    alt_type: BARO
+    speed: 154.3
+    speed_type: TAS
+    x: 20000
+    y: 30000
+    name: TX1
+  AR1:
+    type: Turning Point
+    action: Turning Point
+    alt: 5486
+    alt_type: BARO
+    speed: 144.0
+    speed_type: TAS
+    x: 10000
+    y: 50000
+    name: AR1
+  TX2:
+    type: Turning Point
+    action: Turning Point
+    alt: 7315
+    alt_type: BARO
+    speed: 154.3
+    speed_type: TAS
+    x: 150000
+    y: 395000
+    name: TX2
+  AR2:
+    type: Turning Point
+    action: Turning Point
+    alt: 6096
+    alt_type: BARO
+    speed: 144.0
+    speed_type: TAS
+    x: 160000
+    y: 370000
+    name: AR2
+  SH1:
+    type: Turning Point
+    action: Turning Point
+    alt: 6096
+    alt_type: BARO
+    speed: 154.3
+    speed_type: TAS
+    x: -60000
+    y: 225000
+    name: SH1
+  RNG_A:
+    type: Turning Point
+    action: Turning Point
+    alt: 914
+    alt_type: BARO
+    speed: 128.6
+    speed_type: TAS
+    x: -10000
+    y: -60000
+    name: RNG_A
+  RNG_S:
+    type: Turning Point
+    action: Turning Point
+    alt: 4572
+    alt_type: BARO
+    speed: 180.1
+    speed_type: TAS
+    x: -45000
+    y: -115000
+    name: RNG_S
+  RNG_H:
+    type: Turning Point
+    action: Turning Point
+    alt: 152
+    alt_type: BARO
+    speed: 51.4
+    speed_type: TAS
+    x: 140000
+    y: 384000
+    name: RNG_H
+  FARP_PYR:
+    type: Turning Point
+    action: Turning Point
+    alt: 152
+    alt_type: BARO
+    speed: 51.4
+    speed_type: TAS
+    x: -9839
+    y: -13245
+    name: FARP_PYR
+  FARP_RNG:
+    type: Turning Point
+    action: Turning Point
+    alt: 152
+    alt_type: BARO
+    speed: 51.4
+    speed_type: TAS
+    x: 155074
+    y: 394983
+    name: FARP_RNG
+  FARP_CNL:
+    type: Turning Point
+    action: Turning Point
+    alt: 152
+    alt_type: BARO
+    speed: 51.4
+    speed_type: TAS
+    x: 25000
+    y: 85000
+    name: FARP_CNL
+  FARP_NGV:
+    type: Turning Point
+    action: Turning Point
+    alt: 152
+    alt_type: BARO
+    speed: 51.4
+    speed_type: TAS
+    x: 95000
+    y: 340000
+    name: FARP_NGV
+settings:
+  blue_planes:
+    category: plane
+    coalition: blue
+    waypoints:
+    - TX1
+    - AR1
+    - TX2
+    - AR2
+    - RNG_A
+    - RNG_S
+  blue_helicopters:
+    category: helicopter
+    coalition: blue
+    waypoints:
+    - FARP_PYR
+    - FARP_CNL
+    - FARP_NGV
+    - FARP_RNG
+    - RNG_H
+  red_planes:
+    category: plane
+    coalition: red
+    waypoints:
+    - SH1

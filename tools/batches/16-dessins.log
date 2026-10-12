@@ -1,0 +1,78 @@
+[1] add_map_drawing: {"layer": "Common", "name": "Front ouest", "shape": "line", "anchor": {"x": 133671.0, "y": 104500.0}, "durable": true}
+[2] add_map_drawing: {"layer": "Common", "name": "Front ouest étiquette", "shape": "textbox", "anchor": {"x": 45000.0, "y": 80000.0}, "durable": true}
+[3] add_map_drawing: {"layer": "Common", "name": "Front est", "shape": "line", "anchor": {"x": 136834.0, "y": 286899.0}, "durable": true}
+[4] add_map_drawing: {"layer": "Common", "name": "Front est étiquette", "shape": "textbox", "anchor": {"x": 60000.0, "y": 345000.0}, "durable": true}
+[5] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Arad", "shape": "circle", "anchor": {"x": 138265.0, "y": 400241.0}, "durable": true}
+[6] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Arad étiquette", "shape": "textbox", "anchor": {"x": 141565.0, "y": 400241.0}, "durable": true}
+[7] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_DesertGizeh", "shape": "circle", "anchor": {"x": -10000.0, "y": -60000.0}, "durable": true}
+[8] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_DesertGizeh étiquette", "shape": "textbox", "anchor": {"x": -6700.0, "y": -60000.0}, "durable": true}
+[9] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_DesertOuest", "shape": "circle", "anchor": {"x": -45000.0, "y": -115000.0}, "durable": true}
+[10] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_DesertOuest étiquette", "shape": "textbox", "anchor": {"x": -41200.0, "y": -115000.0}, "durable": true}
+[11] add_map_drawing: {"layer": "Common", "name": "Zone tourisme", "shape": "circle", "anchor": {"x": -8213.0, "y": -10629.0}, "durable": true}
+[12] add_map_drawing: {"layer": "Common", "name": "Zone tourisme étiquette", "shape": "textbox", "anchor": {"x": -5913.0, "y": -10629.0}, "durable": true}
+[13] add_map_drawing: {"layer": "Blue", "name": "Circuit touristique", "shape": "line", "anchor": {"x": -9839.0, "y": -13245.0}, "durable": true}
+[14] add_map_drawing: {"layer": "Blue", "name": "Balise GIZ étiquette", "shape": "textbox", "anchor": {"x": -7805.0, "y": -7363.0}, "durable": true}
+[15] add_map_drawing: {"layer": "Blue", "name": "Balise SAQ étiquette", "shape": "textbox", "anchor": {"x": -20064.0, "y": -522.0}, "durable": true}
+[16] add_map_drawing: {"layer": "Blue", "name": "Balise DAH étiquette", "shape": "textbox", "anchor": {"x": -27410.0, "y": -1487.0}, "durable": true}
+[17] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_TeteDePont", "shape": "circle", "anchor": {"x": 62000.0, "y": 118000.0}, "durable": true}
+[18] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_TeteDePont étiquette", "shape": "textbox", "anchor": {"x": 65300.0, "y": 118000.0}, "durable": true}
+[19] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Mitla", "shape": "circle", "anchor": {"x": -5267.0, "y": 158728.0}, "durable": true}
+[20] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Mitla étiquette", "shape": "textbox", "anchor": {"x": -1967.0, "y": 158728.0}, "durable": true}
+[21] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_AbuAgeila", "shape": "circle", "anchor": {"x": 88202.0, "y": 276314.0}, "durable": true}
+[22] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_AbuAgeila étiquette", "shape": "textbox", "anchor": {"x": 91502.0, "y": 276314.0}, "durable": true}
+[23] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Maghara", "shape": "circle", "anchor": {"x": 71110.0, "y": 207528.0}, "durable": true}
+[24] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Maghara étiquette", "shape": "textbox", "anchor": {"x": 73910.0, "y": 207528.0}, "durable": true}
+[25] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Nakhl", "shape": "circle", "anchor": {"x": -10105.0, "y": 241236.0}, "durable": true}
+[26] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Nakhl étiquette", "shape": "textbox", "anchor": {"x": -7305.0, "y": 241236.0}, "durable": true}
+[27] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiElArish", "shape": "circle", "anchor": {"x": 97499.0, "y": 251492.0}, "durable": true}
+[28] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiElArish étiquette", "shape": "textbox", "anchor": {"x": 99799.0, "y": 251492.0}, "durable": true}
+[29] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiNakhl", "shape": "circle", "anchor": {"x": -11105.0, "y": 232576.0}, "durable": true}
+[30] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiNakhl étiquette", "shape": "textbox", "anchor": {"x": -8805.0, "y": 232576.0}, "durable": true}
+[31] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiFeiran", "shape": "circle", "anchor": {"x": -138745.0, "y": 250520.0}, "durable": true}
+[32] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ConvoiFeiran étiquette", "shape": "textbox", "anchor": {"x": -136445.0, "y": 250520.0}, "durable": true}
+[33] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_UsinesPortFouad", "shape": "circle", "anchor": {"x": 115783.0, "y": 105229.0}, "durable": true}
+[34] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_UsinesPortFouad étiquette", "shape": "textbox", "anchor": {"x": 118083.0, "y": 105229.0}, "durable": true}
+[35] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_EtatMajor", "shape": "circle", "anchor": {"x": 10199.0, "y": 217373.0}, "durable": true}
+[36] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_EtatMajor étiquette", "shape": "textbox", "anchor": {"x": 12199.0, "y": 217373.0}, "durable": true}
+[37] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Scud", "shape": "circle", "anchor": {"x": 71315.0, "y": 245834.0}, "durable": true}
+[38] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Scud étiquette", "shape": "textbox", "anchor": {"x": 73615.0, "y": 245834.0}, "durable": true}
+[39] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_AbuRudeis", "shape": "circle", "anchor": {"x": -126441.0, "y": 192413.0}, "durable": true}
+[40] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_AbuRudeis étiquette", "shape": "textbox", "anchor": {"x": -124441.0, "y": 192413.0}, "durable": true}
+[41] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ElGora", "shape": "circle", "anchor": {"x": 112947.0, "y": 279371.0}, "durable": true}
+[42] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_ElGora étiquette", "shape": "textbox", "anchor": {"x": 115247.0, "y": 279371.0}, "durable": true}
+[43] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Sharm", "shape": "circle", "anchor": {"x": -229685.0, "y": 305447.0}, "durable": true}
+[44] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Sharm étiquette", "shape": "textbox", "anchor": {"x": -227385.0, "y": 305447.0}, "durable": true}
+[45] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Croiseur", "shape": "circle", "anchor": {"x": 220000.0, "y": 70000.0}, "durable": true}
+[46] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Croiseur étiquette", "shape": "textbox", "anchor": {"x": 226800.0, "y": 70000.0}, "durable": true}
+[47] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Tiran", "shape": "circle", "anchor": {"x": -232991.0, "y": 312566.0}, "durable": true}
+[48] add_map_drawing: {"layer": "Common", "name": "Zone combatZone_Tiran étiquette", "shape": "textbox", "anchor": {"x": -226191.0, "y": 312566.0}, "durable": true}
+[49] add_map_drawing: {"layer": "Common", "name": "QRA QRA Melez", "shape": "circle", "anchor": {"x": 38907.0, "y": 183605.0}, "durable": true}
+[50] add_map_drawing: {"layer": "Common", "name": "QRA QRA Melez étiquette", "shape": "textbox", "anchor": {"x": 79207.0, "y": 183605.0}, "durable": true}
+[51] add_map_drawing: {"layer": "Common", "name": "QRA QRA El Arish", "shape": "circle", "anchor": {"x": 108775.0, "y": 247388.0}, "durable": true}
+[52] add_map_drawing: {"layer": "Common", "name": "QRA QRA El Arish étiquette", "shape": "textbox", "anchor": {"x": 149075.0, "y": 247388.0}, "durable": true}
+[53] add_map_drawing: {"layer": "Common", "name": "QRA QRA Abu Suwayr", "shape": "circle", "anchor": {"x": 55000.0, "y": 60000.0}, "durable": true}
+[54] add_map_drawing: {"layer": "Common", "name": "QRA QRA Abu Suwayr étiquette", "shape": "textbox", "anchor": {"x": 86000.0, "y": 60000.0}, "durable": true}
+[55] add_map_drawing: {"layer": "Common", "name": "QRA QRA Hatzerim", "shape": "circle", "anchor": {"x": 140000.0, "y": 340000.0}, "durable": true}
+[56] add_map_drawing: {"layer": "Common", "name": "QRA QRA Hatzerim étiquette", "shape": "textbox", "anchor": {"x": 171000.0, "y": 340000.0}, "durable": true}
+[57] add_map_drawing: {"layer": "Common", "name": "Sanctuaire Le Caire", "shape": "circle", "anchor": {"x": -20000.0, "y": -65000.0}, "durable": true}
+[58] add_map_drawing: {"layer": "Common", "name": "Sanctuaire Le Caire étiquette", "shape": "textbox", "anchor": {"x": -96500.0, "y": -65000.0}, "durable": true}
+[59] add_map_drawing: {"layer": "Common", "name": "Sanctuaire St Catherine", "shape": "circle", "anchor": {"x": -151745.0, "y": 273037.0}, "durable": true}
+[60] add_map_drawing: {"layer": "Common", "name": "Sanctuaire St Catherine étiquette", "shape": "textbox", "anchor": {"x": -173245.0, "y": 273037.0}, "durable": true}
+[61] add_map_drawing: {"layer": "Common", "name": "Arène cercle", "shape": "circle", "anchor": {"x": 330000.0, "y": -60000.0}, "durable": true}
+[62] add_map_drawing: {"layer": "Common", "name": "Arène étiquette", "shape": "textbox", "anchor": {"x": 407000.0, "y": -60000.0}, "durable": true}
+[63] add_map_drawing: {"layer": "Blue", "name": "Piste Texaco 1", "shape": "line", "anchor": {"x": 20000.0, "y": 30000.0}, "durable": true}
+[64] add_map_drawing: {"layer": "Blue", "name": "Piste Texaco 1 étiquette", "shape": "textbox", "anchor": {"x": -10000.0, "y": 36000.0}, "durable": true}
+[65] add_map_drawing: {"layer": "Blue", "name": "Piste Arco 1", "shape": "line", "anchor": {"x": 10000.0, "y": 50000.0}, "durable": true}
+[66] add_map_drawing: {"layer": "Blue", "name": "Piste Arco 1 étiquette", "shape": "textbox", "anchor": {"x": -20000.0, "y": 56000.0}, "durable": true}
+[67] add_map_drawing: {"layer": "Blue", "name": "Piste Texaco 2", "shape": "line", "anchor": {"x": 150000.0, "y": 385000.0}, "durable": true}
+[68] add_map_drawing: {"layer": "Blue", "name": "Piste Texaco 2 étiquette", "shape": "textbox", "anchor": {"x": 120000.0, "y": 391000.0}, "durable": true}
+[69] add_map_drawing: {"layer": "Blue", "name": "Piste Arco 2", "shape": "line", "anchor": {"x": 160000.0, "y": 370000.0}, "durable": true}
+[70] add_map_drawing: {"layer": "Blue", "name": "Piste Arco 2 étiquette", "shape": "textbox", "anchor": {"x": 130000.0, "y": 376000.0}, "durable": true}
+[71] add_map_drawing: {"layer": "Blue", "name": "Piste Overlord 1", "shape": "line", "anchor": {"x": 40000.0, "y": -10000.0}, "durable": true}
+[72] add_map_drawing: {"layer": "Blue", "name": "Piste Overlord 1 étiquette", "shape": "textbox", "anchor": {"x": 0.0, "y": -4000.0}, "durable": true}
+[73] add_map_drawing: {"layer": "Blue", "name": "Piste Magic 1", "shape": "line", "anchor": {"x": 210000.0, "y": 300000.0}, "durable": true}
+[74] add_map_drawing: {"layer": "Blue", "name": "Piste Magic 1 étiquette", "shape": "textbox", "anchor": {"x": 190000.0, "y": 328500.0}, "durable": true}
+[75] add_map_drawing: {"layer": "Red", "name": "Piste Shell 1", "shape": "line", "anchor": {"x": -60000.0, "y": 225000.0}, "durable": true}
+[76] add_map_drawing: {"layer": "Red", "name": "Piste Shell 1 étiquette", "shape": "textbox", "anchor": {"x": -90000.0, "y": 231000.0}, "durable": true}
+[77] add_map_drawing: {"layer": "Red", "name": "Piste Wizard 1", "shape": "line", "anchor": {"x": -30000.0, "y": 255000.0}, "durable": true}
+[78] add_map_drawing: {"layer": "Red", "name": "Piste Wizard 1 étiquette", "shape": "textbox", "anchor": {"x": -70000.0, "y": 261000.0}, "durable": true}

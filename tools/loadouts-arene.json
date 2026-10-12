@@ -1,0 +1,358 @@
+{
+ "BLUE F-14B AirQuake FOX3": {
+  "country": "USA",
+  "type": "F-14B",
+  "pylons": [
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9M}"
+   },
+   {
+    "CLSID": "{SHOULDER AIM-7M}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{SHOULDER AIM-7M}"
+   },
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9M}"
+   }
+  ],
+  "x": 369178,
+  "y": -683599,
+  "alt": 6096,
+  "heading": 0.005952310654536,
+  "n": 2
+ },
+ "F-14B AirQuake FOX1 BLUE": {
+  "country": "USA",
+  "type": "F-14B",
+  "pylons": [
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9L}"
+   },
+   {
+    "CLSID": "{LAU-7 - AIM-9L}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{LAU-7 - AIM-9L}"
+   },
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9L}"
+   }
+  ],
+  "x": 361296,
+  "y": -686961,
+  "alt": 6096,
+  "heading": 0.013071150950062,
+  "n": 2
+ },
+ "BLUE F/A-18C AirQuake FOX3": {
+  "country": "USA",
+  "type": "FA-18C_hornet",
+  "pylons": {
+   "1": {
+    "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+   },
+   "2": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "3": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "4": {
+    "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+   },
+   "6": {
+    "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+   },
+   "7": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "8": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "9": {
+    "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+   }
+  },
+  "x": 352022,
+  "y": -690091,
+  "alt": 6096,
+  "heading": -0.0061727611047275,
+  "n": 2
+ },
+ "F/A-18C AirQuake FOX1 BLUE": {
+  "country": "USA",
+  "type": "FA-18C_hornet",
+  "pylons": {
+   "1": {
+    "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+   },
+   "2": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "3": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "4": {
+    "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+   },
+   "6": {
+    "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+   },
+   "7": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "8": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "9": {
+    "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+   }
+  },
+  "x": 345415,
+  "y": -694148,
+  "alt": 6096,
+  "heading": 0.012120618541981,
+  "n": 2
+ },
+ "M2000C AirQuake FOX1 BLUE": {
+  "country": "USA",
+  "type": "M-2000C",
+  "pylons": {
+   "1": {
+    "CLSID": "{MMagicII}"
+   },
+   "2": {
+    "CLSID": "{Matra_S530D}"
+   },
+   "8": {
+    "CLSID": "{Matra_S530D}"
+   },
+   "9": {
+    "CLSID": "{MMagicII}"
+   },
+   "10": {
+    "CLSID": "{Eclair}"
+   }
+  },
+  "x": 337069,
+  "y": -698553,
+  "alt": 6096,
+  "heading": 0.0054944502031691,
+  "n": 2
+ },
+ "RED F/A-18C AirQuake FOX1": {
+  "country": "Russia",
+  "type": "FA-18C_hornet",
+  "pylons": {
+   "1": {
+    "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+   },
+   "2": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "3": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "4": {
+    "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+   },
+   "6": {
+    "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+   },
+   "7": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "8": {
+    "CLSID": "{LAU-115 - AIM-7M}"
+   },
+   "9": {
+    "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+   }
+  },
+  "x": 400477,
+  "y": -694959,
+  "alt": 6096,
+  "heading": 3.1284355181172,
+  "n": 2
+ },
+ "RED F/A-18C AirQuake FOX3": {
+  "country": "Russia",
+  "type": "FA-18C_hornet",
+  "pylons": {
+   "1": {
+    "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+   },
+   "2": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "3": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "4": {
+    "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+   },
+   "6": {
+    "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+   },
+   "7": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "8": {
+    "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+   },
+   "9": {
+    "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+   }
+  },
+  "x": 409403,
+  "y": -691366,
+  "alt": 6096,
+  "heading": 3.1415926535898,
+  "n": 2
+ },
+ "RED F-14B AirQuake FOX1": {
+  "country": "Iran",
+  "type": "F-14B",
+  "pylons": [
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9L}"
+   },
+   {
+    "CLSID": "{LAU-7 - AIM-9L}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{BELLY AIM-7M}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{LAU-7 - AIM-9L}"
+   },
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9L}"
+   }
+  ],
+  "x": 416590,
+  "y": -686845,
+  "alt": 6096,
+  "heading": -3.1307822639158,
+  "n": 2
+ },
+ "RED F-14B AirQuake FOX3": {
+  "country": "Iran",
+  "type": "F-14B",
+  "pylons": [
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9M}"
+   },
+   {
+    "CLSID": "{SHOULDER AIM-7M}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{AIM_54C_Mk47}"
+   },
+   {
+    "CLSID": "{F14-300gal}"
+   },
+   {
+    "CLSID": "{SHOULDER AIM-7M}"
+   },
+   {
+    "CLSID": "{LAU-138 wtip - AIM-9M}"
+   }
+  ],
+  "x": 423545,
+  "y": -682556,
+  "alt": 6096,
+  "heading": -3.1021394524925,
+  "n": 2
+ },
+ "RED M2000C AirQuake FOX1": {
+  "country": "Yemen",
+  "type": "M-2000C",
+  "pylons": {
+   "1": {
+    "CLSID": "{MMagicII}"
+   },
+   "2": {
+    "CLSID": "{Matra_S530D}"
+   },
+   "8": {
+    "CLSID": "{Matra_S530D}"
+   },
+   "9": {
+    "CLSID": "{MMagicII}"
+   },
+   "10": {
+    "CLSID": "{Eclair}"
+   }
+  },
+  "x": 391087,
+  "y": -698205,
+  "alt": 6096,
+  "heading": 3.1415926535898,
+  "n": 2
+ }
+}

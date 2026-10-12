@@ -1,0 +1,492 @@
+[
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Cairo West",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Inshas Airbase",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Beni Suef",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Abu Suwayr",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Fayed",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Hurghada International Airport",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Hatzerim",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Kedem",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Nevatim",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ramon Airbase",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ben-Gurion",
+   "coalition": "blue"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Al Ismailiyah",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Al Khatatbah",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Al Mansurah",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Al Rahmaniyah Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "As Salihiyah",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "AzZaqaziq",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Bilbeis Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Birma Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Borg El Arab International Airport",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Cairo International Airport",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Difarsuwar Airfield",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "El Minya",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Gebel El Basur Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Jiyanklis Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Kibrit Air Base",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Kom Awshim",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Quwaysina",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Wadi Abu Rish",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Wadi al Jandali",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Al Bahr al Ahmar",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Hatzor",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Palmachim",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Tel Nof",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Sde Dov",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ramat David",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Megiddo",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ein Shamer",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ovda",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Ramon International Airport",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "El Arish",
+   "coalition": "red"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Melez",
+   "coalition": "red"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "St Catherine",
+   "coalition": "red"
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "El Gora",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Bir Hasanah",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Baluza",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Abu Rudeis",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Sharm El Sheikh International Airport",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Taba International Airport",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "King Feisal Air Base",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Tabuk",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "TabukHeliBase",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Damascus Intl",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Mezzeh Air Base",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Khalkhalah Air Base",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Rafic Hariri Intl",
+   "coalition": "neutral",
+   "dynamic_spawn": false
+  }
+ }
+]

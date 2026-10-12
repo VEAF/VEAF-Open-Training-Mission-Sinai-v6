@@ -1,0 +1,12 @@
+[1] add_sound: {"key": "MCP_Sound_balise-GIZ", "file": "balise-GIZ.wav", "durable": true, "replaced": false}
+[2] add_group: {"group_id": 162, "name": "Balise GIZ", "durable": true, "warnings": []}
+[3] edit_route: {"group": "Balise GIZ", "operation": "add_task", "changed": {"task_added": {"task": "set_frequency", "number": 1}}, "warnings": [], "durable": true}
+[4] edit_route: {"group": "Balise GIZ", "operation": "add_task", "changed": {"task_added": {"task": "transmit_message", "number": 2}}, "warnings": [], "durable": true}
+[5] add_sound: {"key": "MCP_Sound_balise-SAQ", "file": "balise-SAQ.wav", "durable": true, "replaced": false}
+[6] add_group: {"group_id": 163, "name": "Balise SAQ", "durable": true, "warnings": []}
+[7] edit_route: {"group": "Balise SAQ", "operation": "add_task", "changed": {"task_added": {"task": "set_frequency", "number": 1}}, "warnings": [], "durable": true}
+[8] edit_route: {"group": "Balise SAQ", "operation": "add_task", "changed": {"task_added": {"task": "transmit_message", "number": 2}}, "warnings": [], "durable": true}
+[9] add_sound: {"key": "MCP_Sound_balise-DAH", "file": "balise-DAH.wav", "durable": true, "replaced": false}
+[10] add_group: {"group_id": 164, "name": "Balise DAH", "durable": true, "warnings": []}
+[11] edit_route: {"group": "Balise DAH", "operation": "add_task", "changed": {"task_added": {"task": "set_frequency", "number": 1}}, "warnings": [], "durable": true}
+[12] edit_route: {"group": "Balise DAH", "operation": "add_task", "changed": {"task_added": {"task": "transmit_message", "number": 2}}, "warnings": [], "durable": true}

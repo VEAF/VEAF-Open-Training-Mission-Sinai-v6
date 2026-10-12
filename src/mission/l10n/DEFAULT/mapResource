@@ -1,0 +1,12 @@
+mapResource = 
+{
+  ResKey_ImageBriefing_carte = "carte.jpg",
+  ResKey_ImageBriefing_carte_01_lecaire = "carte_01_lecaire.jpg",
+  ResKey_ImageBriefing_carte_02_pyramides = "carte_02_pyramides.jpg",
+  ResKey_ImageBriefing_carte_03_canal = "carte_03_canal.jpg",
+  ResKey_ImageBriefing_carte_04_centre = "carte_04_centre.jpg",
+  ResKey_ImageBriefing_carte_05_nord = "carte_05_nord.jpg",
+  ResKey_ImageBriefing_carte_06_negev = "carte_06_negev.jpg",
+  ResKey_ImageBriefing_carte_07_sud = "carte_07_sud.jpg",
+  ResKey_ImageBriefing_carte_08_arene = "carte_08_arene.jpg",
+}

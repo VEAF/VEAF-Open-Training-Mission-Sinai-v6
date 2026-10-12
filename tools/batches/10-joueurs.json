@@ -1,0 +1,824 @@
+[
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "SANCT-LeCaire",
+   "position": {
+    "x": -20000,
+    "y": -65000
+   },
+   "radius": 75000
+  }
+ },
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "SANCT-StCatherine",
+   "position": {
+    "x": -151745,
+    "y": 273037
+   },
+   "radius": 20000
+  }
+ },
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "Arene",
+   "position": {
+    "x": 330000,
+    "y": -60000
+   },
+   "radius": 74000
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène bleue F-14B Fox 3",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 270000,
+    "y": -80000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": [
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    {
+     "CLSID": "{SHOULDER AIM-7M}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{SHOULDER AIM-7M}"
+    },
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène bleue F-14B Fox 1",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 270000,
+    "y": -70000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": [
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    },
+    {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène bleue F/A-18C Fox 3",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 270000,
+    "y": -60000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "3": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "6": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "8": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène bleue F/A-18C Fox 1",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 270000,
+    "y": -50000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    },
+    "2": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "3": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "4": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "6": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "7": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "9": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène bleue M-2000C Fox 1",
+   "unit_type": "M-2000C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 270000,
+    "y": -40000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{MMagicII}"
+    },
+    "2": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "8": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "9": {
+     "CLSID": "{MMagicII}"
+    },
+    "10": {
+     "CLSID": "{Eclair}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 34,
+   "country_name": "Iran",
+   "name": "Arène rouge F-14B Fox 3",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 390000,
+    "y": -80000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": [
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    {
+     "CLSID": "{SHOULDER AIM-7M}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{SHOULDER AIM-7M}"
+    },
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 34,
+   "country_name": "Iran",
+   "name": "Arène rouge F-14B Fox 1",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 390000,
+    "y": -70000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": [
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    },
+    {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    {
+     "CLSID": "{F14-300gal}"
+    },
+    {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène rouge F/A-18C Fox 3",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 390000,
+    "y": -60000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "3": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "6": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "8": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène rouge F/A-18C Fox 1",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 390000,
+    "y": -50000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    },
+    "2": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "3": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "4": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "6": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "7": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "9": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène rouge M-2000C Fox 1",
+   "unit_type": "M-2000C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 390000,
+    "y": -40000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 450,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{MMagicII}"
+    },
+    "2": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "8": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "9": {
+     "CLSID": "{MMagicII}"
+    },
+    "10": {
+     "CLSID": "{Eclair}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "SC-Defense-AbuSuwayr-SEAD",
+   "unit_type": "Su-24M",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 15000,
+    "y": 215000
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 480,
+   "task": "SEAD",
+   "skill": "High",
+   "late_activation": true,
+   "payload": "Kh31P*2_Kh25ML*2_L-081"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-SEAD",
+   "operation": "add",
+   "position": {
+    "x": 50000,
+    "y": 120000
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 480
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-SEAD",
+   "operation": "add",
+   "position": {
+    "x": 57580,
+    "y": 82565
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 480
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "SC-Defense-AbuSuwayr-Bombers",
+   "unit_type": "Su-34",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": 18000,
+    "y": 220000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 450,
+   "task": "Ground Attack",
+   "skill": "High",
+   "late_activation": true,
+   "payload": "FAB-500*8,R-73*2,ECM"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Bombers",
+   "operation": "add",
+   "position": {
+    "x": 55000,
+    "y": 125000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 450
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Bombers",
+   "operation": "add",
+   "position": {
+    "x": 57580,
+    "y": 82565
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 450
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "SC-Defense-AbuSuwayr-Escort",
+   "unit_type": "Su-30",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 16000,
+    "y": 218000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 450,
+   "task": "Escort",
+   "skill": "High",
+   "late_activation": true,
+   "payload": "R-73*4,R-77*4,R-27ER*2"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Escort",
+   "operation": "add",
+   "position": {
+    "x": 55000,
+    "y": 125000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 450
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Escort",
+   "operation": "add",
+   "position": {
+    "x": 57580,
+    "y": 82565
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 450
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "SC-Intercept-VIP-Il76",
+   "unit_type": "IL-76MD",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -145000,
+    "y": 270000
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 350,
+   "task": "Transport",
+   "skill": "High",
+   "late_activation": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Intercept-VIP-Il76",
+   "operation": "add",
+   "position": {
+    "x": -20000,
+    "y": 260000
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 350
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Intercept-VIP-Il76",
+   "operation": "add",
+   "position": {
+    "x": 108775,
+    "y": 247388
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 350
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "SC-Intercept-VIP-Escort",
+   "unit_type": "MiG-29S",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -147000,
+    "y": 268000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 350,
+   "task": "Escort",
+   "skill": "High",
+   "late_activation": true,
+   "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Intercept-VIP-Escort",
+   "operation": "add",
+   "position": {
+    "x": -20000,
+    "y": 260000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 350
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Intercept-VIP-Escort",
+   "operation": "add",
+   "position": {
+    "x": 108775,
+    "y": 247388
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 350
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Bombers",
+   "operation": "add_task",
+   "index": 3,
+   "task": "bombing",
+   "task_params": {
+    "position": {
+     "x": 57580,
+     "y": 82565
+    },
+    "expend": "All",
+    "attack_qty": 1
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Defense-AbuSuwayr-Escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "SC-Defense-AbuSuwayr-Bombers",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "SC-Intercept-VIP-Escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "SC-Intercept-VIP-Il76",
+    "engagement_distance_nm": 30
+   }
+  }
+ }
+]

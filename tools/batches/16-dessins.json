@@ -1,0 +1,1436 @@
+[
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "line",
+   "name": "Front ouest",
+   "points": [
+    {
+     "x": 133671,
+     "y": 104500
+    },
+    {
+     "x": 100000,
+     "y": 106000
+    },
+    {
+     "x": 60668,
+     "y": 105000
+    },
+    {
+     "x": 29445,
+     "y": 110000
+    },
+    {
+     "x": -9263,
+     "y": 125000
+    },
+    {
+     "x": -60000,
+     "y": 135000
+    },
+    {
+     "x": -120000,
+     "y": 170000
+    },
+    {
+     "x": -200000,
+     "y": 215000
+    },
+    {
+     "x": -255000,
+     "y": 265000
+    }
+   ],
+   "color": "0xcc0000ff",
+   "thickness": 6
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Front ouest étiquette",
+   "position": {
+    "x": 45000,
+    "y": 80000
+   },
+   "text": "FRONT OUEST (approximatif) : le canal de Suez",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 14
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "line",
+   "name": "Front est",
+   "points": [
+    {
+     "x": 136834,
+     "y": 286899
+    },
+    {
+     "x": 92557,
+     "y": 305129
+    },
+    {
+     "x": 30000,
+     "y": 330000
+    },
+    {
+     "x": -20000,
+     "y": 345000
+    },
+    {
+     "x": -61233,
+     "y": 352675
+    },
+    {
+     "x": -120000,
+     "y": 330000
+    },
+    {
+     "x": -200000,
+     "y": 318000
+    },
+    {
+     "x": -240000,
+     "y": 315000
+    }
+   ],
+   "color": "0xcc0000ff",
+   "thickness": 6
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Front est étiquette",
+   "position": {
+    "x": 60000,
+    "y": 345000
+   },
+   "text": "FRONT EST (approximatif) : la frontière Rafah–Taba",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 14
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Arad",
+   "position": {
+    "x": 138265,
+    "y": 400241
+   },
+   "radius": 2500,
+   "color": "0xe07000ff",
+   "fill_color": "0xe0700018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Arad étiquette",
+   "position": {
+    "x": 141565,
+    "y": 400241
+   },
+   "text": "H1-H3 Entraînement hélicoptères — Arad",
+   "color": "0xe07000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_DesertGizeh",
+   "position": {
+    "x": -10000,
+    "y": -60000
+   },
+   "radius": 2500,
+   "color": "0xe07000ff",
+   "fill_color": "0xe0700018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_DesertGizeh étiquette",
+   "position": {
+    "x": -6700,
+    "y": -60000
+   },
+   "text": "A1-A3 Entraînement attaque — désert de Gizeh",
+   "color": "0xe07000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_DesertOuest",
+   "position": {
+    "x": -45000,
+    "y": -115000
+   },
+   "radius": 3000,
+   "color": "0xe07000ff",
+   "fill_color": "0xe0700018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_DesertOuest étiquette",
+   "position": {
+    "x": -41200,
+    "y": -115000
+   },
+   "text": "S1-S3 Entraînement SEAD — désert occidental",
+   "color": "0xe07000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone tourisme",
+   "position": {
+    "x": -8213,
+    "y": -10629
+   },
+   "radius": 1500,
+   "color": "0x8b5a00ff",
+   "fill_color": "0x8b5a0018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone tourisme étiquette",
+   "position": {
+    "x": -5913,
+    "y": -10629
+   },
+   "text": "T Tourisme — pyramides de Gizeh",
+   "color": "0x8b5a00ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Circuit touristique",
+   "points": [
+    {
+     "x": -9839,
+     "y": -13245
+    },
+    {
+     "x": -8213,
+     "y": -10629
+    },
+    {
+     "x": -7805,
+     "y": -9863
+    },
+    {
+     "x": -20064,
+     "y": -3022
+    },
+    {
+     "x": -27410,
+     "y": -3987
+    }
+   ],
+   "color": "0x8b5a00ff",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Balise GIZ étiquette",
+   "position": {
+    "x": -7805,
+    "y": -7363
+   },
+   "text": "GIZ FM 31.0",
+   "color": "0x8b5a00ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Balise SAQ étiquette",
+   "position": {
+    "x": -20064,
+    "y": -522
+   },
+   "text": "SAQ FM 32.0",
+   "color": "0x8b5a00ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Balise DAH étiquette",
+   "position": {
+    "x": -27410,
+    "y": -1487
+   },
+   "text": "DAH FM 33.0",
+   "color": "0x8b5a00ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_TeteDePont",
+   "position": {
+    "x": 62000,
+    "y": 118000
+   },
+   "radius": 2500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_TeteDePont étiquette",
+   "position": {
+    "x": 65300,
+    "y": 118000
+   },
+   "text": "Z01 Front ouest — tête de pont face à Ismaïlia",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Mitla",
+   "position": {
+    "x": -5267,
+    "y": 158728
+   },
+   "radius": 2500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Mitla étiquette",
+   "position": {
+    "x": -1967,
+    "y": 158728
+   },
+   "text": "Z02 Front ouest — ligne du col de Mitla",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_AbuAgeila",
+   "position": {
+    "x": 88202,
+    "y": 276314
+   },
+   "radius": 2500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_AbuAgeila étiquette",
+   "position": {
+    "x": 91502,
+    "y": 276314
+   },
+   "text": "Z03 Front est — carrefour d'Abu Ageila",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Maghara",
+   "position": {
+    "x": 71110,
+    "y": 207528
+   },
+   "radius": 2000,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Maghara étiquette",
+   "position": {
+    "x": 73910,
+    "y": 207528
+   },
+   "text": "Z04 SEAD — site SA-6 du djebel Maghara",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Nakhl",
+   "position": {
+    "x": -10105,
+    "y": 241236
+   },
+   "radius": 2000,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Nakhl étiquette",
+   "position": {
+    "x": -7305,
+    "y": 241236
+   },
+   "text": "Z05 SEAD — site sol-air de Nakhl",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_ConvoiElArish",
+   "position": {
+    "x": 97499,
+    "y": 251492
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_ConvoiElArish étiquette",
+   "position": {
+    "x": 99799,
+    "y": 251492
+   },
+   "text": "Z06 Convoi — El Arish vers Abu Ageila",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_ConvoiNakhl",
+   "position": {
+    "x": -11105,
+    "y": 232576
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_ConvoiNakhl étiquette",
+   "position": {
+    "x": -8805,
+    "y": 232576
+   },
+   "text": "Z07 Convoi — Nakhl vers le col de Mitla",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_ConvoiFeiran",
+   "position": {
+    "x": -138745,
+    "y": 250520
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_ConvoiFeiran étiquette",
+   "position": {
+    "x": -136445,
+    "y": 250520
+   },
+   "text": "Z08 Convoi — oasis de Feiran vers Abu Rudeis",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_UsinesPortFouad",
+   "position": {
+    "x": 115783,
+    "y": 105229
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_UsinesPortFouad étiquette",
+   "position": {
+    "x": 118083,
+    "y": 105229
+   },
+   "text": "Z09 Frappe — usines de Port-Fouad",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_EtatMajor",
+   "position": {
+    "x": 10199,
+    "y": 217373
+   },
+   "radius": 1200,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_EtatMajor étiquette",
+   "position": {
+    "x": 12199,
+    "y": 217373
+   },
+   "text": "Z10 Frappe — état-major de Bir Tamada",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Scud",
+   "position": {
+    "x": 71315,
+    "y": 245834
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Scud étiquette",
+   "position": {
+    "x": 73615,
+    "y": 245834
+   },
+   "text": "Z11 Frappe — base de missiles du djebel Libni",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_AbuRudeis",
+   "position": {
+    "x": -126441,
+    "y": 192413
+   },
+   "radius": 1200,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_AbuRudeis étiquette",
+   "position": {
+    "x": -124441,
+    "y": 192413
+   },
+   "text": "Z12 Frappe — dépôts pétroliers d'Abu Rudeis",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_ElGora",
+   "position": {
+    "x": 112947,
+    "y": 279371
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_ElGora étiquette",
+   "position": {
+    "x": 115247,
+    "y": 279371
+   },
+   "text": "Z13 OCA — base aérienne d'El Gora",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Sharm",
+   "position": {
+    "x": -229685,
+    "y": 305447
+   },
+   "radius": 1500,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Sharm étiquette",
+   "position": {
+    "x": -227385,
+    "y": 305447
+   },
+   "text": "Z14 OCA — base aérienne de Sharm el-Cheikh",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Croiseur",
+   "position": {
+    "x": 220000,
+    "y": 70000
+   },
+   "radius": 6000,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Croiseur étiquette",
+   "position": {
+    "x": 226800,
+    "y": 70000
+   },
+   "text": "Z15 Antinavire — croiseur Moskva devant Damiette",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Zone combatZone_Tiran",
+   "position": {
+    "x": -232991,
+    "y": 312566
+   },
+   "radius": 6000,
+   "color": "0xcc0000ff",
+   "fill_color": "0xcc000018",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Zone combatZone_Tiran étiquette",
+   "position": {
+    "x": -226191,
+    "y": 312566
+   },
+   "text": "Z16 Antinavire — détroit de Tiran",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "QRA QRA Melez",
+   "position": {
+    "x": 38907,
+    "y": 183605
+   },
+   "radius": 46300,
+   "color": "0xb000b0ff",
+   "fill_color": "0x00000000",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "QRA QRA Melez étiquette",
+   "position": {
+    "x": 79207,
+    "y": 183605
+   },
+   "text": "QRA Melez (25 nm)",
+   "color": "0xb000b0ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "QRA QRA El Arish",
+   "position": {
+    "x": 108775,
+    "y": 247388
+   },
+   "radius": 46300,
+   "color": "0xb000b0ff",
+   "fill_color": "0x00000000",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "QRA QRA El Arish étiquette",
+   "position": {
+    "x": 149075,
+    "y": 247388
+   },
+   "text": "QRA El Arish (25 nm)",
+   "color": "0xb000b0ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "QRA QRA Abu Suwayr",
+   "position": {
+    "x": 55000,
+    "y": 60000
+   },
+   "radius": 37000,
+   "color": "0x0040ccff",
+   "fill_color": "0x00000000",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "QRA QRA Abu Suwayr étiquette",
+   "position": {
+    "x": 86000,
+    "y": 60000
+   },
+   "text": "QRA Abu Suwayr (20 nm)",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "QRA QRA Hatzerim",
+   "position": {
+    "x": 140000,
+    "y": 340000
+   },
+   "radius": 37000,
+   "color": "0x0040ccff",
+   "fill_color": "0x00000000",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "QRA QRA Hatzerim étiquette",
+   "position": {
+    "x": 171000,
+    "y": 340000
+   },
+   "text": "QRA Hatzerim (20 nm)",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 11
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Sanctuaire Le Caire",
+   "position": {
+    "x": -20000,
+    "y": -65000
+   },
+   "radius": 75000,
+   "color": "0x008000ff",
+   "fill_color": "0x00800018",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Sanctuaire Le Caire étiquette",
+   "position": {
+    "x": -96500,
+    "y": -65000
+   },
+   "text": "Sanctuaire Le Caire",
+   "color": "0x008000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Sanctuaire St Catherine",
+   "position": {
+    "x": -151745,
+    "y": 273037
+   },
+   "radius": 20000,
+   "color": "0x008000ff",
+   "fill_color": "0x00800018",
+   "thickness": 2
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Sanctuaire St Catherine étiquette",
+   "position": {
+    "x": -173245,
+    "y": 273037
+   },
+   "text": "Sanctuaire St Catherine",
+   "color": "0x008000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Arène cercle",
+   "position": {
+    "x": 330000,
+    "y": -60000
+   },
+   "radius": 74000,
+   "color": "0x008000ff",
+   "fill_color": "0x00000000",
+   "thickness": 3
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Arène étiquette",
+   "position": {
+    "x": 407000,
+    "y": -60000
+   },
+   "text": "ARÈNE joueurs contre joueurs (slots en vol)",
+   "color": "0x008000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 14
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Texaco 1",
+   "points": [
+    {
+     "x": 20000,
+     "y": 30000
+    },
+    {
+     "x": -40000,
+     "y": 30000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Texaco 1 étiquette",
+   "position": {
+    "x": -10000,
+    "y": 36000
+   },
+   "text": "Texaco 1 — TACAN 50Y — U290.0 — FL220",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Arco 1",
+   "points": [
+    {
+     "x": 10000,
+     "y": 50000
+    },
+    {
+     "x": -50000,
+     "y": 50000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Arco 1 étiquette",
+   "position": {
+    "x": -20000,
+    "y": 56000
+   },
+   "text": "Arco 1 — TACAN 51Y — U291.0 — FL180",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Texaco 2",
+   "points": [
+    {
+     "x": 150000,
+     "y": 385000
+    },
+    {
+     "x": 90000,
+     "y": 385000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Texaco 2 étiquette",
+   "position": {
+    "x": 120000,
+    "y": 391000
+   },
+   "text": "Texaco 2 — TACAN 52Y — U292.0 — FL240",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Arco 2",
+   "points": [
+    {
+     "x": 160000,
+     "y": 370000
+    },
+    {
+     "x": 100000,
+     "y": 370000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Arco 2 étiquette",
+   "position": {
+    "x": 130000,
+    "y": 376000
+   },
+   "text": "Arco 2 — TACAN 53Y — U293.0 — FL200",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Overlord 1",
+   "points": [
+    {
+     "x": 40000,
+     "y": -10000
+    },
+    {
+     "x": -40000,
+     "y": -10000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Overlord 1 étiquette",
+   "position": {
+    "x": 0,
+    "y": -4000
+   },
+   "text": "Overlord 1 — AWACS — U282.0 — FL300",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Piste Magic 1",
+   "points": [
+    {
+     "x": 210000,
+     "y": 300000
+    },
+    {
+     "x": 170000,
+     "y": 345000
+    }
+   ],
+   "color": "0x0040ccff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Piste Magic 1 étiquette",
+   "position": {
+    "x": 190000,
+    "y": 328500
+   },
+   "text": "Magic 1 — AWACS — U283.0 — FL300",
+   "color": "0x0040ccff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Red",
+   "shape": "line",
+   "name": "Piste Shell 1",
+   "points": [
+    {
+     "x": -60000,
+     "y": 225000
+    },
+    {
+     "x": -120000,
+     "y": 225000
+    }
+   ],
+   "color": "0xcc0000ff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Red",
+   "shape": "textbox",
+   "name": "Piste Shell 1 étiquette",
+   "position": {
+    "x": -90000,
+    "y": 231000
+   },
+   "text": "Shell 1 — IL-78M — U294.0 — FL200",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Red",
+   "shape": "line",
+   "name": "Piste Wizard 1",
+   "points": [
+    {
+     "x": -30000,
+     "y": 255000
+    },
+    {
+     "x": -110000,
+     "y": 255000
+    }
+   ],
+   "color": "0xcc0000ff",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "layer": "Red",
+   "shape": "textbox",
+   "name": "Piste Wizard 1 étiquette",
+   "position": {
+    "x": -70000,
+    "y": 261000
+   },
+   "text": "Wizard 1 — AWACS — U284.0 — FL300",
+   "color": "0xcc0000ff",
+   "fill_color": "0xffffffe0",
+   "font_size": 10
+  }
+ }
+]

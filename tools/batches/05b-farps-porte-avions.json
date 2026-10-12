@@ -1,0 +1,279 @@
+[
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "FARP Pyramides",
+   "position": {
+    "x": -9839,
+    "y": -13245
+   },
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "frequency_mhz": 127.5,
+   "callsign_id": 1
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "FARP Range",
+   "position": {
+    "x": 155074,
+    "y": 394983
+   },
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "frequency_mhz": 128.0,
+   "callsign_id": 2
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "FARP Canal",
+   "position": {
+    "x": 25000,
+    "y": 85000
+   },
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "frequency_mhz": 128.5,
+   "callsign_id": 3
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "FARP Negev",
+   "position": {
+    "x": 95000,
+    "y": 340000
+   },
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "frequency_mhz": 129.0,
+   "callsign_id": 4
+  }
+ },
+ {
+  "name": "add_carrier_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "position": {
+    "x": 243651,
+    "y": 193316
+   },
+   "name": "CSG-74 Stennis",
+   "carrier_type": "Stennis",
+   "heading_deg": 0,
+   "speed_kt": 10,
+   "tower_mhz": 305.0,
+   "tacan_channel": 74,
+   "tacan_callsign": "STN",
+   "icls_channel": 11,
+   "link4_mhz": 336.0,
+   "tanker_tacan_channel": 56,
+   "tanker_tacan_callsign": "S74",
+   "tanker_frequency_mhz": 296.0,
+   "escorts": [
+    "TICONDEROG",
+    "USS_Arleigh_Burke_IIa"
+   ]
+  }
+ },
+ {
+  "name": "add_carrier_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "position": {
+    "x": -340000,
+    "y": 300000
+   },
+   "name": "CSG-71 Roosevelt",
+   "carrier_type": "CVN_71",
+   "heading_deg": 160,
+   "speed_kt": 10,
+   "tower_mhz": 306.0,
+   "tacan_channel": 71,
+   "tacan_callsign": "RSV",
+   "icls_channel": 12,
+   "link4_mhz": 337.0,
+   "tanker_tacan_channel": 57,
+   "tanker_tacan_callsign": "S71",
+   "tanker_frequency_mhz": 297.0,
+   "escorts": [
+    "TICONDEROG",
+    "USS_Arleigh_Burke_IIa"
+   ]
+  }
+ },
+ {
+  "name": "add_carrier_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "position": {
+    "x": 224206,
+    "y": 256976
+   },
+   "name": "ARG-1 Tarawa",
+   "carrier_type": "LHA_Tarawa",
+   "heading_deg": 0,
+   "speed_kt": 8,
+   "tower_mhz": 307.0,
+   "tacan_channel": 73,
+   "tacan_callsign": "TRW",
+   "icls_channel": 13,
+   "link4_mhz": null,
+   "recovery_tanker": false,
+   "rescue_helicopter": true,
+   "escorts": [
+    "PERRY"
+   ]
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Stennis F/A-18C #1",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "CSG-74 Stennis",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Stennis F/A-18C #2",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "deck-hot",
+   "carrier": "CSG-74 Stennis",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Stennis F-14B #1",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "CSG-74 Stennis",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Roosevelt F/A-18C #1",
+   "unit_type": "FA-18C_hornet",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "CSG-71 Roosevelt",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Roosevelt F-14B #1",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "CSG-71 Roosevelt",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Roosevelt F-14B #2",
+   "unit_type": "F-14B",
+   "count": 2,
+   "start": "deck-hot",
+   "carrier": "CSG-71 Roosevelt",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Tarawa AV-8B #1",
+   "unit_type": "AV8BNA",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "ARG-1 Tarawa",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Tarawa AV-8B #2",
+   "unit_type": "AV8BNA",
+   "count": 2,
+   "start": "deck-hot",
+   "carrier": "ARG-1 Tarawa",
+   "skill": "Client",
+   "task": "CAP"
+  }
+ }
+]

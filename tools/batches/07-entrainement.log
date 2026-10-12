@@ -1,0 +1,13 @@
+[1] create_combat_zone: {"zone_name": "combatZone_Arad_Easy", "zone_id": 8, "warnings": []}
+[2] create_combat_zone: {"zone_name": "combatZone_Arad_Medium", "zone_id": 9, "warnings": []}
+[3] create_combat_zone: {"zone_name": "combatZone_Arad_Hard", "zone_id": 10, "warnings": []}
+[4] create_combat_zone: {"zone_name": "combatZone_DesertGizeh_Easy", "zone_id": 11, "warnings": []}
+[5] create_combat_zone: {"zone_name": "combatZone_DesertGizeh_Medium", "zone_id": 12, "warnings": []}
+[6] create_combat_zone: {"zone_name": "combatZone_DesertGizeh_Hard", "zone_id": 13, "warnings": []}
+[7] create_combat_zone: {"zone_name": "combatZone_DesertOuest_Easy", "zone_id": 14, "warnings": []}
+[8] create_combat_zone: {"zone_name": "combatZone_DesertOuest_Medium", "zone_id": 15, "warnings": []}
+[9] create_combat_zone: {"zone_name": "combatZone_DesertOuest_Hard", "zone_id": 16, "warnings": []}
+[10] add_group: {"group_id": 157, "name": "combatZone_DesertGizeh_Easy-Static-Fuel-1", "durable": true, "warnings": []}
+[11] add_group: {"group_id": 158, "name": "combatZone_DesertGizeh_Easy-Static-Fuel-2", "durable": true, "warnings": []}
+[12] add_group: {"group_id": 159, "name": "combatZone_DesertGizeh_Easy-Static-Command-3", "durable": true, "warnings": []}
+[13] create_combat_zone: {"zone_name": "combatZone_Pyramides", "zone_id": 17, "warnings": []}

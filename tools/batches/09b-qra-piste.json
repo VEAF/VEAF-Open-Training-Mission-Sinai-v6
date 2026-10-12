@@ -1,0 +1,513 @@
+[
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Melez-MiG29"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Melez-Su27"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Melez-Su30"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Melez-MiG29x4"
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "QRA-Melez",
+   "remove": true
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-ElArish-Su27"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-ElArish-MiG29"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-ElArish-Su30"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-ElArish-Su27x4"
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "QRA-ElArish",
+   "remove": true
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-AbuSuwayr-F16"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-AbuSuwayr-M2000"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-AbuSuwayr-F16x4"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-AbuSuwayr-M2000x4"
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "QRA-AbuSuwayr",
+   "remove": true
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Hatzerim-F15"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Hatzerim-F16"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Hatzerim-F15x4"
+  }
+ },
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "QRA-Hatzerim-F16x4"
+  }
+ },
+ {
+  "name": "edit_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "QRA-Hatzerim",
+   "remove": true
+  }
+ },
+ {
+  "name": "set_mission_module",
+  "params": {
+   "mission_yaml_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6/mission.yaml",
+   "module_id": "QRA",
+   "value": {
+    "enabled": true,
+    "definitions": []
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Melez",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-Melez",
+   "position": {
+    "x": 38907,
+    "y": 183605
+   },
+   "radius": 46300,
+   "groups": [
+    {
+     "name": "QRA-Melez-MiG29",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 2
+      }
+     ],
+     "airfield": "Melez",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    },
+    {
+     "name": "QRA-Melez-Su27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "airfield": "Melez",
+     "payload": "R-73*4,R-27ER*6"
+    },
+    {
+     "name": "QRA-Melez-Su30",
+     "units": [
+      {
+       "type": "Su-30",
+       "count": 2
+      }
+     ],
+     "airfield": "Melez",
+     "payload": "R-73*4,R-77*4,R-27ER*2"
+    },
+    {
+     "name": "QRA-Melez-MiG29x4",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 4
+      }
+     ],
+     "airfield": "Melez",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-Melez-MiG29",
+       "QRA-Melez-Su27"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-Melez-Su30",
+       "QRA-Melez-MiG29x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Melez"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA El Arish",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-ElArish",
+   "position": {
+    "x": 108775,
+    "y": 247388
+   },
+   "radius": 46300,
+   "groups": [
+    {
+     "name": "QRA-ElArish-Su27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-27ER*6"
+    },
+    {
+     "name": "QRA-ElArish-MiG29",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 2
+      }
+     ],
+     "airfield": "El Arish",
+     "payload": "R-73*2,R-60M*2,R-27R*2,Fuel-1500"
+    },
+    {
+     "name": "QRA-ElArish-Su30",
+     "units": [
+      {
+       "type": "Su-30",
+       "count": 2
+      }
+     ],
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-77*4,R-27ER*2"
+    },
+    {
+     "name": "QRA-ElArish-Su27x4",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 4
+      }
+     ],
+     "airfield": "El Arish",
+     "payload": "R-73*4,R-27ER*6"
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-ElArish-Su27",
+       "QRA-ElArish-MiG29"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-ElArish-Su30",
+       "QRA-ElArish-Su27x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "El Arish"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Abu Suwayr",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "trigger_zone": "QRA-AbuSuwayr",
+   "position": {
+    "x": 55000,
+    "y": 60000
+   },
+   "radius": 37000,
+   "groups": [
+    {
+     "name": "QRA-AbuSuwayr-F16",
+     "units": [
+      {
+       "type": "F-16C bl.52d",
+       "count": 2
+      }
+     ],
+     "airfield": "Abu Suwayr",
+     "payload": "AIM-120C*4,AIM-9M*2,ECM,Fuel*2"
+    },
+    {
+     "name": "QRA-AbuSuwayr-M2000",
+     "units": [
+      {
+       "type": "Mirage 2000-5",
+       "count": 2
+      }
+     ],
+     "airfield": "Abu Suwayr",
+     "payload": "R 550*2,MICA AR*4,Fuel*3"
+    },
+    {
+     "name": "QRA-AbuSuwayr-F16x4",
+     "units": [
+      {
+       "type": "F-16C bl.52d",
+       "count": 4
+      }
+     ],
+     "airfield": "Abu Suwayr",
+     "payload": "AIM-120C*4,AIM-9M*2,ECM,Fuel*2"
+    },
+    {
+     "name": "QRA-AbuSuwayr-M2000x4",
+     "units": [
+      {
+       "type": "Mirage 2000-5",
+       "count": 4
+      }
+     ],
+     "airfield": "Abu Suwayr",
+     "payload": "R 550*2,MICA AR*4,Fuel*3"
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-AbuSuwayr-F16",
+       "QRA-AbuSuwayr-M2000"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-AbuSuwayr-F16x4",
+       "QRA-AbuSuwayr-M2000x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Abu Suwayr"
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "name": "QRA Hatzerim",
+   "coalition": "blue",
+   "country_id": 15,
+   "country_name": "Israel",
+   "trigger_zone": "QRA-Hatzerim",
+   "position": {
+    "x": 140000,
+    "y": 340000
+   },
+   "radius": 37000,
+   "groups": [
+    {
+     "name": "QRA-Hatzerim-F15",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 2
+      }
+     ],
+     "airfield": "Hatzerim",
+     "payload": "AIM-9*4,AIM-120*4,Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F16",
+     "units": [
+      {
+       "type": "F-16C bl.50",
+       "count": 2
+      }
+     ],
+     "airfield": "Hatzerim",
+     "payload": "AIM-120C*4, AIM-9M*2, Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F15x4",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 4
+      }
+     ],
+     "airfield": "Hatzerim",
+     "payload": "AIM-9*4,AIM-120*4,Fuel"
+    },
+    {
+     "name": "QRA-Hatzerim-F16x4",
+     "units": [
+      {
+       "type": "F-16C bl.50",
+       "count": 4
+      }
+     ],
+     "airfield": "Hatzerim",
+     "payload": "AIM-120C*4, AIM-9M*2, Fuel"
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA-Hatzerim-F15",
+       "QRA-Hatzerim-F16"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA-Hatzerim-F15x4",
+       "QRA-Hatzerim-F16x4"
+      ],
+      "random_pick": 1
+     }
+    ],
+    "delay_before_activating": 90,
+    "delay_before_rearming": 600,
+    "react_on_helicopters": false,
+    "airport_link": "Hatzerim"
+   }
+  }
+ }
+]

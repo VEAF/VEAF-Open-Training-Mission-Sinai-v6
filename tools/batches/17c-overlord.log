@@ -1,0 +1,4 @@
+[1] set_group_properties: {"group": "Overlord 1", "changed": {"position": {"from": {"x": 40000.0, "y": -10000.0}, "to": {"x": 50000.0, "y": -50000.0}, "delta": {"x": 10000.0, "y": -40000.0}}}, "warnings": [], "durable": true}
+[2] set_group_properties: {"group": "Overlord 1 - Escort", "changed": {"position": {"from": {"x": 37000.0, "y": -13000.0}, "to": {"x": 47000.0, "y": -53000.0}, "delta": {"x": 10000.0, "y": -40000.0}}}, "warnings": [], "durable": true}
+[3] edit_map_drawing: {"layer": "Blue", "name": "Piste Overlord 1", "changed": {"position": {"from": {"x": 40000.0, "y": -10000.0}, "to": {"x": 50000.0, "y": -50000.0}}}, "durable": true}
+[4] edit_map_drawing: {"layer": "Blue", "name": "Piste Overlord 1 étiquette", "changed": {"position": {"from": {"x": 0.0, "y": -4000.0}, "to": {"x": 10000.0, "y": -44000.0}}}, "durable": true}

@@ -1,0 +1,2094 @@
+[
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_TeteDePont",
+   "position": {
+    "x": 62000,
+    "y": 118000
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "Z01-1",
+     "position": {
+      "x": 62800,
+      "y": 118000
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 2, country russia\" #Z01-1"
+      }
+     ]
+    },
+    {
+     "name": "Z01-2",
+     "position": {
+      "x": 61550,
+      "y": 118779
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 1, country russia\" #Z01-2"
+      }
+     ]
+    },
+    {
+     "name": "Z01-3",
+     "position": {
+      "x": 62000,
+      "y": 118600
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #spawnchance=50 #Z01-3"
+      }
+     ]
+    },
+    {
+     "name": "Z01-4",
+     "position": {
+      "x": 61650,
+      "y": 117394
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13, country russia\" #Z01-4"
+      }
+     ]
+    },
+    {
+     "name": "Z01-5",
+     "position": {
+      "x": 62600,
+      "y": 116961
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z01-5"
+      }
+     ]
+    },
+    {
+     "name": "Artillerie",
+     "position": {
+      "x": 62000,
+      "y": 119300
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Grad-URAL",
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z01 Front ouest — tête de pont face à Ismaïlia",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "La brigade blindée rouge qui tient la rive est du canal, face à Ismaïlia : chars, blindés et lance-roquettes en position. Détruire les blindés et l'artillerie ; défense SA-15 possible, SA-13 et artillerie antiaérienne. Les Hawk d'Abu Suwayr couvrent la rive ouest.\nPosition : bullseye 297°/55 nm (N30°37.038' E032°27.935'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 46 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 53 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Command-1",
+   "position": {
+    "x": 62750,
+    "y": 119299
+   },
+   "units": [
+    {
+     "type": ".Command Center"
+    }
+   ],
+   "for_combat_zone": "combatZone_TeteDePont",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-2",
+   "position": {
+    "x": 62581,
+    "y": 119597
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_TeteDePont",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Mitla",
+   "position": {
+    "x": -5267,
+    "y": 158728
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "Z02-1",
+     "position": {
+      "x": -4574,
+      "y": 159128
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 1, country russia\" #Z02-1"
+      }
+     ]
+    },
+    {
+     "name": "Z02-2",
+     "position": {
+      "x": -6046,
+      "y": 159178
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "name": "#command=\"-armor, defense 0, country russia\" #Z02-2"
+      }
+     ]
+    },
+    {
+     "name": "Z02-3",
+     "position": {
+      "x": -5267,
+      "y": 158028
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13, country russia\" #Z02-3"
+      }
+     ]
+    },
+    {
+     "name": "Z02-4",
+     "position": {
+      "x": -5267,
+      "y": 159228
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z02-4"
+      }
+     ]
+    },
+    {
+     "name": "Artillerie",
+     "position": {
+      "x": -6306,
+      "y": 158128
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "SAU Msta",
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z02 Front ouest — ligne du col de Mitla",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "La ligne de défense rouge du col de Mitla, la route de Suez vers Nakhl : chars enterrés, blindés et artillerie automotrice. Défense courte portée seulement (SA-13, Shilka) : le drone Reaper 2 la désigne au laser.\nPosition : bullseye 248°/29 nm (N30°00.680' E032°53.471'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 59 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 70 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Barracks-1",
+   "position": {
+    "x": -4141,
+    "y": 158078
+   },
+   "units": [
+    {
+     "type": "Barracks 2"
+    }
+   ],
+   "for_combat_zone": "combatZone_Mitla",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Barracks-2",
+   "position": {
+    "x": -3857,
+    "y": 158215
+   },
+   "units": [
+    {
+     "type": "Barracks 2"
+    }
+   ],
+   "for_combat_zone": "combatZone_Mitla",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_AbuAgeila",
+   "position": {
+    "x": 88202,
+    "y": 276314
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "Z03-1",
+     "position": {
+      "x": 88895,
+      "y": 275914
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, defense 2, country russia\" #Z03-1"
+      }
+     ]
+    },
+    {
+     "name": "Z03-2",
+     "position": {
+      "x": 88202,
+      "y": 277214
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BMP-2",
+       "name": "#command=\"-armor, defense 1, country russia\" #Z03-2"
+      }
+     ]
+    },
+    {
+     "name": "Z03-3",
+     "position": {
+      "x": 87638,
+      "y": 276109
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Osa 9A33 ln",
+       "name": "#command=\"-sa8, country russia\" #Z03-3"
+      }
+     ]
+    },
+    {
+     "name": "Z03-4",
+     "position": {
+      "x": 89068,
+      "y": 276814
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z03-4"
+      }
+     ]
+    },
+    {
+     "name": "Lance-roquettes",
+     "position": {
+      "x": 87757,
+      "y": 275092
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Grad-URAL",
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z03 Front est — carrefour d'Abu Ageila",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "Le carrefour fortifié d'Abu Ageila, sur la route d'El Arish à Ismaïlia, face à la frontière israélienne : une brigade mécanisée et ses lance-roquettes. Détruire les blindés et les Grad ; défense SA-8 et artillerie antiaérienne, sous la QRA d'El Arish.\nPosition : bullseye 043°/54 nm (N30°51.000' E034°07.200'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 51 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 59 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-1",
+   "position": {
+    "x": 88602,
+    "y": 276314
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuAgeila",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-2",
+   "position": {
+    "x": 87977,
+    "y": 276704
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuAgeila",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-3",
+   "position": {
+    "x": 87992,
+    "y": 275950
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuAgeila",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Maghara",
+   "position": {
+    "x": 71110,
+    "y": 207528
+   },
+   "radius": 2000,
+   "groups": [
+    {
+     "name": "Z04-1",
+     "position": {
+      "x": 71110,
+      "y": 207528
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Kub 2P25 ln",
+       "name": "#command=\"-sa6, country russia\" #Z04-1"
+      }
+     ]
+    },
+    {
+     "name": "Z04-2",
+     "position": {
+      "x": 71110,
+      "y": 209028
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "55G6 EWR",
+       "name": "#command=\"-ewr, country russia\" #Z04-2"
+      }
+     ]
+    },
+    {
+     "name": "Z04-3",
+     "position": {
+      "x": 70640,
+      "y": 207357
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z04-3"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z04 SEAD — site SA-6 du djebel Maghara",
+    "radio_group_name": "SEAD",
+    "training": false,
+    "briefing": "Le site SA-6 perché au djebel Maghara, au nord du Sinaï, relié à un radar d'alerte avancée en réseau Skynet. Détruire le radar de conduite de tir et les lanceurs ; un Shilka protège le site.\nPosition : bullseye 359°/30 nm (N30°42.000' E033°24.000'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 89 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 96 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Nakhl",
+   "position": {
+    "x": -10105,
+    "y": 241236
+   },
+   "radius": 2000,
+   "groups": [
+    {
+     "name": "Z05-1",
+     "position": {
+      "x": -10105,
+      "y": 241236
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "S_75M_Volhov",
+       "name": "#command=\"-sa2, country russia\" #spawngroup=\"Z05MR\" #spawncount=1 #Z05-1"
+      }
+     ]
+    },
+    {
+     "name": "Z05-2",
+     "position": {
+      "x": -9955,
+      "y": 241496
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "5p73 s-125 ln",
+       "name": "#command=\"-sa3, country russia\" #spawngroup=\"Z05MR\" #spawncount=1 #Z05-2"
+      }
+     ]
+    },
+    {
+     "name": "Z05-3",
+     "position": {
+      "x": -11305,
+      "y": 241236
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "55G6 EWR",
+       "name": "#command=\"-ewr, country russia\" #Z05-3"
+      }
+     ]
+    },
+    {
+     "name": "Z05-4",
+     "position": {
+      "x": -9855,
+      "y": 240803
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z05-4"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z05 SEAD — site sol-air de Nakhl",
+    "radio_group_name": "SEAD",
+    "training": false,
+    "briefing": "Le site sol-air qui couvre le carrefour de Nakhl, au centre du Sinaï : une batterie SA-2 ou SA-3 tirée au sort, son radar d'alerte avancée et un Shilka. Sous la couverture lointaine du SA-10 du centre-sud.\nPosition : bullseye 128°/22 nm (N29°57.936' E033°44.784'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 91 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 95 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_ConvoiElArish",
+   "position": {
+    "x": 97499,
+    "y": 251492
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Convoi",
+     "position": {
+      "x": 97499,
+      "y": 251492
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 1
+      },
+      {
+       "type": "Ural-375",
+       "count": 4
+      },
+      {
+       "type": "Ural-375 ZU-23",
+       "count": 1
+      },
+      {
+       "type": "Strela-1 9P31",
+       "count": 1
+      }
+     ],
+     "route": [
+      {
+       "x": 97499,
+       "y": 251492
+      },
+      {
+       "x": 86008,
+       "y": 261134
+      },
+      {
+       "x": 90202,
+       "y": 276314
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z06 Convoi — El Arish vers Abu Ageila",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Un convoi de renforts quitte El Arish par la route du sud-est vers le carrefour d'Abu Ageila. L'arrêter avant Abu Ageila ; il porte sa propre artillerie antiaérienne (ZU-23) et un SA-9.\nPosition : bullseye 027°/50 nm (N30°56.152' E033°51.671'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 64 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 72 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_ConvoiNakhl",
+   "position": {
+    "x": -11105,
+    "y": 232576
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Convoi",
+     "position": {
+      "x": -11105,
+      "y": 232576
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 2
+      },
+      {
+       "type": "BMP-2",
+       "count": 2
+      },
+      {
+       "type": "Ural-375",
+       "count": 2
+      },
+      {
+       "type": "Strela-10M3",
+       "count": 1
+      }
+     ],
+     "route": [
+      {
+       "x": -11105,
+       "y": 232576
+      },
+      {
+       "x": -5267,
+       "y": 183728
+      },
+      {
+       "x": -5267,
+       "y": 164728
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z07 Convoi — Nakhl vers le col de Mitla",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Des renforts blindés roulent de Nakhl vers le col de Mitla, pour renforcer la ligne face à Suez. Les arrêter avant le col ; le convoi est escorté par un SA-13.\nPosition : bullseye 138°/19 nm (N29°57.423' E033°39.395'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 95 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 99 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_ConvoiFeiran",
+   "position": {
+    "x": -138745,
+    "y": 250520
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Convoi",
+     "position": {
+      "x": -138745,
+      "y": 250520
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 1
+      },
+      {
+       "type": "ATZ-10",
+       "count": 3
+      },
+      {
+       "type": "Ural-375 ZU-23",
+       "count": 1
+      }
+     ],
+     "route": [
+      {
+       "x": -138745,
+       "y": 250520
+      },
+      {
+       "x": -141838,
+       "y": 220215
+      },
+      {
+       "x": -111654,
+       "y": 183353
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z08 Convoi — oasis de Feiran vers Abu Rudeis",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Un convoi de carburant descend l'oued Feiran vers les dépôts d'Abu Rudeis, sur le golfe de Suez. Le détruire avant la côte ; il porte sa propre artillerie antiaérienne. Sous la couverture du SA-10 de St Catherine.\nPosition : bullseye 165°/86 nm (N28°48.247' E033°49.986'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 118 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 130 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_UsinesPortFouad",
+   "position": {
+    "x": 115783,
+    "y": 105229
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Z09-1",
+     "position": {
+      "x": 116133,
+      "y": 104623
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Kub 2P25 ln",
+       "name": "#command=\"-sa6, country russia\" #Z09-1"
+      }
+     ]
+    },
+    {
+     "name": "Z09-2",
+     "position": {
+      "x": 115583,
+      "y": 105575
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Strela-1 9P31",
+       "name": "#command=\"-sa9, country russia\" #Z09-2"
+      }
+     ]
+    },
+    {
+     "name": "Z09-3",
+     "position": {
+      "x": 115583,
+      "y": 104883
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z09-3"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z09 Frappe — usines de Port-Fouad",
+    "radio_group_name": "Frappes en profondeur",
+    "training": false,
+    "briefing": "Les usines de la zone industrielle au sud de Port-Fouad, sur la rive est du canal, reconverties en ateliers d'armement : ateliers, hangars, réservoirs chimiques. Tout détruire ; défense SA-6, SA-9 et artillerie antiaérienne (reprise de la v5).\nPosition : bullseye 314°/78 nm (N31°06.118' E032°19.738'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 64 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 66 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Workshop-1",
+   "position": {
+    "x": 115933,
+    "y": 105229
+   },
+   "units": [
+    {
+     "type": "Workshop A"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Workshop-2",
+   "position": {
+    "x": 116018,
+    "y": 105315
+   },
+   "units": [
+    {
+     "type": "Workshop A"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Tech-3",
+   "position": {
+    "x": 115783,
+    "y": 105429
+   },
+   "units": [
+    {
+     "type": "Tech hangar A"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Repair-4",
+   "position": {
+    "x": 115591,
+    "y": 105390
+   },
+   "units": [
+    {
+     "type": "Repair workshop"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Chemical-5",
+   "position": {
+    "x": 115642,
+    "y": 105178
+   },
+   "units": [
+    {
+     "type": "Chemical tank A"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Chemical-6",
+   "position": {
+    "x": 115610,
+    "y": 105129
+   },
+   "units": [
+    {
+     "type": "Chemical tank A"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-7",
+   "position": {
+    "x": 115697,
+    "y": 104994
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Comms-8",
+   "position": {
+    "x": 115936,
+    "y": 105100
+   },
+   "units": [
+    {
+     "type": "Comms tower M"
+    }
+   ],
+   "for_combat_zone": "combatZone_UsinesPortFouad",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_EtatMajor",
+   "position": {
+    "x": 10199,
+    "y": 217373
+   },
+   "radius": 1200,
+   "groups": [
+    {
+     "name": "Z10-1",
+     "position": {
+      "x": 9635,
+      "y": 217168
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #Z10-1"
+      }
+     ]
+    },
+    {
+     "name": "Z10-2",
+     "position": {
+      "x": 10399,
+      "y": 217719
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z10-2"
+      }
+     ]
+    },
+    {
+     "name": "PC mobile",
+     "position": {
+      "x": 10349,
+      "y": 217113
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "SKP-11",
+       "count": 2
+      },
+      {
+       "type": "Ural-375 PBU",
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z10 Frappe — état-major de Bir Tamada",
+    "radio_group_name": "Frappes en profondeur",
+    "training": false,
+    "briefing": "Le poste de commandement de l'armée rouge du Sinaï, enterré à Bir Tamada : bunkers, centre de transmissions, véhicules de commandement. Tout détruire ; défense SA-15 et Shilka, sous la QRA de Melez.\nPosition : bullseye 120°/5 nm (N30°09.000' E033°30.000'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 90 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 100 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Command-1",
+   "position": {
+    "x": 10199,
+    "y": 217373
+   },
+   "units": [
+    {
+     "type": ".Command Center"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-2",
+   "position": {
+    "x": 10199,
+    "y": 217573
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-3",
+   "position": {
+    "x": 9999,
+    "y": 217373
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-4",
+   "position": {
+    "x": 10199,
+    "y": 217173
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Comms-5",
+   "position": {
+    "x": 10376,
+    "y": 217550
+   },
+   "units": [
+    {
+     "type": "Comms tower M"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Military-6",
+   "position": {
+    "x": 10022,
+    "y": 217550
+   },
+   "units": [
+    {
+     "type": "Military staff"
+    }
+   ],
+   "for_combat_zone": "combatZone_EtatMajor",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Scud",
+   "position": {
+    "x": 71315,
+    "y": 245834
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Lanceurs",
+     "position": {
+      "x": 71315,
+      "y": 245834
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Scud_B",
+       "count": 3
+      },
+      {
+       "type": "Ural-375",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "name": "Z11-1",
+     "position": {
+      "x": 70751,
+      "y": 245629
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #Z11-1"
+      }
+     ]
+    },
+    {
+     "name": "Z11-2",
+     "position": {
+      "x": 71515,
+      "y": 246180
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z11-2"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z11 Frappe — base de missiles du djebel Libni",
+    "radio_group_name": "Frappes en profondeur",
+    "training": false,
+    "briefing": "Une base de missiles sol-sol au pied du djebel Libni, d'où les Scud menacent Le Caire et Beer-Sheva : lanceurs et camions de ravitaillement. Détruire les lanceurs ; défense SA-15 et Shilka.\nPosition : bullseye 033°/36 nm (N30°42.000' E033°48.000'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 69 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 76 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Bunker-1",
+   "position": {
+    "x": 71465,
+    "y": 245574
+   },
+   "units": [
+    {
+     "type": "Bunker"
+    }
+   ],
+   "for_combat_zone": "combatZone_Scud",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Military-2",
+   "position": {
+    "x": 71621,
+    "y": 245577
+   },
+   "units": [
+    {
+     "type": "Military staff"
+    }
+   ],
+   "for_combat_zone": "combatZone_Scud",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_AbuRudeis",
+   "position": {
+    "x": -126441,
+    "y": 192413
+   },
+   "radius": 1200,
+   "groups": [
+    {
+     "name": "Z12-1",
+     "position": {
+      "x": -126141,
+      "y": 192413
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z12-1"
+      }
+     ]
+    },
+    {
+     "name": "Z12-2",
+     "position": {
+      "x": -126741,
+      "y": 192413
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z12-2"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z12 Frappe — dépôts pétroliers d'Abu Rudeis",
+    "radio_group_name": "Frappes en profondeur",
+    "training": false,
+    "briefing": "Les dépôts pétroliers d'Abu Rudeis, sur la côte du golfe de Suez : ils ravitaillent toute l'armée rouge du sud. Détruire réservoirs et pompes ; ZU-23 sur place, et le SA-10 de St Catherine à moins de 40 nm.\nPosition : bullseye 187°/77 nm (N28°55.052' E033°14.275'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 87 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 99 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-1",
+   "position": {
+    "x": -126311,
+    "y": 192488
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-2",
+   "position": {
+    "x": -126341,
+    "y": 192586
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-3",
+   "position": {
+    "x": -126441,
+    "y": 192563
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Tank-4",
+   "position": {
+    "x": -126541,
+    "y": 192586
+   },
+   "units": [
+    {
+     "type": "Tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Tank-5",
+   "position": {
+    "x": -126633,
+    "y": 192574
+   },
+   "units": [
+    {
+     "type": "Tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Electric-6",
+   "position": {
+    "x": -126501,
+    "y": 192309
+   },
+   "units": [
+    {
+     "type": "Electric power box"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Workshop-7",
+   "position": {
+    "x": -126366,
+    "y": 192283
+   },
+   "units": [
+    {
+     "type": "Workshop A"
+    }
+   ],
+   "for_combat_zone": "combatZone_AbuRudeis",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_ElGora",
+   "position": {
+    "x": 112947,
+    "y": 279371
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Z13-1",
+     "position": {
+      "x": 112947,
+      "y": 280271
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15, country russia\" #Z13-1"
+      }
+     ]
+    },
+    {
+     "name": "Z13-2",
+     "position": {
+      "x": 112947,
+      "y": 278671
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka, country russia\" #Z13-2"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z13 OCA — base aérienne d'El Gora",
+    "radio_group_name": "Bases aériennes",
+    "training": false,
+    "briefing": "La base aérienne d'El Gora, à 30 km de la frontière israélienne : chasseurs-bombardiers au parking, hangars et carburant. Tout détruire au sol ; défense SA-15 et Shilka.\nPosition : bullseye 036°/65 nm (N31°04.377' E034°09.279'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 49 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 57 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Su-24M-1",
+   "position": {
+    "x": 113247,
+    "y": 279371
+   },
+   "units": [
+    {
+     "type": "Su-24M"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Su-24M-2",
+   "position": {
+    "x": 113275,
+    "y": 279459
+   },
+   "units": [
+    {
+     "type": "Su-24M"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-MiG-29S-3",
+   "position": {
+    "x": 113177,
+    "y": 279564
+   },
+   "units": [
+    {
+     "type": "MiG-29S"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-MiG-29S-4",
+   "position": {
+    "x": 113166,
+    "y": 279631
+   },
+   "units": [
+    {
+     "type": "MiG-29S"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Hangar-5",
+   "position": {
+    "x": 113207,
+    "y": 279221
+   },
+   "units": [
+    {
+     "type": "Hangar A"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-6",
+   "position": {
+    "x": 112547,
+    "y": 279371
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_ElGora",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Sharm",
+   "position": {
+    "x": -229685,
+    "y": 305447
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "Z14-1",
+     "position": {
+      "x": -229685,
+      "y": 306447
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Kub 2P25 ln",
+       "name": "#command=\"-sa6, country russia\" #Z14-1"
+      }
+     ]
+    },
+    {
+     "name": "Z14-2",
+     "position": {
+      "x": -229685,
+      "y": 304847
+     },
+     "keep_position": true,
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23, country russia\" #Z14-2"
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Z14 OCA — base aérienne de Sharm el-Cheikh",
+    "radio_group_name": "Bases aériennes",
+    "training": false,
+    "briefing": "L'aéroport de Sharm el-Cheikh, devenu base aérienne rouge à la pointe sud du Sinaï : avions de transport et hélicoptères d'attaque au sol, hangars. Tout détruire au sol ; défense SA-6 et ZU-23, plus le SA-15 permanent de la base.\nPosition : bullseye 158°/142 nm (N27°58.729' E034°23.109'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 169 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 178 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-IL-76MD-1",
+   "position": {
+    "x": -229385,
+    "y": 305447
+   },
+   "units": [
+    {
+     "type": "IL-76MD"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-IL-76MD-2",
+   "position": {
+    "x": -229328,
+    "y": 305577
+   },
+   "units": [
+    {
+     "type": "IL-76MD"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Mi-24V-3",
+   "position": {
+    "x": -229560,
+    "y": 305230
+   },
+   "units": [
+    {
+     "type": "Mi-24V"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Mi-24V-4",
+   "position": {
+    "x": -229499,
+    "y": 305225
+   },
+   "units": [
+    {
+     "type": "Mi-24V"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Mi-8MT-5",
+   "position": {
+    "x": -229468,
+    "y": 305322
+   },
+   "units": [
+    {
+     "type": "Mi-8MT"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Hangar-6",
+   "position": {
+    "x": -229985,
+    "y": 305447
+   },
+   "units": [
+    {
+     "type": "Hangar A"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "Static-Fuel-7",
+   "position": {
+    "x": -230061,
+    "y": 305310
+   },
+   "units": [
+    {
+     "type": "Fuel tank"
+    }
+   ],
+   "for_combat_zone": "combatZone_Sharm",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Croiseur",
+   "position": {
+    "x": 220000,
+    "y": 70000
+   },
+   "radius": 6000,
+   "groups": [
+    {
+     "name": "Escadre",
+     "position": {
+      "x": 220000,
+      "y": 70000
+     },
+     "keep_position": true,
+     "patrol": true,
+     "units": [
+      {
+       "type": "MOSCOW",
+       "count": 1
+      },
+      {
+       "type": "NEUSTRASH",
+       "count": 1
+      },
+      {
+       "type": "REZKY",
+       "count": 1
+      }
+     ],
+     "route": [
+      {
+       "x": 220000,
+       "y": 70000
+      },
+      {
+       "x": 215000,
+       "y": 95000
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "ship",
+   "combat_zone": {
+    "friendly_name": "Z15 Antinavire — croiseur Moskva devant Damiette",
+    "radio_group_name": "Antinavire",
+    "training": false,
+    "briefing": "Le croiseur lance-missiles rouge Moskva et deux frégates croisent en Méditerranée, à 38 nm au nord de Damiette, pour couper la route des porte-avions. Les couler : le Moskva porte des missiles sol-air à 40 nm, les frégates à courte portée (reprise de la v5, dont le croiseur était le Piotr Velikiy).\nPosition : bullseye 326°/134 nm (N32°02.379' E031°56.947'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 114 nm ; Texaco 1 (perche, TACAN 50Y, 290.0) à 110 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "zone_name": "combatZone_Tiran",
+   "position": {
+    "x": -232991,
+    "y": 312566
+   },
+   "radius": 6000,
+   "groups": [
+    {
+     "name": "Vedettes",
+     "position": {
+      "x": -232991,
+      "y": 312566
+     },
+     "keep_position": true,
+     "patrol": true,
+     "units": [
+      {
+       "type": "speedboat",
+       "count": 6
+      }
+     ],
+     "route": [
+      {
+       "x": -232991,
+       "y": 312566
+      },
+      {
+       "x": -226991,
+       "y": 312566
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "ship",
+   "combat_zone": {
+    "friendly_name": "Z16 Antinavire — détroit de Tiran",
+    "radio_group_name": "Antinavire",
+    "training": false,
+    "briefing": "Le rouge ferme le détroit de Tiran, la sortie du golfe d'Aqaba : une batterie de missiles antinavires (HY-2 Silkworm, portée 54 nm) à Ras Nasrani et un essaim de vedettes rapides dans le détroit. Détruire lanceurs et radar, couler les vedettes ; SA-15 permanent à Sharm el-Cheikh.\nPosition : bullseye 157°/145 nm (N27°56.894' E034°27.427'). Ravitailleurs : Arco 1 (panier, TACAN 51Y, 291.0) à 173 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 179 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "Silkworm",
+   "position": {
+    "x": -230991,
+    "y": 307066
+   },
+   "units": [
+    {
+     "type": "hy_launcher",
+     "count": 2
+    },
+    {
+     "type": "Silkworm_SR",
+     "count": 1
+    }
+   ],
+   "for_combat_zone": "combatZone_Tiran",
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Reaper 2",
+   "unit_type": "MQ-9 Reaper",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -5267,
+    "y": 158728
+   },
+   "altitude_ft": 10000,
+   "speed_kt": 110,
+   "task": "AFAC",
+   "skill": "High"
+  }
+ }
+]

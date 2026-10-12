@@ -1,0 +1,365 @@
+# Plan radio de l'Open Training Sinaï — écrit par tools/gen_12_presets.py, ne pas éditer à la main.
+# Hors bande des tours : les tours du théâtre occupent UHF 250.05-252.25 (et 225.9, 227.15, 227.85), une partie
+# de la VHF 118.0-134.6, FM 38.4-42.2 (describe_airfield_channels, 12/10/2026). AWACS 282-286, ravitailleurs
+# 290-294 (dernier chiffre = TACAN), S-3B 296-297, porte-avions 305-307, patrouilles VHF 130.0-130.9 /
+# UHF 390-395.5, FARP 127.5-129.0.
+# Les canaux d'aérodromes (collection `bases`) viennent de set_airfield_channels : fréquences DCS.
+channel_lists:
+  blue:
+    primary_1: &id003
+      1: &id001
+        title: Guard/UHF
+        channel: Guard
+      2: Overlord-1
+      3: Magic-1
+      4: Texaco-1
+      5: Arco-1
+      6: Texaco-2
+      7: Arco-2
+      8: Stennis
+      9: Roosevelt
+      10: Tarawa
+      11: S3B-Stennis
+      12: S3B-Roosevelt
+      13: Darkstar-1
+      14: Base-Cairo West
+      15: Base-Abu Suwayr
+      16: Base-Fayed
+      17: Base-Hurghada International Airport
+      18: Base-Hatzerim
+      19: Base-Ramon Airbase
+      20: Base-Nevatim
+    primary_2:
+      1: &id002
+        title: Guard/VHF
+        channel: Guard
+      2: FARP-Pyramides
+      3: FARP-Range
+      4: FARP-Canal
+      5: FARP-Negev
+      6: Archer
+      7: Arctic
+      8: Astro
+      9: Nickel
+      10: Base-Cairo West
+      11: Base-Abu Suwayr
+      12: Base-Fayed
+      13: Base-Hurghada International Airport
+      14: Base-Hatzerim
+      15: Base-Ramon Airbase
+      16: Base-Nevatim
+      17: Base-Inshas Airbase
+      18: Base-Beni Suef
+      19: Base-Kedem
+      20: Base-Ben-Gurion
+    fm_supplement:
+      1: 30
+      2: 31
+      3: 32
+      4: 33
+      5: 34
+      6: 35
+      7: 36
+      8: 37
+      9: 38
+      10: 39
+      11: 40
+      12: 41
+      13: 42
+      14: 43
+      15: 44
+      16: 45
+      17: 46
+      18: 47
+      19: 48
+      20: 49
+  red:
+    primary_1:
+      1: *id001
+      2: Wizard-1
+      3: Shell-1
+      4: Focus-1
+      5: Base-El Arish
+      6: Base-Melez
+      7: Base-St Catherine
+      8: Base-El Gora
+      9: Base-Bir Hasanah
+      10: Base-Abu Rudeis
+      11: Base-Sharm El Sheikh International Airport
+    primary_2:
+      1: *id002
+      2: Berkut
+      3: Sokol
+      4: Strizh
+      5: Vityaz
+      6: Kobra
+      7: Rus
+      8: Base-El Arish
+      9: Base-Melez
+      10: Base-St Catherine
+      11: Base-El Gora
+      12: Base-Bir Hasanah
+      13: Base-Abu Rudeis
+      14: Base-Sharm El Sheikh International Airport
+    fm_supplement:
+      1: 30
+      2: 31
+      3: 32
+      4: 33
+      5: 34
+      6: 35
+      7: 36
+      8: 37
+      9: 38
+      10: 39
+      11: 40
+      12: 41
+      13: 42
+      14: 43
+      15: 44
+      16: 45
+      17: 46
+      18: 47
+      19: 48
+      20: 49
+presets_assignments:
+  blue:
+    helicopter:
+      Mi-8MT: none
+      CH-47Fbl1: modern_blue_fm_uhf
+radios_collection:
+  blue_radios:
+    radio_uhf_30:
+      title: UHF
+      type: uhf
+      channels: *id003
+    radio_fm_30:
+      title: FM
+      type: fm
+      channels:
+        1: 30
+        2: 31
+        3: 32
+        4: 33
+        5: 34
+        6: 35
+        7: 36
+        8: 37
+        9: 38
+        10: 39
+        11: 40
+        12: 41
+        13: 42
+        14: 43
+        15: 44
+        16: 45
+        17: 46
+        18: 47
+        19: 48
+        20: 49
+        21: 50
+        22: 51
+        23: 52
+        24: 53
+        25: 54
+        26: 55
+        27: 56
+        28: 57
+        29: 58
+        30: 59
+presets_collection:
+  blue_presets:
+    modern_blue_fm_uhf:
+      title: Blue coalition - FM/UHF (CH-47)
+      radios:
+        radio_1: radio_fm_30
+        radio_2: radio_uhf_30
+channels_collection:
+  tactical:
+    Guard:
+      title: Guard
+      freqs:
+        uhf: 243
+        vhf: 121.5
+    Overlord-1:
+      title: Overlord 1 AWACS ouest
+      freqs:
+        uhf: 282.0
+    Magic-1:
+      title: Magic 1 AWACS est
+      freqs:
+        uhf: 283.0
+    Wizard-1:
+      title: Wizard 1 AWACS
+      freqs:
+        uhf: 284.0
+    Darkstar-1:
+      title: Darkstar 1 Arène
+      freqs:
+        uhf: 285.0
+    Focus-1:
+      title: Focus 1 Arène
+      freqs:
+        uhf: 286.0
+    Texaco-1:
+      title: Texaco 1/BS/50Y
+      freqs:
+        uhf: 290.0
+    Arco-1:
+      title: Arco 1/BM/51Y
+      freqs:
+        uhf: 291.0
+    Texaco-2:
+      title: Texaco 2/BS/52Y
+      freqs:
+        uhf: 292.0
+    Arco-2:
+      title: Arco 2/BM/53Y
+      freqs:
+        uhf: 293.0
+    Shell-1:
+      title: Shell 1 IL-78
+      freqs:
+        uhf: 294.0
+    S3B-Stennis:
+      title: S-3B Stennis/56Y
+      freqs:
+        uhf: 296.0
+    S3B-Roosevelt:
+      title: S-3B Roosevelt/57Y
+      freqs:
+        uhf: 297.0
+    Stennis:
+      title: Stennis/74X/ICLS11
+      freqs:
+        uhf: 305.0
+    Roosevelt:
+      title: Roosevelt/71X/ICLS12
+      freqs:
+        uhf: 306.0
+    Tarawa:
+      title: Tarawa/73X/ICLS13
+      freqs:
+        uhf: 307.0
+    FARP-Pyramides:
+      title: FARP Pyramides
+      freqs:
+        vhf: 127.5
+    FARP-Range:
+      title: FARP Range
+      freqs:
+        vhf: 128.0
+    FARP-Canal:
+      title: FARP Canal
+      freqs:
+        vhf: 128.5
+    FARP-Negev:
+      title: FARP Negev
+      freqs:
+        vhf: 129.0
+  flights:
+    Archer:
+      title: Archer
+      freqs:
+        vhf: 130.0
+        uhf: 390.0
+    Arctic:
+      title: Arctic
+      freqs:
+        vhf: 130.1
+        uhf: 390.1
+    Astro:
+      title: Astro
+      freqs:
+        vhf: 130.2
+        uhf: 390.2
+    Nickel:
+      title: Nickel
+      freqs:
+        vhf: 130.3
+        uhf: 390.3
+    Berkut:
+      title: Berkut
+      freqs:
+        vhf: 130.4
+        uhf: 395.0
+    Sokol:
+      title: Sokol
+      freqs:
+        vhf: 130.5
+        uhf: 395.1
+    Strizh:
+      title: Strizh
+      freqs:
+        vhf: 130.6
+        uhf: 395.2
+    Vityaz:
+      title: Vityaz
+      freqs:
+        vhf: 130.7
+        uhf: 395.3
+    Kobra:
+      title: Kobra
+      freqs:
+        vhf: 130.8
+        uhf: 395.4
+    Rus:
+      title: Rus
+      freqs:
+        vhf: 130.9
+        uhf: 395.5
+  bases:
+    Base-Cairo West:
+      title: Cairo West
+      freqs: {uhf: 250.45, vhf: 131.2, fm: 38.85}
+    Base-Abu Suwayr:
+      title: Abu Suwayr
+      freqs: {uhf: 251.1, vhf: 118.85, fm: 39.5}
+    Base-Fayed:
+      title: Fayed
+      freqs: {uhf: 252.1, vhf: 119.7, fm: 40.5}
+    Base-Hurghada International Airport:
+      title: Hurghada International Airport
+      freqs: {uhf: 251.55, vhf: 119.6, fm: 39.95}
+    Base-Hatzerim:
+      title: Hatzerim / 96X
+      freqs: {uhf: 252.15, vhf: 119.75, fm: 40.55}
+    Base-Ramon Airbase:
+      title: Ramon Airbase / 105X
+      freqs: {uhf: 252.25, vhf: 119.8, fm: 40.65}
+    Base-Nevatim:
+      title: Nevatim
+      freqs: {uhf: 252.2, vhf: 132.4, fm: 40.6}
+    Base-Inshas Airbase:
+      title: Inshas Airbase
+      freqs: {uhf: 250.5, vhf: 118.4, fm: 38.9}
+    Base-Beni Suef:
+      title: Beni Suef
+      freqs: {uhf: 251.3, vhf: 127.1, fm: 39.7}
+    Base-Kedem:
+      title: Kedem
+      freqs: {uhf: 250.15, vhf: 118.15, fm: 38.55}
+    Base-Ben-Gurion:
+      title: Ben-Gurion
+      freqs: {uhf: 250.8, vhf: 134.6, fm: 39.2}
+    Base-El Arish:
+      title: El Arish
+      freqs: {uhf: 251.05, vhf: 121.0, fm: 39.45}
+    Base-Melez:
+      title: Melez
+      freqs: {uhf: 252.05, vhf: 119.65, fm: 40.45}
+    Base-St Catherine:
+      title: St Catherine
+      freqs: {uhf: 250.85, vhf: 124.5, fm: 39.25}
+    Base-El Gora:
+      title: El Gora
+      freqs: {uhf: 251.15, vhf: 118.2, fm: 39.55}
+    Base-Bir Hasanah:
+      title: Bir Hasanah
+      freqs: {uhf: 251.0, vhf: 118.8, fm: 39.4}
+    Base-Abu Rudeis:
+      title: Abu Rudeis
+      freqs: {uhf: 250.9, vhf: 118.5, fm: 39.3}
+    Base-Sharm El Sheikh International Airport:
+      title: Sharm El Sheikh International Airport
+      freqs: {uhf: 251.8, vhf: 118.9, fm: 40.2}

@@ -1,0 +1,10 @@
+[1] create_qra: {"qra": "QRA Melez", "trigger_zone": "QRA-Melez", "zone_id": 1, "warnings": []}
+[2] create_qra: {"qra": "QRA El Arish", "trigger_zone": "QRA-ElArish", "zone_id": 2, "warnings": []}
+[3] create_qra: {"qra": "QRA Abu Suwayr", "trigger_zone": "QRA-AbuSuwayr", "zone_id": 3, "warnings": []}
+[4] create_qra: {"qra": "QRA Hatzerim", "trigger_zone": "QRA-Hatzerim", "zone_id": 4, "warnings": []}
+[5] create_cap_mission: {"cap_mission": "CAP-Centre-MiG29", "group": "OnDemand-CAP-Centre-MiG29", "warnings": []}
+[6] create_cap_mission: {"cap_mission": "CAP-Nord-Su27", "group": "OnDemand-CAP-Nord-Su27", "warnings": []}
+[7] create_cap_mission: {"cap_mission": "CAP-Sud-MiG31", "group": "OnDemand-CAP-Sud-MiG31", "warnings": []}
+[8] create_cap_mission: {"cap_mission": "Raid-Tu22M", "group": "OnDemand-Raid-Tu22M", "warnings": []}
+[9] create_cap_mission: {"cap_mission": "CAP-Canal-F16", "group": "OnDemand-CAP-Canal-F16", "warnings": []}
+[10] create_cap_mission: {"cap_mission": "CAP-Negev-F15", "group": "OnDemand-CAP-Negev-F15", "warnings": []}

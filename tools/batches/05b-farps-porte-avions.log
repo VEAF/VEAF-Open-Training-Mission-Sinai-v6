@@ -1,0 +1,15 @@
+[1] add_farp: {"farp": "FARP Pyramides", "group_id": 57, "unit_id": 115, "durable": true, "ammo_dump": "FARP Pyramides - Ammo"}
+[2] add_farp: {"farp": "FARP Range", "group_id": 59, "unit_id": 117, "durable": true, "ammo_dump": "FARP Range - Ammo"}
+[3] add_farp: {"farp": "FARP Canal", "group_id": 61, "unit_id": 119, "durable": true, "ammo_dump": "FARP Canal - Ammo"}
+[4] add_farp: {"farp": "FARP Negev", "group_id": 63, "unit_id": 121, "durable": true, "ammo_dump": "FARP Negev - Ammo"}
+[5] add_carrier_group: {"group": "CSG-74 Stennis", "group_id": 65, "carrier": "CSG-74 Stennis", "carrier_unit_id": 123, "tanker": "CSG-74 Stennis S3B-Tanker", "pedro": "CSG-74 Stennis Pedro", "durable": true, "warnings": []}
+[6] add_carrier_group: {"group": "CSG-71 Roosevelt", "group_id": 68, "carrier": "CSG-71 Roosevelt", "carrier_unit_id": 128, "tanker": "CSG-71 Roosevelt S3B-Tanker", "pedro": "CSG-71 Roosevelt Pedro", "durable": true, "warnings": []}
+[7] add_carrier_group: {"group": "ARG-1 Tarawa", "group_id": 71, "carrier": "ARG-1 Tarawa", "carrier_unit_id": 133, "tanker": null, "pedro": "ARG-1 Tarawa Pedro", "durable": true, "warnings": []}
+[8] add_air_group: {"group_id": 73, "name": "Stennis F/A-18C #1", "durable": true, "start": "deck-cold", "category": "plane", "airdrome_id": null, "stands": ["1", "2"]}
+[9] add_air_group: {"group_id": 74, "name": "Stennis F/A-18C #2", "durable": true, "start": "deck-hot", "category": "plane", "airdrome_id": null, "stands": ["3", "4"]}
+[10] add_air_group: {"group_id": 75, "name": "Stennis F-14B #1", "durable": true, "start": "deck-cold", "category": "plane", "airdrome_id": null, "stands": ["5", "6"]}
+[11] add_air_group: {"group_id": 76, "name": "Roosevelt F/A-18C #1", "durable": true, "start": "deck-cold", "category": "plane", "airdrome_id": null, "stands": ["1", "2"]}
+[12] add_air_group: {"group_id": 77, "name": "Roosevelt F-14B #1", "durable": true, "start": "deck-cold", "category": "plane", "airdrome_id": null, "stands": ["3", "4"]}
+[13] add_air_group: {"group_id": 78, "name": "Roosevelt F-14B #2", "durable": true, "start": "deck-hot", "category": "plane", "airdrome_id": null, "stands": ["5", "6"]}
+[14] add_air_group: {"group_id": 79, "name": "Tarawa AV-8B #1", "durable": true, "start": "deck-cold", "category": "plane", "airdrome_id": null, "stands": ["1", "2"]}
+[15] add_air_group: {"group_id": 80, "name": "Tarawa AV-8B #2", "durable": true, "start": "deck-hot", "category": "plane", "airdrome_id": null, "stands": ["3", "4"]}

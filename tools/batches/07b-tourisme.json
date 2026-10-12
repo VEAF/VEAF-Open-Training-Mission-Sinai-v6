@@ -1,0 +1,179 @@
+[
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6/tools/sons/balise-GIZ.wav"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "Balise GIZ",
+   "position": {
+    "x": -7805,
+    "y": -9863
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise GIZ"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise GIZ",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 31.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise GIZ",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "balise-GIZ.wav",
+    "loop": true,
+    "duration_s": 6,
+    "subtitle": "GIZ — Gizeh"
+   }
+  }
+ },
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6/tools/sons/balise-SAQ.wav"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "Balise SAQ",
+   "position": {
+    "x": -20064,
+    "y": -3022
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise SAQ"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise SAQ",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 32.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise SAQ",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "balise-SAQ.wav",
+    "loop": true,
+    "duration_s": 6,
+    "subtitle": "SAQ — Saqqarah"
+   }
+  }
+ },
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6/tools/sons/balise-DAH.wav"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "blue",
+   "country_id": 29,
+   "country_name": "Egypt",
+   "category": "vehicle",
+   "name": "Balise DAH",
+   "position": {
+    "x": -27410,
+    "y": -3987
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise DAH"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise DAH",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 33.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "Balise DAH",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "balise-DAH.wav",
+    "loop": true,
+    "duration_s": 5,
+    "subtitle": "DAH — Dahchour"
+   }
+  }
+ }
+]
