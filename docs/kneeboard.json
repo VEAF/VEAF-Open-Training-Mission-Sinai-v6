@@ -1,0 +1,182 @@
+{
+  "title": "VEAF Open Training — Sinaï (moderne, 2025)",
+  "kneeboard_only": true,
+  "sheets": [
+    {
+      "title": "Mission",
+      "paragraphs": [
+        "Open Training : mission d'entraînement ouverte des serveurs VEAF, scénario moderne (2025). Tout se pilote par le menu F10 › VEAF ; le README est le briefing complet.",
+        "Base mère : Cairo West. Autres bases bleues : Abu Suwayr, Ben-Gurion, Beni Suef, Fayed, Hatzerim, Hurghada, Inshas, Kedem, Nevatim, Ramon, FARP Range, Negev, Pyramides et Canal. Bases rouges : El Arish, Melez, St Catherine.",
+        "Ravitailleurs canal : Texaco 1 (KC-135, perche) TACAN 50Y, 290.0, FL220 · Arco 1 (KC135MPRS, panier) TACAN 51Y, 291.0, FL180.",
+        "Ravitailleurs Néguev : Texaco 2 (perche) TACAN 52Y, 292.0, FL240 · Arco 2 (panier) TACAN 53Y, 293.0, FL200.",
+        "AWACS : Overlord 1 (ouest) 282.0, FL300 · Magic 1 (est) 283.0, FL300.",
+        "Porte-avions : CSG-74 Stennis TACAN 74X, ICLS 11, tour 305.0 et ARG-1 Tarawa TACAN 73X, ICLS 13, tour 307.0 au large d'El Arish ; CSG-71 Roosevelt TACAN 71X, ICLS 12, tour 306.0 en mer Rouge.",
+        "Arène en Méditerranée, au nord-ouest du delta du Nil : slots en vol, bleus au sud, rouges au nord ; AWACS Darkstar 1 (285.0) et Focus 1 (286.0).",
+        "Sanctuaires : Le Caire, avec Cairo West, les pyramides et les champs de tir de l'ouest, côté bleu ; St Catherine côté rouge.",
+        "Bullseye (bleu et rouge) : aérodrome de Bir Hasanah, N30°11.678' E033°24.770'. ATC coupé sur tous les aérodromes."
+      ]
+    },
+    {
+      "title": "Conduite",
+      "paragraphs": [
+        "Décollez de la piste, jamais d'un taxiway.",
+        "L'ATC de DCS est coupé : annoncez-vous sur la VHF de l'aérodrome au roulage, au décollage et en tour de piste (fréquences dans le README et le plan radio).",
+        "Ne vous alignez pas derrière un avion qui décolle ; dégagez la piste dès l'atterrissage.",
+        "Une zone de combat activée par un autre pilote est la sienne : demandez avant de la désactiver ou de la nettoyer.",
+        "Nettoyez VOS zones de combat en les désactivant avant de partir."
+      ]
+    },
+    {
+      "title": "Commandes",
+      "paragraphs": [
+        "Marqueur : carte F10, clic droit, « Ajouter un marqueur », tapez la commande, validez.",
+        "Paliers : [ouvert] tout le monde · [pilote VEAF] pilote que le serveur connaît · [confiance] membre de confiance. Un pilote que le serveur ne connaît pas ajoute « , password <mot de passe du palier> » à son marqueur.",
+        "-cas : une zone d'appui aérien rapproché, des groupes dispersés autour du marqueur, terminée par le menu F10 [pilote VEAF]",
+        "-shilka, -manpads, -sa6, -sa11, -sa15, -samSR, -samLR : une défense aérienne à neutraliser ou à éviter [pilote VEAF]",
+        "-armor, -infantry : une cible au sol [pilote VEAF]",
+        "-convoy, dest <point> : une cible mobile [pilote VEAF]",
+        "-cap <type> (ex. -cap Su-27) : une cible aérienne [pilote VEAF]",
+        "-tankerlow, -tankerhigh : le ravitailleur le plus proche au FL120 / FL220 [pilote VEAF]",
+        "-farp <nom>, -fob : une base avancée [pilote VEAF]",
+        "-jtac (laser 1688), -smoke (option color), -tacan : désignation, marque visuelle, balise [ouvert]",
+        "-point <nom> : nommer un point (la destination d'un convoi) [ouvert]",
+        "-destroy : retire ce qui est à moins de 100 m du marqueur [confiance]",
+        "_spawn unit, name <type DCS>, multiplier 4 : un type précis, là où -armor tire au hasard [pilote VEAF]",
+        "Options : side red/blue, defense 0-5, armor 0-5, size.",
+        "Le reste passe par le menu F10 › VEAF : ZONES DE COMBAT, MOYENS, OPS PORTE-AVIONS."
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "zone": "combatZone_Arad_Easy",
+      "title": "H1 Hélico Arad — facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › H1 Hélico Arad — facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Arad_Medium",
+      "title": "H2 Hélico Arad — moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › H2 Hélico Arad — moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Arad_Hard",
+      "title": "H3 Hélico Arad — difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › H3 Hélico Arad — difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertGizeh_Easy",
+      "title": "A1 Attaque désert de Gizeh — facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › A1 Attaque désert de Gizeh — facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertGizeh_Medium",
+      "title": "A2 Attaque désert de Gizeh — moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › A2 Attaque désert de Gizeh — moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertGizeh_Hard",
+      "title": "A3 Attaque désert de Gizeh — difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › A3 Attaque désert de Gizeh — difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertOuest_Easy",
+      "title": "S1 SEAD désert occidental — facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › S1 SEAD désert occidental — facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertOuest_Medium",
+      "title": "S2 SEAD désert occidental — moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › S2 SEAD désert occidental — moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_DesertOuest_Hard",
+      "title": "S3 SEAD désert occidental — difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › S3 SEAD désert occidental — difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Pyramides",
+      "title": "T Tourisme — pyramides de Gizeh",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Tourisme › T Tourisme — pyramides de Gizeh › Activer la zone"
+    },
+    {
+      "zone": "combatZone_TeteDePont",
+      "title": "Z01 Front ouest — tête de pont face à Ismaïlia",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Z01 Front ouest — tête de pont face à Ismaïlia › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Mitla",
+      "title": "Z02 Front ouest — ligne du col de Mitla",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Z02 Front ouest — ligne du col de Mitla › Activer la zone"
+    },
+    {
+      "zone": "combatZone_AbuAgeila",
+      "title": "Z03 Front est — carrefour d'Abu Ageila",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Z03 Front est — carrefour d'Abu Ageila › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Maghara",
+      "title": "Z04 SEAD — site SA-6 du djebel Maghara",
+      "task": "F10 › VEAF › ZONES DE COMBAT › SEAD › Z04 SEAD — site SA-6 du djebel Maghara › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Nakhl",
+      "title": "Z05 SEAD — site sol-air de Nakhl",
+      "task": "F10 › VEAF › ZONES DE COMBAT › SEAD › Z05 SEAD — site sol-air de Nakhl › Activer la zone"
+    },
+    {
+      "zone": "combatZone_ConvoiElArish",
+      "title": "Z06 Convoi — El Arish vers Abu Ageila",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Z06 Convoi — El Arish vers Abu Ageila › Activer la zone"
+    },
+    {
+      "zone": "combatZone_ConvoiNakhl",
+      "title": "Z07 Convoi — Nakhl vers le col de Mitla",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Z07 Convoi — Nakhl vers le col de Mitla › Activer la zone"
+    },
+    {
+      "zone": "combatZone_ConvoiFeiran",
+      "title": "Z08 Convoi — oasis de Feiran vers Abu Rudeis",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Z08 Convoi — oasis de Feiran vers Abu Rudeis › Activer la zone"
+    },
+    {
+      "zone": "combatZone_UsinesPortFouad",
+      "title": "Z09 Frappe — usines de Port-Fouad",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappes en profondeur › Z09 Frappe — usines de Port-Fouad › Activer la zone"
+    },
+    {
+      "zone": "combatZone_EtatMajor",
+      "title": "Z10 Frappe — état-major de Bir Tamada",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappes en profondeur › Z10 Frappe — état-major de Bir Tamada › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Scud",
+      "title": "Z11 Frappe — base de missiles du djebel Libni",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappes en profondeur › Z11 Frappe — base de missiles du djebel Libni › Activer la zone"
+    },
+    {
+      "zone": "combatZone_AbuRudeis",
+      "title": "Z12 Frappe — dépôts pétroliers d'Abu Rudeis",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappes en profondeur › Z12 Frappe — dépôts pétroliers d'Abu Rudeis › Activer la zone"
+    },
+    {
+      "zone": "combatZone_ElGora",
+      "title": "Z13 OCA — base aérienne d'El Gora",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Bases aériennes › Z13 OCA — base aérienne d'El Gora › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Sharm",
+      "title": "Z14 OCA — base aérienne de Sharm el-Cheikh",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Bases aériennes › Z14 OCA — base aérienne de Sharm el-Cheikh › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Croiseur",
+      "title": "Z15 Antinavire — croiseur Moskva devant Damiette",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Antinavire › Z15 Antinavire — croiseur Moskva devant Damiette › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Tiran",
+      "title": "Z16 Antinavire — détroit de Tiran",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Antinavire › Z16 Antinavire — détroit de Tiran › Activer la zone"
+    }
+  ]
+}
