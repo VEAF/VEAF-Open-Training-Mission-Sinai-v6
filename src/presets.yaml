@@ -7,51 +7,37 @@
 channel_lists:
   blue:
     primary_1: &id003
-      1: &id001
-        title: Guard/UHF
-        channel: Guard
-      2: Overlord-1
-      3: Magic-1
-      4: Texaco-1
-      5: Arco-1
-      6: Texaco-2
-      7: Arco-2
-      8: Stennis
-      9: Roosevelt
-      10: Tarawa
-      11: S3B-Stennis
-      12: S3B-Roosevelt
-      13: Darkstar-1
-      14: Base-Cairo West
-      15: Base-Abu Suwayr
-      16: Base-Fayed
-      17: Base-Hurghada International Airport
-      18: Base-Hatzerim
-      19: Base-Ramon Airbase
-      20: Base-Nevatim
+      1: Overlord-1
+      2: Magic-1
+      3: Texaco-1
+      4: Arco-1
+      5: Texaco-2
+      6: Arco-2
+      7: S3B-Stennis
+      8: S3B-Roosevelt
+      9: Stennis
+      10: Roosevelt
+      11: Tarawa
+      12: Archer
+      13: Arctic
+      14: Astro
+      15: Nickel
     primary_2:
-      1: &id002
-        title: Guard/VHF
-        channel: Guard
-      2: FARP-Pyramides
-      3: FARP-Range
-      4: FARP-Canal
-      5: FARP-Negev
-      6: Archer
-      7: Arctic
-      8: Astro
-      9: Nickel
-      10: Base-Cairo West
-      11: Base-Abu Suwayr
-      12: Base-Fayed
-      13: Base-Hurghada International Airport
-      14: Base-Hatzerim
-      15: Base-Ramon Airbase
-      16: Base-Nevatim
-      17: Base-Inshas Airbase
-      18: Base-Beni Suef
-      19: Base-Kedem
-      20: Base-Ben-Gurion
+      1: Base-Cairo West
+      2: Base-Abu Suwayr
+      3: Base-Fayed
+      4: Base-Hurghada International Airport
+      5: Base-Hatzerim
+      6: Base-Ramon Airbase
+      7: Base-Nevatim
+      8: Base-Inshas Airbase
+      9: Base-Beni Suef
+      10: Base-Kedem
+      11: Base-Ben-Gurion
+      12: FARP-Pyramides
+      13: FARP-Range
+      14: FARP-Canal
+      15: FARP-Negev
     fm_supplement:
       1: 30
       2: 31
@@ -75,32 +61,22 @@ channel_lists:
       20: 49
   red:
     primary_1:
-      1: *id001
-      2: Wizard-1
-      3: Shell-1
-      4: Focus-1
-      5: Base-El Arish
-      6: Base-Melez
-      7: Base-St Catherine
-      8: Base-El Gora
-      9: Base-Bir Hasanah
-      10: Base-Abu Rudeis
-      11: Base-Sharm El Sheikh International Airport
+      1: Wizard-1
+      2: Shell-1
+      3: Berkut
+      4: Sokol
+      5: Strizh
+      6: Vityaz
+      7: Kobra
+      8: Rus
     primary_2:
-      1: *id002
-      2: Berkut
-      3: Sokol
-      4: Strizh
-      5: Vityaz
-      6: Kobra
-      7: Rus
-      8: Base-El Arish
-      9: Base-Melez
-      10: Base-St Catherine
-      11: Base-El Gora
-      12: Base-Bir Hasanah
-      13: Base-Abu Rudeis
-      14: Base-Sharm El Sheikh International Airport
+      1: Base-El Arish
+      2: Base-Melez
+      3: Base-St Catherine
+      4: Base-El Gora
+      5: Base-Bir Hasanah
+      6: Base-Abu Rudeis
+      7: Base-Sharm El Sheikh International Airport
     fm_supplement:
       1: 30
       2: 31

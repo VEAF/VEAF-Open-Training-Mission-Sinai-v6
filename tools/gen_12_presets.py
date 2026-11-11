@@ -5,8 +5,8 @@ Bande des tours (describe_airfield_channels, 12/10/2026) : UHF 250.05-252.25 (un
 AWACS 282-286, ravitailleurs 290-294 (dernier chiffre = TACAN 50Y-53Y), S-3B 296-297 (56Y, 57Y), porte-avions
 305-307, patrouilles VHF 130.0-130.9 / UHF 390-395.5, FARP 127.5-129.0 (AM, fréquences posées au lot 05b),
 balises touristiques FM 31-34.
-Une radio tient 20 canaux : UHF bleue = Guard, soutien et les 7 bases principales ; VHF bleue = Guard, FARP,
-patrouilles et les 11 bases bleues.
+Une radio tient 20 canaux : UHF bleue = AWACS et ravitailleurs, porte-avions, puis patrouilles ; VHF bleue =
+les bases bleues et les FARP (FIX-OT-RADIO-PLAN-CONVENTION).
 Abu Suwayr et Ramat David partagent 251.1 dans DCS ; Ramat David n'est dans aucune liste.
 """
 import yaml
@@ -53,8 +53,8 @@ def fm_list():
     return {i: mhz for i, mhz in enumerate(range(30, 60), 1) if i <= 20}
 
 
-guard_uhf = {"title": "Guard/UHF", "channel": "Guard"}
-guard_vhf = {"title": "Guard/VHF", "channel": "Guard"}
+# Convention du gabarit VMCT (FIX-OT-RADIO-PLAN-CONVENTION, 11/11/2026) : UHF = AWACS et ravitailleurs, puis
+# porte-avions, puis patrouilles ; VHF = aérodromes et FARP. Ni Guard, ni drones, ni AWACS de l'arène.
 
 
 def bases(names):
@@ -64,16 +64,16 @@ def bases(names):
 doc = {
     "channel_lists": {
         "blue": {
-            "primary_1": numbered([guard_uhf, "Overlord-1", "Magic-1", "Texaco-1", "Arco-1", "Texaco-2", "Arco-2",
-                                   "Stennis", "Roosevelt", "Tarawa", "S3B-Stennis", "S3B-Roosevelt", "Darkstar-1",
-                                   *bases(BLUE_MAIN)]),
-            "primary_2": numbered([guard_vhf, "FARP-Pyramides", "FARP-Range", "FARP-Canal", "FARP-Negev",
-                                   *BLUE_FLIGHTS, *bases(BLUE_BASES)]),
+            "primary_1": numbered(["Overlord-1", "Magic-1", "Texaco-1", "Arco-1", "Texaco-2", "Arco-2",
+                                   "S3B-Stennis", "S3B-Roosevelt", "Stennis", "Roosevelt",
+                                   "Tarawa", *BLUE_FLIGHTS]),
+            "primary_2": numbered([*bases(BLUE_BASES), "FARP-Pyramides", "FARP-Range", "FARP-Canal",
+                                   "FARP-Negev"]),
             "fm_supplement": fm_list(),
         },
         "red": {
-            "primary_1": numbered([guard_uhf, "Wizard-1", "Shell-1", "Focus-1", *bases(RED_BASES)]),
-            "primary_2": numbered([guard_vhf, *RED_FLIGHTS, *bases(RED_BASES)]),
+            "primary_1": numbered(["Wizard-1", "Shell-1", *RED_FLIGHTS]),
+            "primary_2": numbered(bases(RED_BASES)),
             "fm_supplement": fm_list(),
         },
     },

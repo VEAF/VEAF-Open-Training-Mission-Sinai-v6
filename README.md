@@ -332,76 +332,56 @@ Défense permanente des deux camps : courte et moyenne portée sur chaque base a
 
 | Radio | Canal | Nom | MHz |
 |---|---|---|---|
-| Radio 1 (UHF) | `1` | Guard | `243` |
-| Radio 1 (UHF) | `2` | Overlord 1 AWACS ouest | `282.0` |
-| Radio 1 (UHF) | `3` | Magic 1 AWACS est | `283.0` |
-| Radio 1 (UHF) | `4` | Texaco 1/BS/50Y | `290.0` |
-| Radio 1 (UHF) | `5` | Arco 1/BM/51Y | `291.0` |
-| Radio 1 (UHF) | `6` | Texaco 2/BS/52Y | `292.0` |
-| Radio 1 (UHF) | `7` | Arco 2/BM/53Y | `293.0` |
-| Radio 1 (UHF) | `8` | Stennis/74X/ICLS11 | `305.0` |
-| Radio 1 (UHF) | `9` | Roosevelt/71X/ICLS12 | `306.0` |
-| Radio 1 (UHF) | `10` | Tarawa/73X/ICLS13 | `307.0` |
-| Radio 1 (UHF) | `11` | S-3B Stennis/56Y | `296.0` |
-| Radio 1 (UHF) | `12` | S-3B Roosevelt/57Y | `297.0` |
-| Radio 1 (UHF) | `13` | Darkstar 1 Arène | `285.0` |
-| Radio 1 (UHF) | `14` | Cairo West | `250.45` |
-| Radio 1 (UHF) | `15` | Abu Suwayr | `251.1` |
-| Radio 1 (UHF) | `16` | Fayed | `252.1` |
-| Radio 1 (UHF) | `17` | Hurghada International Airport | `251.55` |
-| Radio 1 (UHF) | `18` | Hatzerim / 96X | `252.15` |
-| Radio 1 (UHF) | `19` | Ramon Airbase / 105X | `252.25` |
-| Radio 1 (UHF) | `20` | Nevatim | `252.2` |
-| Radio 2 (V/UHF) | `1` | Guard | `121.5` |
-| Radio 2 (V/UHF) | `2` | FARP Pyramides | `127.5` |
-| Radio 2 (V/UHF) | `3` | FARP Range | `128.0` |
-| Radio 2 (V/UHF) | `4` | FARP Canal | `128.5` |
-| Radio 2 (V/UHF) | `5` | FARP Negev | `129.0` |
-| Radio 2 (V/UHF) | `6` | Archer | `130.0` |
-| Radio 2 (V/UHF) | `7` | Arctic | `130.1` |
-| Radio 2 (V/UHF) | `8` | Astro | `130.2` |
-| Radio 2 (V/UHF) | `9` | Nickel | `130.3` |
-| Radio 2 (V/UHF) | `10` | Cairo West | `131.2` |
-| Radio 2 (V/UHF) | `11` | Abu Suwayr | `118.85` |
-| Radio 2 (V/UHF) | `12` | Fayed | `119.7` |
-| Radio 2 (V/UHF) | `13` | Hurghada International Airport | `119.6` |
-| Radio 2 (V/UHF) | `14` | Hatzerim / 96X | `119.75` |
-| Radio 2 (V/UHF) | `15` | Ramon Airbase / 105X | `119.8` |
-| Radio 2 (V/UHF) | `16` | Nevatim | `132.4` |
-| Radio 2 (V/UHF) | `17` | Inshas Airbase | `118.4` |
-| Radio 2 (V/UHF) | `18` | Beni Suef | `127.1` |
-| Radio 2 (V/UHF) | `19` | Kedem | `118.15` |
-| Radio 2 (V/UHF) | `20` | Ben-Gurion | `134.6` |
+| Radio 1 (UHF) | `1` | Overlord 1 AWACS ouest | `282.0` |
+| Radio 1 (UHF) | `2` | Magic 1 AWACS est | `283.0` |
+| Radio 1 (UHF) | `3` | Texaco 1/BS/50Y | `290.0` |
+| Radio 1 (UHF) | `4` | Arco 1/BM/51Y | `291.0` |
+| Radio 1 (UHF) | `5` | Texaco 2/BS/52Y | `292.0` |
+| Radio 1 (UHF) | `6` | Arco 2/BM/53Y | `293.0` |
+| Radio 1 (UHF) | `7` | S-3B Stennis/56Y | `296.0` |
+| Radio 1 (UHF) | `8` | S-3B Roosevelt/57Y | `297.0` |
+| Radio 1 (UHF) | `9` | Stennis/74X/ICLS11 | `305.0` |
+| Radio 1 (UHF) | `10` | Roosevelt/71X/ICLS12 | `306.0` |
+| Radio 1 (UHF) | `11` | Tarawa/73X/ICLS13 | `307.0` |
+| Radio 1 (UHF) | `12` | Archer | `390.0` |
+| Radio 1 (UHF) | `13` | Arctic | `390.1` |
+| Radio 1 (UHF) | `14` | Astro | `390.2` |
+| Radio 1 (UHF) | `15` | Nickel | `390.3` |
+| Radio 2 (V/UHF) | `1` | Cairo West | `131.2` |
+| Radio 2 (V/UHF) | `2` | Abu Suwayr | `118.85` |
+| Radio 2 (V/UHF) | `3` | Fayed | `119.7` |
+| Radio 2 (V/UHF) | `4` | Hurghada International Airport | `119.6` |
+| Radio 2 (V/UHF) | `5` | Hatzerim / 96X | `119.75` |
+| Radio 2 (V/UHF) | `6` | Ramon Airbase / 105X | `119.8` |
+| Radio 2 (V/UHF) | `7` | Nevatim | `132.4` |
+| Radio 2 (V/UHF) | `8` | Inshas Airbase | `118.4` |
+| Radio 2 (V/UHF) | `9` | Beni Suef | `127.1` |
+| Radio 2 (V/UHF) | `10` | Kedem | `118.15` |
+| Radio 2 (V/UHF) | `11` | Ben-Gurion | `134.6` |
+| Radio 2 (V/UHF) | `12` | FARP Pyramides | `127.5` |
+| Radio 2 (V/UHF) | `13` | FARP Range | `128.0` |
+| Radio 2 (V/UHF) | `14` | FARP Canal | `128.5` |
+| Radio 2 (V/UHF) | `15` | FARP Negev | `129.0` |
 
 ### Rouge
 
 | Radio | Canal | Nom | MHz |
 |---|---|---|---|
-| Radio 1 (UHF) | `1` | Guard | `243` |
-| Radio 1 (UHF) | `2` | Wizard 1 AWACS | `284.0` |
-| Radio 1 (UHF) | `3` | Shell 1 IL-78 | `294.0` |
-| Radio 1 (UHF) | `4` | Focus 1 Arène | `286.0` |
-| Radio 1 (UHF) | `5` | El Arish | `251.05` |
-| Radio 1 (UHF) | `6` | Melez | `252.05` |
-| Radio 1 (UHF) | `7` | St Catherine | `250.85` |
-| Radio 1 (UHF) | `8` | El Gora | `251.15` |
-| Radio 1 (UHF) | `9` | Bir Hasanah | `251.0` |
-| Radio 1 (UHF) | `10` | Abu Rudeis | `250.9` |
-| Radio 1 (UHF) | `11` | Sharm El Sheikh International Airport | `251.8` |
-| Radio 2 (V/UHF) | `1` | Guard | `121.5` |
-| Radio 2 (V/UHF) | `2` | Berkut | `130.4` |
-| Radio 2 (V/UHF) | `3` | Sokol | `130.5` |
-| Radio 2 (V/UHF) | `4` | Strizh | `130.6` |
-| Radio 2 (V/UHF) | `5` | Vityaz | `130.7` |
-| Radio 2 (V/UHF) | `6` | Kobra | `130.8` |
-| Radio 2 (V/UHF) | `7` | Rus | `130.9` |
-| Radio 2 (V/UHF) | `8` | El Arish | `121.0` |
-| Radio 2 (V/UHF) | `9` | Melez | `119.65` |
-| Radio 2 (V/UHF) | `10` | St Catherine | `124.5` |
-| Radio 2 (V/UHF) | `11` | El Gora | `118.2` |
-| Radio 2 (V/UHF) | `12` | Bir Hasanah | `118.8` |
-| Radio 2 (V/UHF) | `13` | Abu Rudeis | `118.5` |
-| Radio 2 (V/UHF) | `14` | Sharm El Sheikh International Airport | `118.9` |
+| Radio 1 (UHF) | `1` | Wizard 1 AWACS | `284.0` |
+| Radio 1 (UHF) | `2` | Shell 1 IL-78 | `294.0` |
+| Radio 1 (UHF) | `3` | Berkut | `395.0` |
+| Radio 1 (UHF) | `4` | Sokol | `395.1` |
+| Radio 1 (UHF) | `5` | Strizh | `395.2` |
+| Radio 1 (UHF) | `6` | Vityaz | `395.3` |
+| Radio 1 (UHF) | `7` | Kobra | `395.4` |
+| Radio 1 (UHF) | `8` | Rus | `395.5` |
+| Radio 2 (V/UHF) | `1` | El Arish | `121.0` |
+| Radio 2 (V/UHF) | `2` | Melez | `119.65` |
+| Radio 2 (V/UHF) | `3` | St Catherine | `124.5` |
+| Radio 2 (V/UHF) | `4` | El Gora | `118.2` |
+| Radio 2 (V/UHF) | `5` | Bir Hasanah | `118.8` |
+| Radio 2 (V/UHF) | `6` | Abu Rudeis | `118.5` |
+| Radio 2 (V/UHF) | `7` | Sharm El Sheikh International Airport | `118.9` |
 
 Préréglages injectés dans les appareils à radio programmable. FM : canaux 1 à 20 = 30 à 49 MHz. Les canaux VEAF sont hors de la bande des tours du Sinaï (UHF 250.05-252.25, une partie de la VHF 118.0-134.6) ; patrouilles en VHF 130.0-130.9 et UHF 390-395.5. Les FARP Pyramides (127.5), Range (128.0), Canal (128.5) et Negev (129.0) sont sur la radio 2 ; les balises touristiques sur les canaux FM 2 à 4 (31.0, 32.0, 33.0).
 
