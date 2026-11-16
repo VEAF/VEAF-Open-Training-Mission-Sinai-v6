@@ -1,0 +1,107 @@
+[
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-1",
+   "new_name": "combatZone_Arad_Medium-H3-1",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-2",
+   "new_name": "combatZone_Arad_Medium-H3-2",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-3",
+   "new_name": "combatZone_Arad_Medium-H3-3",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "group_name": "combatZone_Arad_Hard-H3-4",
+   "new_name": "combatZone_Arad_Medium-H3-4",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "H4-1",
+   "position": {
+    "x": 138528,
+    "y": 383712
+   },
+   "keep_position": true,
+   "for_combat_zone": "combatZone_Arad_Hard",
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#command=\"-sa15, country russia\" #spawngroup=\"H4RAD\" #spawncount=2 #H4-1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "H4-2",
+   "position": {
+    "x": 138788,
+    "y": 383117
+   },
+   "keep_position": true,
+   "for_combat_zone": "combatZone_Arad_Hard",
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#command=\"-sa19, country russia\" #spawngroup=\"H4RAD\" #spawncount=2 #H4-2"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Sinai-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "H4-3",
+   "position": {
+    "x": 139275,
+    "y": 382687
+   },
+   "keep_position": true,
+   "for_combat_zone": "combatZone_Arad_Hard",
+   "units": [
+    {
+     "type": "Osa 9A33 ln",
+     "name": "#command=\"-sa8, country russia\" #spawngroup=\"H4RAD\" #spawncount=2 #H4-3"
+    }
+   ]
+  }
+ }
+]

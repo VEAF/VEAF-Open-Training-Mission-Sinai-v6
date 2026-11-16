@@ -358,7 +358,7 @@ modules:
         training: true
         includes:
           - combatZone_Arad_Easy
-        briefing: "Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) en plus des cibles du niveau facile.\nPosition : bullseye 054°/116 nm (N31°18.143' E035°15.400'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 8 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 6 nm."
+        briefing: "Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) et une défense courte portée à guidage infrarouge (un SA-13 et une équipe de lance-missiles portatifs SA-18) en plus des cibles du niveau facile.\nPosition : bullseye 054°/116 nm (N31°18.143' E035°15.400'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 8 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 6 nm."
       - type: zone
         zone_name: combatZone_Arad_Hard
         friendly_name: H3 Hélico Arad — difficile
@@ -366,7 +366,7 @@ modules:
         training: true
         includes:
           - combatZone_Arad_Medium
-        briefing: "Champ de tir hélicoptères d'Arad, avec une défense courte portée réaliste : un SA-13 et une équipe de lance-missiles portatifs SA-18, à guidage infrarouge.\nPosition : bullseye 054°/116 nm (N31°18.143' E035°15.400'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 8 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 6 nm."
+        briefing: "Champ de tir hélicoptères d'Arad, avec une défense courte portée à guidage radar en plus du niveau moyen : deux systèmes tirés au sort parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au-delà des cibles. Approchez au ras du relief.\nPosition : bullseye 054°/116 nm (N31°18.143' E035°15.400'). Ravitailleurs : Arco 2 (panier, TACAN 53Y, 293.0) à 8 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 6 nm."
       - type: zone
         zone_name: combatZone_DesertGizeh_Easy
         friendly_name: A1 Attaque désert de Gizeh — facile

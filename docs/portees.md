@@ -46,8 +46,11 @@ Portée = `threat_range_m` du lanceur dans la base d'unités DCS (cercles de l'�
 | zone | combatZone_AbuAgeila | Strela-10M3 | 5.0 | Ramon Airbase | 52.0 | ✅ |
 | zone | combatZone_AbuAgeila | Ural-375 ZU-23 | 2.5 | Ramon Airbase | 52.5 | ✅ |
 | zone | combatZone_AbuRudeis | Ural-375 ZU-23 | 2.5 | piste Arco 1 | 161.2 | ✅ |
-| zone | combatZone_Arad_Hard | SA-18 Igla manpad | 5.2 | piste Texaco 2 | 11.0 | ✅ |
-| zone | combatZone_Arad_Hard | Strela-10M3 | 5.0 | piste Texaco 2 | 11.3 | ✅ |
+| zone | combatZone_Arad_Hard | 2S6 Tunguska | 8.0 | piste Texaco 2 | 11.9 | ✅ |
+| zone | combatZone_Arad_Hard | Osa 9A33 ln | 10.3 | piste Texaco 2 | 12.3 | ✅ |
+| zone | combatZone_Arad_Hard | Tor 9A331 | 12.0 | piste Texaco 2 | 12.5 | ✅ |
+| zone | combatZone_Arad_Medium | SA-18 Igla manpad | 5.2 | piste Texaco 2 | 11.0 | ✅ |
+| zone | combatZone_Arad_Medium | Strela-10M3 | 5.0 | piste Texaco 2 | 11.3 | ✅ |
 | zone | combatZone_Arad_Medium | Ural-375 ZU-23 | 2.5 | piste Texaco 2 | 10.3 | ✅ |
 | zone | combatZone_Arad_Medium | ZSU-23-4 Shilka | 2.5 | piste Texaco 2 | 11.8 | ✅ |
 | zone | combatZone_ConvoiElArish | Strela-1 9P31 | 4.2 | Ramon Airbase | 79.0 | ✅ |

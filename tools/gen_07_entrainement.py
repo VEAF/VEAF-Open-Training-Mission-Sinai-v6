@@ -59,17 +59,21 @@ def zones():
          fake(H, [("-zu23", "Ural-375 ZU-23", 210, 1200, '#spawngroup="H2AAA" #spawncount=2'),
                   ("-zu23", "Ural-375 ZU-23", 270, 1100, '#spawngroup="H2AAA" #spawncount=2'),
                   ("-zu23", "Ural-375 ZU-23", 150, 1300, '#spawngroup="H2AAA" #spawncount=2'),
-                  ("-shilka", "ZSU-23-4 Shilka", 240, 900, "#spawnchance=50")], "H2"),
-         "Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) en "
+                  ("-shilka", "ZSU-23-4 Shilka", 240, 900, "#spawnchance=50")], "H2")
+         # lot 07e : l'ancien difficile (H3, à guidage infrarouge) est passé au moyen
+         + fake(H, [("-sa13", "Strela-10M3", 200, 1000, '#spawngroup="H3SR" #spawncount=1'),
+                    ("-sa13", "Strela-10M3", 250, 1000, '#spawngroup="H3SR" #spawncount=1'),
+                    ("-sa18", "SA-18 Igla manpad", 220, 1500, '#spawngroup="H3MP" #spawncount=1'),
+                    ("-sa18", "SA-18 Igla manpad", 180, 1400, '#spawngroup="H3MP" #spawncount=1')], "H3"),
+         "Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) et une "
+         "défense courte portée à guidage infrarouge (un SA-13 et une équipe de lance-missiles portatifs SA-18) en "
          "plus des cibles du niveau facile."),
         ("combatZone_Arad_Hard", H, 2500, "H3 Hélico Arad — difficile", "Entraînement hélicoptères",
          "combatZone_Arad_Medium",
-         fake(H, [("-sa13", "Strela-10M3", 200, 1000, '#spawngroup="H3SR" #spawncount=1'),
-                  ("-sa13", "Strela-10M3", 250, 1000, '#spawngroup="H3SR" #spawncount=1'),
-                  ("-sa18", "SA-18 Igla manpad", 220, 1500, '#spawngroup="H3MP" #spawncount=1'),
-                  ("-sa18", "SA-18 Igla manpad", 180, 1400, '#spawngroup="H3MP" #spawncount=1')], "H3"),
-         "Champ de tir hélicoptères d'Arad, avec une défense courte portée réaliste : un SA-13 et une équipe de "
-         "lance-missiles portatifs SA-18, à guidage infrarouge."),
+         [],  # lot 07e : les lanceurs radar H4 sont posés par gen_07e_difficile_radar.py
+         "Champ de tir hélicoptères d'Arad, avec une défense courte portée à guidage radar en plus du niveau "
+         "moyen : deux systèmes tirés au sort parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au-delà des cibles. "
+         "Approchez au ras du relief."),
         # ── A : attaque ──
         ("combatZone_DesertGizeh_Easy", A, 2500, "A1 Attaque désert de Gizeh — facile", "Entraînement attaque",
          None,

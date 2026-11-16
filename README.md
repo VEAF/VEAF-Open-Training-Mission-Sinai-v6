@@ -100,8 +100,8 @@ Loin du front, à quelques minutes d'une base. Trois niveaux par famille, chacun
 `N31°18.143' E035°15.400'` · bullseye `054°/116 nm` · rayon 1.3 nm · menu F10 « Entraînement hélicoptères » · Arco 2 (panier, TACAN 53Y, 293.0) à 8 nm ; Texaco 2 (perche, TACAN 52Y, 292.0) à 6 nm
 
 - **H1 Hélico Arad — facile** — Champ de tir hélicoptères d'Arad, sur le plateau au nord-est de la ville, à 10 nm du FARP Range : cibles inertes (chars, blindés et camions immobiles, tir interdit).
-- **H2 Hélico Arad — moyen** — Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) en plus des cibles du niveau facile.
-- **H3 Hélico Arad — difficile** — Champ de tir hélicoptères d'Arad, avec une défense courte portée réaliste : un SA-13 et une équipe de lance-missiles portatifs SA-18, à guidage infrarouge.
+- **H2 Hélico Arad — moyen** — Champ de tir hélicoptères d'Arad : de l'artillerie antiaérienne légère (ZU-23, parfois un Shilka) et une défense courte portée à guidage infrarouge (un SA-13 et une équipe de lance-missiles portatifs SA-18) en plus des cibles du niveau facile.
+- **H3 Hélico Arad — difficile** — Champ de tir hélicoptères d'Arad, avec une défense courte portée à guidage radar en plus du niveau moyen : deux systèmes tirés au sort parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au-delà des cibles. Approchez au ras du relief.
 
 ### Attaque — désert de Gizeh (au sud-ouest de Cairo West)
 
