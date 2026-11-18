@@ -1,0 +1,194 @@
+{
+  "name": "arad-medium",
+  "title": "H2 Hélico Arad — moyen",
+  "heading_deg": 70.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4200.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Arad_Medium",
+  "camera": {
+    "position": [
+      138238.1266660801,
+      2526.5294117647054,
+      380115.2438559797
+    ],
+    "forward": [
+      0.29619813272602397,
+      -0.49999999999999994,
+      0.8137976813493737
+    ],
+    "up": [
+      0.17101007166283438,
+      0.8660254037844387,
+      0.4698463103929541
+    ],
+    "right": [
+      -0.9396926207859083,
+      0.0,
+      0.3420201433256688
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 139482.1588235294,
+    "z": 383533.1941176471,
+    "alt_m": 426.52941176470586,
+    "lat": 31.297803983882407,
+    "lon": 35.25165392938698,
+    "dms": "N31°17'52.09\" E035°15'05.95\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:31",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-Ural-375-6#10479",
+      "type": "Ural-375",
+      "x": 140332.1,
+      "z": 383386.8,
+      "alt": 405.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "SA-18 Igla manpad",
+      "x": 138942.3,
+      "z": 382955.8,
+      "alt": 501.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "SA-18 Igla manpad",
+      "x": 139031.3,
+      "z": 383042.8,
+      "alt": 498.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "Infantry AK",
+      "x": 138890.3,
+      "z": 382938.8,
+      "alt": 501.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "Infantry AK",
+      "x": 138909.3,
+      "z": 383034.8,
+      "alt": 495.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "Infantry AK",
+      "x": 139060.3,
+      "z": 383009.8,
+      "alt": 500.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "Infantry AK",
+      "x": 138985.3,
+      "z": 383038.8,
+      "alt": 498.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Red Manpad Squad#10478",
+      "type": "UAZ-469",
+      "x": 138946.3,
+      "z": 383094.8,
+      "alt": 493.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-BRDM-2-5#10477",
+      "type": "BRDM-2",
+      "x": 139682.3,
+      "z": 383476.1,
+      "alt": 424.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-BMP-2-4#10476",
+      "type": "BMP-2",
+      "x": 139245.1,
+      "z": 383989.7,
+      "alt": 365.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-BMP-2-3#10475",
+      "type": "BMP-2",
+      "x": 139790.8,
+      "z": 384420.8,
+      "alt": 332.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-Ural-375-7#10474",
+      "type": "Ural-375",
+      "x": 140369.2,
+      "z": 383799.2,
+      "alt": 382.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-T-72B-1#10473",
+      "type": "T-72B",
+      "x": 140647.6,
+      "z": 383985.9,
+      "alt": 354.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Ural-375 ZU-23#10471",
+      "type": "Ural-375 ZU-23",
+      "x": 140064.8,
+      "z": 382904.5,
+      "alt": 454.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Ural-375 ZU-23#10469",
+      "type": "Ural-375 ZU-23",
+      "x": 138892.7,
+      "z": 384589.2,
+      "alt": 330.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] Strela-10M3#10467",
+      "type": "Strela-10M3",
+      "x": 139062.4,
+      "z": 383769.8,
+      "alt": 394.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Medium [r] combatZone_Arad_Easy-Inert-T-72B-2#10466",
+      "type": "T-72B",
+      "x": 140344.6,
+      "z": 384626.7,
+      "alt": 318.0
+    }
+  ],
+  "image": "arad-medium.jpg",
+  "heading": 70,
+  "pitch": -30.0,
+  "x": 138238.1266660801,
+  "y": 380115.2438559797,
+  "altitude_m": 2527,
+  "order": 2
+}

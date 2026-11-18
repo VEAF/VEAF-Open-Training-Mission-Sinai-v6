@@ -1,0 +1,114 @@
+{
+  "name": "convoielarish",
+  "title": "Z06 Convoi — El Arish vers Abu Ageila",
+  "heading_deg": 69.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_ConvoiElArish",
+  "camera": {
+    "position": [
+      97353.50083678927,
+      387.7714285714285,
+      251017.92595193506
+    ],
+    "forward": [
+      0.31035574820837014,
+      -0.49999999999999994,
+      0.8085043658224876
+    ],
+    "up": [
+      0.17918397477265016,
+      0.8660254037844387,
+      0.4667902132486008
+    ],
+    "right": [
+      -0.9335804264972017,
+      0.0,
+      0.3583679495453004
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 97539.71428571429,
+    "z": 251503.02857142856,
+    "alt_m": 87.77142857142857,
+    "lat": 30.93623104252276,
+    "lon": 33.86129971456309,
+    "dms": "N30°56'10.43\" E033°51'40.68\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:38",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "BTR-80",
+      "x": 97494.2,
+      "z": 251545.6,
+      "alt": 88.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Ural-375",
+      "x": 97495.3,
+      "z": 251500.1,
+      "alt": 88.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Ural-375",
+      "x": 97517.7,
+      "z": 251495.1,
+      "alt": 87.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Ural-375",
+      "x": 97537.7,
+      "z": 251495.1,
+      "alt": 87.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Ural-375",
+      "x": 97557.7,
+      "z": 251495.1,
+      "alt": 87.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Ural-375 ZU-23",
+      "x": 97577.7,
+      "z": 251495.1,
+      "alt": 87.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiElArish [r] combatZone_ConvoiElArish-Convoi#10591",
+      "type": "Strela-1 9P31",
+      "x": 97597.7,
+      "z": 251495.1,
+      "alt": 87.0
+    }
+  ],
+  "image": "convoielarish.jpg",
+  "heading": 69,
+  "pitch": -30.0,
+  "x": 97353.50083678927,
+  "y": 251017.92595193506,
+  "altitude_m": 388,
+  "order": 15
+}

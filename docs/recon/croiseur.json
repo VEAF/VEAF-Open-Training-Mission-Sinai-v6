@@ -1,0 +1,82 @@
+{
+  "name": "croiseur",
+  "title": "Z15 Antinavire — croiseur Moskva devant Damiette",
+  "heading_deg": 14.0,
+  "pitch_deg": 30.0,
+  "slant_m": 1800.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Croiseur",
+  "camera": {
+    "position": [
+      219071.22532001743,
+      899.9999999999999,
+      69704.18108682221
+    ],
+    "forward": [
+      0.8403007481384851,
+      -0.49999999999999994,
+      0.20951050732099907
+    ],
+    "up": [
+      0.4851478631379982,
+      0.8660254037844387,
+      0.12096094779983385
+    ],
+    "right": [
+      -0.24192189559966773,
+      0.0,
+      0.9702957262759965
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 220583.7666666667,
+    "z": 70081.3,
+    "alt_m": 0.0,
+    "lat": 32.04491948292227,
+    "lon": 31.949909684324073,
+    "dms": "N32°02'41.71\" E031°56'59.67\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:44",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Croiseur [r] combatZone_Croiseur-Escadre#10653",
+      "type": "MOSCOW",
+      "x": 219983.8,
+      "z": 70081.2,
+      "alt": -0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Croiseur [r] combatZone_Croiseur-Escadre#10653",
+      "type": "NEUSTRASH",
+      "x": 220583.8,
+      "z": 70081.2,
+      "alt": -0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Croiseur [r] combatZone_Croiseur-Escadre#10653",
+      "type": "REZKY",
+      "x": 221183.7,
+      "z": 70081.5,
+      "alt": -0.0
+    }
+  ],
+  "image": "croiseur.jpg",
+  "heading": 14,
+  "pitch": -30.0,
+  "x": 219071.22532001743,
+  "y": 69704.18108682221,
+  "altitude_m": 900,
+  "order": 24
+}

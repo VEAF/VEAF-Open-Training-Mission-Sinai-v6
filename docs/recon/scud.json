@@ -1,0 +1,138 @@
+{
+  "name": "scud",
+  "title": "Z11 Frappe — base de missiles du djebel Libni",
+  "heading_deg": 74.0,
+  "pitch_deg": 30.0,
+  "slant_m": 1700.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Scud",
+  "camera": {
+    "position": [
+      70881.77478097187,
+      989.4899999999999,
+      244359.60901777525
+    ],
+    "forward": [
+      0.23870895236949172,
+      -0.49999999999999994,
+      0.8324770483674969
+    ],
+    "up": [
+      0.13781867790849955,
+      0.8660254037844387,
+      0.4806308479691594
+    ],
+    "right": [
+      -0.9612616959383189,
+      0.0,
+      0.27563735581699916
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 71287.58,
+    "z": 245774.82,
+    "alt_m": 139.49,
+    "lat": 30.699754176704104,
+    "lon": 33.79937904588029,
+    "dms": "N30°41'59.12\" E033°47'57.76\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:41",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] SA15#10621",
+      "type": "Tor 9A331",
+      "x": 70748.0,
+      "z": 245626.0,
+      "alt": 133.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] SA15#10621",
+      "type": "GAZ-66",
+      "x": 70758.0,
+      "z": 245633.0,
+      "alt": 134.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] combatZone_Scud-Lanceurs#10619",
+      "type": "Scud_B",
+      "x": 71342.3,
+      "z": 245838.9,
+      "alt": 140.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] combatZone_Scud-Lanceurs#10619",
+      "type": "Scud_B",
+      "x": 71362.3,
+      "z": 245838.9,
+      "alt": 140.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] combatZone_Scud-Lanceurs#10619",
+      "type": "Scud_B",
+      "x": 71382.3,
+      "z": 245838.9,
+      "alt": 140.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] combatZone_Scud-Lanceurs#10619",
+      "type": "Ural-375",
+      "x": 71402.3,
+      "z": 245838.9,
+      "alt": 140.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] combatZone_Scud-Lanceurs#10619",
+      "type": "Ural-375",
+      "x": 71422.3,
+      "z": 245838.9,
+      "alt": 141.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Scud [r] ZSU-23-4 Shilka#10617",
+      "type": "ZSU-23-4 Shilka",
+      "x": 71372.3,
+      "z": 246143.7,
+      "alt": 147.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Scud [r] combatZone_Scud-Static-Military-2#10622 #326",
+      "type": "Military staff",
+      "x": 71621.0,
+      "z": 245577.0,
+      "alt": 139.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Scud [r] combatZone_Scud-Static-Bunker-1#10620 #325",
+      "type": "Bunker",
+      "x": 71465.0,
+      "z": 245574.0,
+      "alt": 137.4
+    }
+  ],
+  "image": "scud.jpg",
+  "heading": 74,
+  "pitch": -30.0,
+  "x": 70881.77478097187,
+  "y": 244359.60901777525,
+  "altitude_m": 989,
+  "order": 20
+}

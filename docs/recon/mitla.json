@@ -1,0 +1,202 @@
+{
+  "name": "mitla",
+  "title": "Z02 Front ouest — ligne du col de Mitla",
+  "heading_deg": 94.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4200.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Mitla",
+  "camera": {
+    "position": [
+      -4880.896533190717,
+      2499.5166666666664,
+      155161.29248929504
+    ],
+    "forward": [
+      -0.06041087834083474,
+      -0.49999999999999994,
+      0.8639158094271043
+    ],
+    "up": [
+      -0.03487823687206266,
+      0.8660254037844387,
+      0.49878202512991204
+    ],
+    "right": [
+      -0.9975640502598242,
+      0.0,
+      -0.06975647374412533
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -5134.622222222222,
+    "z": 158789.73888888888,
+    "alt_m": 399.51666666666665,
+    "lat": 30.012527042202233,
+    "lon": 32.89182147218913,
+    "dms": "N30°00'45.10\" E032°53'30.56\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:36",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] combatZone_Mitla-Artillerie#10573",
+      "type": "SAU Msta",
+      "x": -6260.6,
+      "z": 158125.7,
+      "alt": 376.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] combatZone_Mitla-Artillerie#10573",
+      "type": "SAU Msta",
+      "x": -6240.6,
+      "z": 158125.7,
+      "alt": 375.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] combatZone_Mitla-Artillerie#10573",
+      "type": "SAU Msta",
+      "x": -6220.6,
+      "z": 158125.7,
+      "alt": 373.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10572",
+      "type": "VAB_Mephisto",
+      "x": -6003.2,
+      "z": 159088.5,
+      "alt": 393.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10572",
+      "type": "BTR-82A",
+      "x": -5882.2,
+      "z": 159107.5,
+      "alt": 396.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10572",
+      "type": "Chieftain_mk3",
+      "x": -5943.2,
+      "z": 159227.5,
+      "alt": 402.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10572",
+      "type": "T-55",
+      "x": -6019.2,
+      "z": 159171.5,
+      "alt": 396.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] ZSU-23-4 Shilka#10570",
+      "type": "ZSU-23-4 Shilka",
+      "x": -5226.9,
+      "z": 159192.9,
+      "alt": 410.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Strela-10M3#10568",
+      "type": "Strela-10M3",
+      "x": -5188.5,
+      "z": 157956.2,
+      "alt": 364.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "T-55",
+      "x": -4354.6,
+      "z": 159215.3,
+      "alt": 423.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "VAB_Mephisto",
+      "x": -4575.6,
+      "z": 159017.3,
+      "alt": 417.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "BMP-2",
+      "x": -4489.6,
+      "z": 159098.3,
+      "alt": 419.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "BMP-2",
+      "x": -4372.6,
+      "z": 159073.3,
+      "alt": 420.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "BMP-2",
+      "x": -4613.6,
+      "z": 159172.3,
+      "alt": 421.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "BMP-2",
+      "x": -4415.6,
+      "z": 159226.3,
+      "alt": 423.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mitla [r] Armored Platoon#10565",
+      "type": "T-55",
+      "x": -4618.6,
+      "z": 158998.3,
+      "alt": 419.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mitla [r] combatZone_Mitla-Static-Barracks-2#10566 #258",
+      "type": "Barracks 2",
+      "x": -3857.0,
+      "z": 158215.0,
+      "alt": 384.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mitla [r] combatZone_Mitla-Static-Barracks-1#10567 #257",
+      "type": "Barracks 2",
+      "x": -4141.0,
+      "z": 158078.0,
+      "alt": 374.1
+    }
+  ],
+  "image": "mitla.jpg",
+  "heading": 94,
+  "pitch": -30.0,
+  "x": -4880.896533190717,
+  "y": 155161.29248929504,
+  "altitude_m": 2500,
+  "order": 11
+}

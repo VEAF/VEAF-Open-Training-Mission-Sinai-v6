@@ -1,0 +1,170 @@
+{
+  "name": "maghara",
+  "title": "Z04 SEAD — site SA-6 du djebel Maghara",
+  "heading_deg": 71.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Maghara",
+  "camera": {
+    "position": [
+      70061.46466156251,
+      2161.1285714285714,
+      204889.75767475413
+    ],
+    "forward": [
+      0.2819502924231137,
+      -0.49999999999999994,
+      0.8188431062190856
+    ],
+    "up": [
+      0.16278407722857835,
+      0.8660254037844387,
+      0.4727592877996583
+    ],
+    "right": [
+      -0.9455185755993167,
+      0.0,
+      0.32556815445715676
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 71076.48571428572,
+    "z": 207837.59285714285,
+    "alt_m": 361.12857142857143,
+    "lat": 30.699683634610178,
+    "lon": 33.40323574582687,
+    "dms": "N30°41'58.86\" E033°24'11.65\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:37",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Kub 1S91 str",
+      "x": 71113.0,
+      "z": 207547.0,
+      "alt": 359.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Kub 2P25 ln",
+      "x": 71158.0,
+      "z": 207555.0,
+      "alt": 359.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Kub 2P25 ln",
+      "x": 71107.0,
+      "z": 207486.0,
+      "alt": 357.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Kub 2P25 ln",
+      "x": 71106.0,
+      "z": 207562.0,
+      "alt": 360.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Kub 2P25 ln",
+      "x": 71074.0,
+      "z": 207553.0,
+      "alt": 360.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "ZSU-23-4 Shilka",
+      "x": 71085.0,
+      "z": 207536.0,
+      "alt": 359.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "ATZ-5",
+      "x": 71108.0,
+      "z": 207520.0,
+      "alt": 359.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "ZIL-135",
+      "x": 71064.0,
+      "z": 207514.0,
+      "alt": 360.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "ZIL-135",
+      "x": 71125.0,
+      "z": 207482.0,
+      "alt": 357.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] SA6#10586",
+      "type": "Ural-375 PBU",
+      "x": 71087.0,
+      "z": 207510.0,
+      "alt": 358.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] Red EWR#10585",
+      "type": "55G6 EWR",
+      "x": 71126.0,
+      "z": 209020.0,
+      "alt": 360.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] Red EWR#10585",
+      "type": "SA-18 Igla manpad",
+      "x": 71112.0,
+      "z": 209040.0,
+      "alt": 361.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] Red EWR#10585",
+      "type": "Ural-375 PBU",
+      "x": 71092.0,
+      "z": 209032.0,
+      "alt": 362.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maghara [r] ZSU-23-4 Shilka#10583",
+      "type": "ZSU-23-4 Shilka",
+      "x": 70713.8,
+      "z": 207369.3,
+      "alt": 378.0
+    }
+  ],
+  "image": "maghara.jpg",
+  "heading": 71,
+  "pitch": -30.0,
+  "x": 70061.46466156251,
+  "y": 204889.75767475413,
+  "altitude_m": 2161,
+  "order": 13
+}

@@ -1,0 +1,154 @@
+{
+  "name": "etatmajor",
+  "title": "Z10 Frappe — état-major de Bir Tamada",
+  "heading_deg": 89.0,
+  "pitch_deg": 30.0,
+  "slant_m": 1650.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_EtatMajor",
+  "camera": {
+    "position": [
+      10127.119858235767,
+      1179.7166666666667,
+      215899.27571853076
+    ],
+    "forward": [
+      0.015114227331858666,
+      -0.49999999999999994,
+      0.8658935039207541
+    ],
+    "up": [
+      0.008726203218641797,
+      0.8660254037844387,
+      0.4999238475781956
+    ],
+    "right": [
+      -0.9998476951563913,
+      0.0,
+      0.0174524064372836
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 10152.058333333332,
+    "z": 217328.0,
+    "alt_m": 354.7166666666667,
+    "lat": 30.149575617154387,
+    "lon": 33.499525825200315,
+    "dms": "N30°08'58.47\" E033°29'58.29\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:41",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-PC mobile#10613",
+      "type": "SKP-11",
+      "x": 10384.3,
+      "z": 217110.5,
+      "alt": 353.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-PC mobile#10613",
+      "type": "SKP-11",
+      "x": 10404.3,
+      "z": 217110.5,
+      "alt": 354.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-PC mobile#10613",
+      "type": "Ural-375 PBU",
+      "x": 10424.3,
+      "z": 217110.5,
+      "alt": 354.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] ZSU-23-4 Shilka#10609",
+      "type": "ZSU-23-4 Shilka",
+      "x": 10357.8,
+      "z": 217673.5,
+      "alt": 353.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] SA15#10608",
+      "type": "Tor 9A331",
+      "x": 9621.0,
+      "z": 217175.0,
+      "alt": 356.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_EtatMajor [r] SA15#10608",
+      "type": "GAZ-66",
+      "x": 9639.0,
+      "z": 217164.0,
+      "alt": 356.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Comms-5#10612 #316",
+      "type": "Comms tower M",
+      "x": 10376.0,
+      "z": 217550.0,
+      "alt": 353.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Command-1#10614 #312",
+      "type": ".Command Center",
+      "x": 10199.0,
+      "z": 217373.0,
+      "alt": 355.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Military-6#10616 #317",
+      "type": "Military staff",
+      "x": 10022.0,
+      "z": 217550.0,
+      "alt": 355.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Bunker-2#10607 #313",
+      "type": "Bunker",
+      "x": 10199.0,
+      "z": 217573.0,
+      "alt": 354.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Bunker-3#10611 #314",
+      "type": "Bunker",
+      "x": 9999.0,
+      "z": 217373.0,
+      "alt": 355.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_EtatMajor [r] combatZone_EtatMajor-Static-Bunker-4#10615 #315",
+      "type": "Bunker",
+      "x": 10199.0,
+      "z": 217173.0,
+      "alt": 354.0
+    }
+  ],
+  "image": "etatmajor.jpg",
+  "heading": 89,
+  "pitch": -30.0,
+  "x": 10127.119858235767,
+  "y": 215899.27571853076,
+  "altitude_m": 1180,
+  "order": 19
+}

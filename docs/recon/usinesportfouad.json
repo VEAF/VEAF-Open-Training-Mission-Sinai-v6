@@ -1,0 +1,226 @@
+{
+  "name": "usinesportfouad",
+  "title": "Z09 Frappe — usines de Port-Fouad",
+  "heading_deg": 39.0,
+  "pitch_deg": 30.0,
+  "slant_m": 2100.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_UsinesPortFouad",
+  "camera": {
+    "position": [
+      114523.98851440015,
+      1051.9999999999998,
+      103766.40341150474
+    ],
+    "forward": [
+      0.673028145070219,
+      -0.49999999999999994,
+      0.5450074457687163
+    ],
+    "up": [
+      0.3885729807284854,
+      0.8660254037844387,
+      0.31466019552491864
+    ],
+    "right": [
+      -0.6293203910498374,
+      0.0,
+      0.7771459614569709
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 115937.3476190476,
+    "z": 104910.91904761904,
+    "alt_m": 2.0,
+    "lat": 31.10334122878073,
+    "lon": 32.325625099349814,
+    "dms": "N31°06'12.03\" E032°19'32.25\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:40",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] Strela-1 9P31#10605",
+      "type": "Strela-1 9P31",
+      "x": 115499.8,
+      "z": 105461.1,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] Ural-375 ZU-23#10599",
+      "type": "Ural-375 ZU-23",
+      "x": 115528.5,
+      "z": 104986.2,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Kub 1S91 str",
+      "x": 116134.0,
+      "z": 104629.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Kub 2P25 ln",
+      "x": 116169.0,
+      "z": 104632.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Kub 2P25 ln",
+      "x": 116138.0,
+      "z": 104566.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Kub 2P25 ln",
+      "x": 116136.0,
+      "z": 104676.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Kub 2P25 ln",
+      "x": 116101.0,
+      "z": 104626.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "ZSU-23-4 Shilka",
+      "x": 116170.0,
+      "z": 104680.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "ZSU-23-4 Shilka",
+      "x": 116156.0,
+      "z": 104574.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "ATZ-5",
+      "x": 116093.0,
+      "z": 104587.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "ZIL-135",
+      "x": 116120.0,
+      "z": 104679.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "ZIL-135",
+      "x": 116117.0,
+      "z": 104619.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_UsinesPortFouad [r] SA6#10595",
+      "type": "Ural-375 PBU",
+      "x": 116112.0,
+      "z": 104650.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Workshop-1#10594 #299",
+      "type": "Workshop A",
+      "x": 115933.0,
+      "z": 105229.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Chemical-6#10596 #304",
+      "type": "Chemical tank A",
+      "x": 115610.0,
+      "z": 105129.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Fuel-7#10597 #305",
+      "type": "Fuel tank",
+      "x": 115697.0,
+      "z": 104994.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Chemical-5#10598 #303",
+      "type": "Chemical tank A",
+      "x": 115642.0,
+      "z": 105178.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Comms-8#10601 #306",
+      "type": "Comms tower M",
+      "x": 115936.0,
+      "z": 105100.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Repair-4#10602 #302",
+      "type": "Repair workshop",
+      "x": 115591.0,
+      "z": 105390.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Workshop-2#10603 #300",
+      "type": "Workshop A",
+      "x": 116018.0,
+      "z": 105315.0,
+      "alt": 2.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_UsinesPortFouad [r] combatZone_UsinesPortFouad-Static-Tech-3#10604 #301",
+      "type": "Tech hangar A",
+      "x": 115783.0,
+      "z": 105429.0,
+      "alt": 2.0
+    }
+  ],
+  "image": "usinesportfouad.jpg",
+  "heading": 39,
+  "pitch": -30.0,
+  "x": 114523.98851440015,
+  "y": 103766.40341150474,
+  "altitude_m": 1052,
+  "order": 18
+}

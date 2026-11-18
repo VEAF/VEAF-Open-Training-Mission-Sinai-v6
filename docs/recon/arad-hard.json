@@ -1,0 +1,218 @@
+{
+  "name": "arad-hard",
+  "title": "H3 Hélico Arad — difficile",
+  "heading_deg": 70.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4800.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Arad_Hard",
+  "camera": {
+    "position": [
+      137920.1089629151,
+      2845.1899999999996,
+      379485.121129523
+    ],
+    "forward": [
+      0.29619813272602397,
+      -0.49999999999999994,
+      0.8137976813493737
+    ],
+    "up": [
+      0.17101007166283438,
+      0.8660254037844387,
+      0.4698463103929541
+    ],
+    "right": [
+      -0.9396926207859083,
+      0.0,
+      0.3420201433256688
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 139341.86000000002,
+    "z": 383391.35,
+    "alt_m": 445.18999999999994,
+    "lat": 31.29656518678161,
+    "lon": 35.25013455657077,
+    "dms": "N31°17'47.63\" E035°15'00.48\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:31",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-Ural-375-6#10495",
+      "type": "Ural-375",
+      "x": 140374.6,
+      "z": 383399.1,
+      "alt": 400.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "SA-18 Igla manpad",
+      "x": 138969.8,
+      "z": 383080.3,
+      "alt": 496.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "Infantry AK",
+      "x": 138947.8,
+      "z": 383109.3,
+      "alt": 491.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "Infantry AK",
+      "x": 138881.8,
+      "z": 383126.3,
+      "alt": 484.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "Infantry AK",
+      "x": 139032.8,
+      "z": 383151.3,
+      "alt": 486.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "Infantry AK",
+      "x": 139058.8,
+      "z": 383060.3,
+      "alt": 496.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Red Manpad Squad#10494",
+      "type": "UAZ-469",
+      "x": 138965.8,
+      "z": 383008.3,
+      "alt": 499.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-BRDM-2-5#10493",
+      "type": "BRDM-2",
+      "x": 139693.5,
+      "z": 383506.2,
+      "alt": 420.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-BMP-2-4#10492",
+      "type": "BMP-2",
+      "x": 139204.2,
+      "z": 384022.3,
+      "alt": 363.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-BMP-2-3#10491",
+      "type": "BMP-2",
+      "x": 139754.0,
+      "z": 384461.0,
+      "alt": 326.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-Ural-375-7#10490",
+      "type": "Ural-375",
+      "x": 140385.3,
+      "z": 383796.5,
+      "alt": 380.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-T-72B-1#10489",
+      "type": "T-72B",
+      "x": 140642.1,
+      "z": 384010.6,
+      "alt": 352.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] SA15#10488",
+      "type": "Tor 9A331",
+      "x": 138294.0,
+      "z": 382483.0,
+      "alt": 573.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] SA15#10488",
+      "type": "GAZ-66",
+      "x": 138311.0,
+      "z": 382517.0,
+      "alt": 570.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] SA8#10487",
+      "type": "Osa 9A33 ln",
+      "x": 139269.0,
+      "z": 382701.0,
+      "alt": 495.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] SA8#10487",
+      "type": "GAZ-66",
+      "x": 139284.0,
+      "z": 382670.0,
+      "alt": 501.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Ural-375 ZU-23#10485",
+      "type": "Ural-375 ZU-23",
+      "x": 138863.7,
+      "z": 383396.8,
+      "alt": 442.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Ural-375 ZU-23#10483",
+      "type": "Ural-375 ZU-23",
+      "x": 138940.1,
+      "z": 384728.6,
+      "alt": 320.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] Strela-10M3#10481",
+      "type": "Strela-10M3",
+      "x": 139611.3,
+      "z": 382973.4,
+      "alt": 483.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Hard [r] combatZone_Arad_Easy-Inert-T-72B-2#10480",
+      "type": "T-72B",
+      "x": 140353.6,
+      "z": 384625.7,
+      "alt": 317.9
+    }
+  ],
+  "image": "arad-hard.jpg",
+  "heading": 70,
+  "pitch": -30.0,
+  "x": 137920.1089629151,
+  "y": 379485.121129523,
+  "altitude_m": 2845,
+  "order": 3
+}

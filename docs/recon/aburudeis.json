@@ -1,0 +1,130 @@
+{
+  "name": "aburudeis",
+  "title": "Z12 Frappe — dépôts pétroliers d'Abu Rudeis",
+  "heading_deg": 126.0,
+  "pitch_deg": 30.0,
+  "slant_m": 950.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_AbuRudeis",
+  "camera": {
+    "position": [
+      -123606.10377645651,
+      531.0888888888888,
+      192646.32441646128
+    ],
+    "forward": [
+      -0.5090369604551271,
+      -0.49999999999999994,
+      0.7006292692220368
+    ],
+    "up": [
+      -0.29389262614623646,
+      0.8660254037844387,
+      0.40450849718747367
+    ],
+    "right": [
+      -0.8090169943749475,
+      0.0,
+      -0.587785252292473
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -124089.68888888888,
+    "z": 193311.92222222223,
+    "alt_m": 56.08888888888889,
+    "lat": 28.938736415395525,
+    "lon": 33.2471839448134,
+    "dms": "N28°56'19.45\" E033°14'49.86\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:42",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuRudeis [r] Ural-375 ZU-23#10626",
+      "type": "Ural-375 ZU-23",
+      "x": -123801.6,
+      "z": 193196.8,
+      "alt": 59.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuRudeis [r] Ural-375 ZU-23#10623",
+      "type": "Ural-375 ZU-23",
+      "x": -124314.6,
+      "z": 193236.5,
+      "alt": 52.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Fuel-2#10625 #330",
+      "type": "Fuel tank",
+      "x": -123992.0,
+      "z": 193441.0,
+      "alt": 57.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Fuel-1#10628 #329",
+      "type": "Fuel tank",
+      "x": -123962.0,
+      "z": 193343.0,
+      "alt": 57.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Tank-5#10629 #333",
+      "type": "Tank",
+      "x": -124284.0,
+      "z": 193429.0,
+      "alt": 56.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Tank-4#10630 #332",
+      "type": "Tank",
+      "x": -124192.0,
+      "z": 193441.0,
+      "alt": 56.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Workshop-7#10631 #335",
+      "type": "Workshop A",
+      "x": -124017.0,
+      "z": 193138.0,
+      "alt": 55.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Electric-6#10632 #334",
+      "type": "Electric power box",
+      "x": -124152.0,
+      "z": 193164.0,
+      "alt": 53.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuRudeis [r] combatZone_AbuRudeis-Static-Fuel-3#10633 #331",
+      "type": "Fuel tank",
+      "x": -124092.0,
+      "z": 193418.0,
+      "alt": 56.1
+    }
+  ],
+  "image": "aburudeis.jpg",
+  "heading": 126,
+  "pitch": -30.0,
+  "x": -123606.10377645651,
+  "y": 192646.32441646128,
+  "altitude_m": 531,
+  "order": 21
+}

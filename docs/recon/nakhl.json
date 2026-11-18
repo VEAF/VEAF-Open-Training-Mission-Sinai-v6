@@ -1,0 +1,186 @@
+{
+  "name": "nakhl",
+  "title": "Z05 SEAD — site sol-air de Nakhl",
+  "heading_deg": 94.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3050.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Nakhl",
+  "camera": {
+    "position": [
+      -10125.828071060454,
+      1953.9812499999998,
+      238566.03178124735
+    ],
+    "forward": [
+      -0.06041087834083474,
+      -0.49999999999999994,
+      0.8639158094271043
+    ],
+    "up": [
+      -0.03487823687206266,
+      0.8660254037844387,
+      0.49878202512991204
+    ],
+    "right": [
+      -0.9975640502598242,
+      0.0,
+      -0.06975647374412533
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -10310.08125,
+    "z": 241200.975,
+    "alt_m": 428.98125,
+    "lat": 29.96375267861596,
+    "lon": 33.74601908427433,
+    "dms": "N29°57'49.51\" E033°44'45.67\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:38",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] ZSU-23-4 Shilka#10589",
+      "type": "ZSU-23-4 Shilka",
+      "x": -9790.3,
+      "z": 240678.6,
+      "alt": 431.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] Red EWR#10588",
+      "type": "55G6 EWR",
+      "x": -11302.0,
+      "z": 241251.0,
+      "alt": 396.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] Red EWR#10588",
+      "type": "SA-18 Igla manpad",
+      "x": -11320.0,
+      "z": 241219.0,
+      "alt": 397.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] Red EWR#10588",
+      "type": "Ural-375 PBU",
+      "x": -11298.0,
+      "z": 241229.0,
+      "alt": 396.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "SNR_75V",
+      "x": -10096.0,
+      "z": 241239.0,
+      "alt": 438.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "p-19 s-125 sr",
+      "x": -10149.0,
+      "z": 241294.0,
+      "alt": 430.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10053.0,
+      "z": 241192.0,
+      "alt": 440.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10053.0,
+      "z": 241264.0,
+      "alt": 440.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10098.0,
+      "z": 241173.0,
+      "alt": 438.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10088.0,
+      "z": 241291.0,
+      "alt": 437.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10139.0,
+      "z": 241188.0,
+      "alt": 434.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S_75M_Volhov",
+      "x": -10141.0,
+      "z": 241261.0,
+      "alt": 434.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "ZSU_57_2",
+      "x": -10096.0,
+      "z": 241268.0,
+      "alt": 438.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "ZSU_57_2",
+      "x": -10151.0,
+      "z": 241219.0,
+      "alt": 433.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "S-60_Type59_Artillery",
+      "x": -10116.0,
+      "z": 241212.0,
+      "alt": 436.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nakhl [r] SA2#10587",
+      "type": "ZIL-135",
+      "x": -10071.0,
+      "z": 241237.0,
+      "alt": 439.6
+    }
+  ],
+  "image": "nakhl.jpg",
+  "heading": 94,
+  "pitch": -30.0,
+  "x": -10125.828071060454,
+  "y": 238566.03178124735,
+  "altitude_m": 1954,
+  "order": 14
+}

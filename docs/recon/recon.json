@@ -1,0 +1,149 @@
+{
+  "operation": "Open Training Sinaï",
+  "shots": [
+    {
+      "name": "arad-easy",
+      "title": "H1 Hélico Arad — facile",
+      "image": "arad-easy.jpg",
+      "metadata": "arad-easy.json"
+    },
+    {
+      "name": "arad-medium",
+      "title": "H2 Hélico Arad — moyen",
+      "image": "arad-medium.jpg",
+      "metadata": "arad-medium.json"
+    },
+    {
+      "name": "arad-hard",
+      "title": "H3 Hélico Arad — difficile",
+      "image": "arad-hard.jpg",
+      "metadata": "arad-hard.json"
+    },
+    {
+      "name": "desertgizeh-easy",
+      "title": "A1 Attaque désert de Gizeh — facile",
+      "image": "desertgizeh-easy.jpg",
+      "metadata": "desertgizeh-easy.json"
+    },
+    {
+      "name": "desertgizeh-medium",
+      "title": "A2 Attaque désert de Gizeh — moyen",
+      "image": "desertgizeh-medium.jpg",
+      "metadata": "desertgizeh-medium.json"
+    },
+    {
+      "name": "desertgizeh-hard",
+      "title": "A3 Attaque désert de Gizeh — difficile",
+      "image": "desertgizeh-hard.jpg",
+      "metadata": "desertgizeh-hard.json"
+    },
+    {
+      "name": "desertouest-easy",
+      "title": "S1 SEAD désert occidental — facile",
+      "image": "desertouest-easy.jpg",
+      "metadata": "desertouest-easy.json"
+    },
+    {
+      "name": "desertouest-medium",
+      "title": "S2 SEAD désert occidental — moyen",
+      "image": "desertouest-medium.jpg",
+      "metadata": "desertouest-medium.json"
+    },
+    {
+      "name": "desertouest-hard",
+      "title": "S3 SEAD désert occidental — difficile",
+      "image": "desertouest-hard.jpg",
+      "metadata": "desertouest-hard.json"
+    },
+    {
+      "name": "tetedepont",
+      "title": "Z01 Front ouest — tête de pont face à Ismaïlia",
+      "image": "tetedepont.jpg",
+      "metadata": "tetedepont.json"
+    },
+    {
+      "name": "mitla",
+      "title": "Z02 Front ouest — ligne du col de Mitla",
+      "image": "mitla.jpg",
+      "metadata": "mitla.json"
+    },
+    {
+      "name": "abuageila",
+      "title": "Z03 Front est — carrefour d'Abu Ageila",
+      "image": "abuageila.jpg",
+      "metadata": "abuageila.json"
+    },
+    {
+      "name": "maghara",
+      "title": "Z04 SEAD — site SA-6 du djebel Maghara",
+      "image": "maghara.jpg",
+      "metadata": "maghara.json"
+    },
+    {
+      "name": "nakhl",
+      "title": "Z05 SEAD — site sol-air de Nakhl",
+      "image": "nakhl.jpg",
+      "metadata": "nakhl.json"
+    },
+    {
+      "name": "convoielarish",
+      "title": "Z06 Convoi — El Arish vers Abu Ageila",
+      "image": "convoielarish.jpg",
+      "metadata": "convoielarish.json"
+    },
+    {
+      "name": "convoinakhl",
+      "title": "Z07 Convoi — Nakhl vers le col de Mitla",
+      "image": "convoinakhl.jpg",
+      "metadata": "convoinakhl.json"
+    },
+    {
+      "name": "convoifeiran",
+      "title": "Z08 Convoi — oasis de Feiran vers Abu Rudeis",
+      "image": "convoifeiran.jpg",
+      "metadata": "convoifeiran.json"
+    },
+    {
+      "name": "usinesportfouad",
+      "title": "Z09 Frappe — usines de Port-Fouad",
+      "image": "usinesportfouad.jpg",
+      "metadata": "usinesportfouad.json"
+    },
+    {
+      "name": "etatmajor",
+      "title": "Z10 Frappe — état-major de Bir Tamada",
+      "image": "etatmajor.jpg",
+      "metadata": "etatmajor.json"
+    },
+    {
+      "name": "scud",
+      "title": "Z11 Frappe — base de missiles du djebel Libni",
+      "image": "scud.jpg",
+      "metadata": "scud.json"
+    },
+    {
+      "name": "aburudeis",
+      "title": "Z12 Frappe — dépôts pétroliers d'Abu Rudeis",
+      "image": "aburudeis.jpg",
+      "metadata": "aburudeis.json"
+    },
+    {
+      "name": "elgora",
+      "title": "Z13 OCA — base aérienne d'El Gora",
+      "image": "elgora.jpg",
+      "metadata": "elgora.json"
+    },
+    {
+      "name": "sharm",
+      "title": "Z14 OCA — base aérienne de Sharm el-Cheikh",
+      "image": "sharm.jpg",
+      "metadata": "sharm.json"
+    },
+    {
+      "name": "croiseur",
+      "title": "Z15 Antinavire — croiseur Moskva devant Damiette",
+      "image": "croiseur.jpg",
+      "metadata": "croiseur.json"
+    }
+  ]
+}
