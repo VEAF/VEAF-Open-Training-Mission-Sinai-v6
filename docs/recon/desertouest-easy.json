@@ -1,0 +1,162 @@
+{
+  "name": "desertouest-easy",
+  "title": "S1 SEAD désert occidental — facile",
+  "heading_deg": 249.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_DesertOuest_Easy",
+  "camera": {
+    "position": [
+      -44805.8634741519,
+      558.8615384615384,
+      -114196.74353435266
+    ],
+    "forward": [
+      -0.3103557482083704,
+      -0.49999999999999994,
+      -0.8085043658224875
+    ],
+    "up": [
+      -0.17918397477265033,
+      0.8660254037844387,
+      -0.46679021324860076
+    ],
+    "right": [
+      0.9335804264972016,
+      0.0,
+      -0.3583679495453007
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -44992.07692307692,
+    "z": -114681.84615384616,
+    "alt_m": 258.86153846153843,
+    "lat": 29.620445173286186,
+    "lon": 30.06814964906975,
+    "dms": "N29°37'13.60\" E030°04'05.34\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:34",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk SR 9S18M1",
+      "x": -44995.0,
+      "z": -114684.0,
+      "alt": 258.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk CC 9S470M1",
+      "x": -45003.0,
+      "z": -114735.0,
+      "alt": 258.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44946.0,
+      "z": -114759.0,
+      "alt": 258.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44939.0,
+      "z": -114697.0,
+      "alt": 258.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44940.0,
+      "z": -114648.0,
+      "alt": 258.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45040.0,
+      "z": -114640.0,
+      "alt": 259.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45062.0,
+      "z": -114714.0,
+      "alt": 259.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45054.0,
+      "z": -114639.0,
+      "alt": 259.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "ZSU-23-4 Shilka",
+      "x": -44983.0,
+      "z": -114654.0,
+      "alt": 259.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "ZSU-23-4 Shilka",
+      "x": -45015.0,
+      "z": -114716.0,
+      "alt": 258.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "ATZ-5",
+      "x": -44962.0,
+      "z": -114660.0,
+      "alt": 258.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "Ural-375",
+      "x": -44941.0,
+      "z": -114661.0,
+      "alt": 258.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Easy [r] SA11#10546",
+      "type": "Ural-375",
+      "x": -45017.0,
+      "z": -114657.0,
+      "alt": 259.2
+    }
+  ],
+  "image": "desertouest-easy.jpg",
+  "heading": 249,
+  "pitch": -30.0,
+  "x": -44805.8634741519,
+  "y": -114196.74353435266,
+  "altitude_m": 559,
+  "order": 7
+}

@@ -1,0 +1,226 @@
+{
+  "name": "abuageila",
+  "title": "Z03 Front est — carrefour d'Abu Ageila",
+  "heading_deg": 72.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3750.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_AbuAgeila",
+  "camera": {
+    "position": [
+      87365.81882489413,
+      2009.2095238095235,
+      273106.839075987
+    ],
+    "forward": [
+      0.2676165673298175,
+      -0.49999999999999994,
+      0.823639103546332
+    ],
+    "up": [
+      0.1545084971874737,
+      0.8660254037844387,
+      0.4755282581475767
+    ],
+    "right": [
+      -0.9510565162951535,
+      0.0,
+      0.30901699437494745
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 88369.38095238095,
+    "z": 276195.48571428575,
+    "alt_m": 134.2095238095238,
+    "lat": 30.851519504381862,
+    "lon": 34.118775704079056,
+    "dms": "N30°51'05.47\" E034°07'07.59\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:37",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Ural-375 ZU-23#10581",
+      "type": "Ural-375 ZU-23",
+      "x": 89166.0,
+      "z": 276905.6,
+      "alt": 138.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10580",
+      "type": "BMP-1",
+      "x": 88334.2,
+      "z": 277268.4,
+      "alt": 135.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10580",
+      "type": "BMP-1",
+      "x": 88309.2,
+      "z": 277208.4,
+      "alt": 135.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10580",
+      "type": "BMP-2",
+      "x": 88346.2,
+      "z": 277133.4,
+      "alt": 135.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10580",
+      "type": "VAB_Mephisto",
+      "x": 88245.2,
+      "z": 277101.4,
+      "alt": 135.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10580",
+      "type": "BMP-2",
+      "x": 88279.2,
+      "z": 277301.4,
+      "alt": 134.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] SA8#10578",
+      "type": "Osa 9A33 ln",
+      "x": 87638.0,
+      "z": 276118.0,
+      "alt": 131.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] SA8#10578",
+      "type": "GAZ-66",
+      "x": 87642.0,
+      "z": 276104.0,
+      "alt": 131.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Lance-roquettes#10577",
+      "type": "Grad-URAL",
+      "x": 87775.5,
+      "z": 275098.2,
+      "alt": 127.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Lance-roquettes#10577",
+      "type": "Grad-URAL",
+      "x": 87795.5,
+      "z": 275098.2,
+      "alt": 128.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Lance-roquettes#10577",
+      "type": "Grad-URAL",
+      "x": 87815.5,
+      "z": 275098.2,
+      "alt": 128.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Lance-roquettes#10577",
+      "type": "Grad-URAL",
+      "x": 87835.5,
+      "z": 275098.2,
+      "alt": 128.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "BTR-82A",
+      "x": 88968.5,
+      "z": 276048.8,
+      "alt": 137.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "Ural-375 ZU-23",
+      "x": 89076.5,
+      "z": 275799.8,
+      "alt": 137.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "VAB_Mephisto",
+      "x": 89019.5,
+      "z": 275862.8,
+      "alt": 137.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "BMP-1",
+      "x": 89010.5,
+      "z": 276003.8,
+      "alt": 137.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "VAB_Mephisto",
+      "x": 88877.5,
+      "z": 275946.8,
+      "alt": 137.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_AbuAgeila [r] Armored Platoon#10576",
+      "type": "VAB_Mephisto",
+      "x": 89051.5,
+      "z": 275941.8,
+      "alt": 137.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Static-Bunker-3#10574 #269",
+      "type": "Bunker",
+      "x": 87992.0,
+      "z": 275950.0,
+      "alt": 132.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Static-Bunker-2#10575 #268",
+      "type": "Bunker",
+      "x": 87977.0,
+      "z": 276704.0,
+      "alt": 134.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_AbuAgeila [r] combatZone_AbuAgeila-Static-Bunker-1#10579 #267",
+      "type": "Bunker",
+      "x": 88602.0,
+      "z": 276314.0,
+      "alt": 136.5
+    }
+  ],
+  "image": "abuageila.jpg",
+  "heading": 72,
+  "pitch": -30.0,
+  "x": 87365.81882489413,
+  "y": 273106.839075987,
+  "altitude_m": 2009,
+  "order": 12
+}

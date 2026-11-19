@@ -1,0 +1,98 @@
+{
+  "name": "convoifeiran",
+  "title": "Z08 Convoi — oasis de Feiran vers Abu Rudeis",
+  "heading_deg": 122.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_ConvoiFeiran",
+  "camera": {
+    "position": [
+      -138395.4058731316,
+      1380.04,
+      250077.2212830585
+    ],
+    "forward": [
+      -0.45892354478071384,
+      -0.49999999999999994,
+      0.7344311949024934
+    ],
+    "up": [
+      -0.26495963211660234,
+      0.8660254037844387,
+      0.424024048078213
+    ],
+    "right": [
+      -0.8480480961564261,
+      0.0,
+      -0.5299192642332048
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -138670.76,
+    "z": 250517.87999999998,
+    "alt_m": 1080.04,
+    "lat": 28.80478206852655,
+    "lon": 33.833084176005364,
+    "dms": "N28°48'17.22\" E033°49'59.10\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:40",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiFeiran [r] combatZone_ConvoiFeiran-Convoi#10593",
+      "type": "BTR-80",
+      "x": -138669.2,
+      "z": 250501.2,
+      "alt": 1078.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiFeiran [r] combatZone_ConvoiFeiran-Convoi#10593",
+      "type": "ATZ-10",
+      "x": -138701.2,
+      "z": 250522.1,
+      "alt": 1080.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiFeiran [r] combatZone_ConvoiFeiran-Convoi#10593",
+      "type": "ATZ-10",
+      "x": -138681.2,
+      "z": 250522.1,
+      "alt": 1081.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiFeiran [r] combatZone_ConvoiFeiran-Convoi#10593",
+      "type": "ATZ-10",
+      "x": -138661.1,
+      "z": 250522.0,
+      "alt": 1080.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiFeiran [r] combatZone_ConvoiFeiran-Convoi#10593",
+      "type": "Ural-375 ZU-23",
+      "x": -138641.1,
+      "z": 250522.0,
+      "alt": 1079.3
+    }
+  ],
+  "image": "convoifeiran.jpg",
+  "heading": 122,
+  "pitch": -30.0,
+  "x": -138395.4058731316,
+  "y": 250077.2212830585,
+  "altitude_m": 1380,
+  "order": 17
+}

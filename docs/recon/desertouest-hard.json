@@ -1,0 +1,202 @@
+{
+  "name": "desertouest-hard",
+  "title": "S3 SEAD désert occidental — difficile",
+  "heading_deg": 249.0,
+  "pitch_deg": 30.0,
+  "slant_m": 5950.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_DesertOuest_Hard",
+  "camera": {
+    "position": [
+      -43448.772187049086,
+      3233.8777777777773,
+      -109801.62124557841
+    ],
+    "forward": [
+      -0.3103557482083704,
+      -0.49999999999999994,
+      -0.8085043658224875
+    ],
+    "up": [
+      -0.17918397477265033,
+      0.8660254037844387,
+      -0.46679021324860076
+    ],
+    "right": [
+      0.9335804264972016,
+      0.0,
+      -0.3583679495453007
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -45295.38888888889,
+    "z": -114612.22222222222,
+    "alt_m": 258.8777777777778,
+    "lat": 29.61772722117325,
+    "lon": 30.068947043916943,
+    "dms": "N29°37'03.82\" E030°04'08.21\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:35",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] Red EWR#10553",
+      "type": "55G6 EWR",
+      "x": -46104.0,
+      "z": -113096.0,
+      "alt": 263.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] Red EWR#10553",
+      "type": "SA-18 Igla manpad",
+      "x": -46076.0,
+      "z": -113109.0,
+      "alt": 263.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] Red EWR#10553",
+      "type": "Ural-375 PBU",
+      "x": -46121.0,
+      "z": -113067.0,
+      "alt": 263.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA8#10552",
+      "type": "Osa 9A33 ln",
+      "x": -46461.0,
+      "z": -114625.0,
+      "alt": 260.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA8#10552",
+      "type": "GAZ-66",
+      "x": -46446.0,
+      "z": -114596.0,
+      "alt": 260.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA15#10551",
+      "type": "Tor 9A331",
+      "x": -44615.0,
+      "z": -116432.0,
+      "alt": 251.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA15#10551",
+      "type": "GAZ-66",
+      "x": -44608.0,
+      "z": -116464.0,
+      "alt": 251.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk SR 9S18M1",
+      "x": -44973.0,
+      "z": -114680.0,
+      "alt": 258.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk CC 9S470M1",
+      "x": -44973.0,
+      "z": -114742.0,
+      "alt": 258.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44967.0,
+      "z": -114756.0,
+      "alt": 258.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44958.0,
+      "z": -114702.0,
+      "alt": 258.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -44963.0,
+      "z": -114635.0,
+      "alt": 259.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45018.0,
+      "z": -114643.0,
+      "alt": 259.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45034.0,
+      "z": -114717.0,
+      "alt": 258.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -45037.0,
+      "z": -114645.0,
+      "alt": 259.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "ZSU-23-4 Shilka",
+      "x": -45017.0,
+      "z": -114666.0,
+      "alt": 259.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "ATZ-5",
+      "x": -44952.0,
+      "z": -114712.0,
+      "alt": 258.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertOuest_Hard [r] SA11#10550",
+      "type": "Ural-375",
+      "x": -44994.0,
+      "z": -114733.0,
+      "alt": 258.4
+    }
+  ],
+  "image": "desertouest-hard.jpg",
+  "heading": 249,
+  "pitch": -30.0,
+  "x": -43448.772187049086,
+  "y": -109801.62124557841,
+  "altitude_m": 3234,
+  "order": 9
+}

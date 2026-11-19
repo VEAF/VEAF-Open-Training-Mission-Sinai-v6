@@ -1,0 +1,226 @@
+{
+  "name": "tetedepont",
+  "title": "Z01 Front ouest — tête de pont face à Ismaïlia",
+  "heading_deg": 61.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4750.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_TeteDePont",
+  "camera": {
+    "position": [
+      60293.972364216264,
+      2508.8999999999996,
+      114945.81296275886
+    ],
+    "forward": [
+      0.41985744713241446,
+      -0.49999999999999994,
+      0.7574428850332228
+    ],
+    "up": [
+      0.24240481012316853,
+      0.8660254037844387,
+      0.4373098535696978
+    ],
+    "right": [
+      -0.8746197071393957,
+      0.0,
+      0.4848096202463371
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 62288.295238095234,
+    "z": 118543.66666666667,
+    "alt_m": 133.9,
+    "lat": 30.61993285131167,
+    "lon": 32.47123730550022,
+    "dms": "N30°37'11.76\" E032°28'16.45\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:36",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Ural-375 ZU-23#10563",
+      "type": "Ural-375 ZU-23",
+      "x": 62468.4,
+      "z": 116962.3,
+      "alt": 122.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "BMP-2",
+      "x": 62999.1,
+      "z": 117946.6,
+      "alt": 126.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "ZSU_57_2",
+      "x": 62910.1,
+      "z": 118085.6,
+      "alt": 131.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "VAB_Mephisto",
+      "x": 62887.1,
+      "z": 118146.6,
+      "alt": 132.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "BTR-82A",
+      "x": 62887.1,
+      "z": 118036.6,
+      "alt": 131.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "BMP-2",
+      "x": 63018.1,
+      "z": 118162.6,
+      "alt": 127.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "BMP-2",
+      "x": 62820.1,
+      "z": 117865.6,
+      "alt": 132.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10561",
+      "type": "BTR-82A",
+      "x": 62959.1,
+      "z": 117957.6,
+      "alt": 128.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Strela-10M3#10558",
+      "type": "Strela-10M3",
+      "x": 61732.1,
+      "z": 117364.3,
+      "alt": 121.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "BTR-82A",
+      "x": 61671.7,
+      "z": 118874.5,
+      "alt": 135.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "VAB_Mephisto",
+      "x": 61612.7,
+      "z": 118740.5,
+      "alt": 133.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "BMP-2",
+      "x": 61704.7,
+      "z": 118749.5,
+      "alt": 135.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "T-55",
+      "x": 61633.7,
+      "z": 118788.5,
+      "alt": 134.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "ZSU_57_2",
+      "x": 61651.7,
+      "z": 118882.5,
+      "alt": 135.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] Armored Platoon#10557",
+      "type": "Chieftain_mk3",
+      "x": 61670.7,
+      "z": 118678.5,
+      "alt": 134.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Artillerie#10556",
+      "type": "Grad-URAL",
+      "x": 61994.2,
+      "z": 119319.8,
+      "alt": 141.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Artillerie#10556",
+      "type": "Grad-URAL",
+      "x": 62014.2,
+      "z": 119319.8,
+      "alt": 142.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Artillerie#10556",
+      "type": "Grad-URAL",
+      "x": 62034.2,
+      "z": 119319.8,
+      "alt": 142.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Artillerie#10556",
+      "type": "Grad-URAL",
+      "x": 62054.2,
+      "z": 119319.8,
+      "alt": 142.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Static-Command-1#10560 #248",
+      "type": ".Command Center",
+      "x": 62750.0,
+      "z": 119299.0,
+      "alt": 138.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_TeteDePont [r] combatZone_TeteDePont-Static-Fuel-2#10562 #249",
+      "type": "Fuel tank",
+      "x": 62581.0,
+      "z": 119597.0,
+      "alt": 140.0
+    }
+  ],
+  "image": "tetedepont.jpg",
+  "heading": 61,
+  "pitch": -30.0,
+  "x": 60293.972364216264,
+  "y": 114945.81296275886,
+  "altitude_m": 2509,
+  "order": 10
+}

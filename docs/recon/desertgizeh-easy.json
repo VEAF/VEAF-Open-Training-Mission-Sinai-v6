@@ -1,0 +1,162 @@
+{
+  "name": "desertgizeh-easy",
+  "title": "A1 Attaque désert de Gizeh — facile",
+  "heading_deg": 259.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3400.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_DesertGizeh_Easy",
+  "camera": {
+    "position": [
+      -9325.534744062536,
+      1811.130769230769,
+      -56914.04290433322
+    ],
+    "forward": [
+      -0.16524543726667515,
+      -0.49999999999999994,
+      -0.8501140779110444
+    ],
+    "up": [
+      -0.09540449768827229,
+      0.8660254037844387,
+      -0.49081359172383193
+    ],
+    "right": [
+      0.981627183447664,
+      0.0,
+      -0.1908089953765446
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -9887.36923076923,
+    "z": -59804.43076923077,
+    "alt_m": 111.13076923076923,
+    "lat": 29.94830416526597,
+    "lon": 30.626953792523455,
+    "dms": "N29°56'53.89\" E030°37'37.03\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:32",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-Ural-375-8#10508",
+      "type": "Ural-375",
+      "x": -9889.1,
+      "z": -60570.4,
+      "alt": 107.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-T-72B-1#10507",
+      "type": "T-72B",
+      "x": -9252.8,
+      "z": -60008.0,
+      "alt": 115.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-T-72B-2#10506",
+      "type": "T-72B",
+      "x": -9329.4,
+      "z": -59422.7,
+      "alt": 119.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-T-72B-3#10505",
+      "type": "T-72B",
+      "x": -9855.8,
+      "z": -59410.2,
+      "alt": 112.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-BMP-2-5#10503",
+      "type": "BMP-2",
+      "x": -10462.8,
+      "z": -59809.9,
+      "alt": 106.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-KAMAZ-10#10502",
+      "type": "KAMAZ Truck",
+      "x": -9567.9,
+      "z": -60059.2,
+      "alt": 112.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-BTR-80-7#10501",
+      "type": "BTR-80",
+      "x": -10425.1,
+      "z": -60772.2,
+      "alt": 103.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-Ural-375-9#10500",
+      "type": "Ural-375",
+      "x": -9346.2,
+      "z": -60505.6,
+      "alt": 112.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-BTR-80-6#10498",
+      "type": "BTR-80",
+      "x": -10610.2,
+      "z": -60241.8,
+      "alt": 108.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Inert-BMP-2-4#10497",
+      "type": "BMP-2",
+      "x": -10417.5,
+      "z": -59313.6,
+      "alt": 105.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Static-Fuel-2#10496 #229",
+      "type": "Fuel tank",
+      "x": -10410.0,
+      "z": -58872.0,
+      "alt": 104.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Static-Fuel-1#10499 #228",
+      "type": "Fuel tank",
+      "x": -10191.0,
+      "z": -58917.0,
+      "alt": 109.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Easy [r] combatZone_DesertGizeh_Easy-Static-Command-3#10504 #230",
+      "type": ".Command Center",
+      "x": -8778.0,
+      "z": -59555.0,
+      "alt": 126.4
+    }
+  ],
+  "image": "desertgizeh-easy.jpg",
+  "heading": 259,
+  "pitch": -30.0,
+  "x": -9325.534744062536,
+  "y": -56914.04290433322,
+  "altitude_m": 1811,
+  "order": 4
+}

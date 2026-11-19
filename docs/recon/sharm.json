@@ -1,0 +1,202 @@
+{
+  "name": "sharm",
+  "title": "Z14 OCA — base aérienne de Sharm el-Cheikh",
+  "heading_deg": 129.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3150.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Sharm",
+  "camera": {
+    "position": [
+      -227933.67654582855,
+      1608.9611111111108,
+      303817.5557874733
+    ],
+    "forward": [
+      -0.5450074457687162,
+      -0.49999999999999994,
+      0.6730281450702191
+    ],
+    "up": [
+      -0.3146601955249186,
+      0.8660254037844387,
+      0.38857298072848545
+    ],
+    "right": [
+      -0.777145961456971,
+      0.0,
+      -0.6293203910498373
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -229650.45,
+    "z": 305937.59444444446,
+    "alt_m": 33.96111111111111,
+    "lat": 27.979074548055124,
+    "lon": 34.39013556911154,
+    "dms": "N27°58'44.67\" E034°23'24.49\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:43",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] Ural-375 ZU-23#10647",
+      "type": "Ural-375 ZU-23",
+      "x": -229579.1,
+      "z": 304894.6,
+      "alt": 40.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Kub 1S91 str",
+      "x": -229708.0,
+      "z": 306449.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Kub 2P25 ln",
+      "x": -229652.0,
+      "z": 306453.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Kub 2P25 ln",
+      "x": -229702.0,
+      "z": 306401.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Kub 2P25 ln",
+      "x": -229711.0,
+      "z": 306491.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Kub 2P25 ln",
+      "x": -229724.0,
+      "z": 306452.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "ZSU-23-4 Shilka",
+      "x": -229687.0,
+      "z": 306431.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "ZSU-23-4 Shilka",
+      "x": -229651.0,
+      "z": 306390.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "ATZ-5",
+      "x": -229658.0,
+      "z": 306462.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "ZIL-135",
+      "x": -229678.0,
+      "z": 306418.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Sharm [r] SA6#10646",
+      "type": "Ural-375 PBU",
+      "x": -229672.0,
+      "z": 306477.0,
+      "alt": 30.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-Fuel-7#10643 #352",
+      "type": "Fuel tank",
+      "x": -230061.0,
+      "z": 305310.0,
+      "alt": 33.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-Hangar-6#10644 #351",
+      "type": "Hangar A",
+      "x": -229985.0,
+      "z": 305447.0,
+      "alt": 32.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-IL-76MD-2#10645 #347",
+      "type": "IL-76MD",
+      "x": -229328.0,
+      "z": 305577.0,
+      "alt": 41.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-IL-76MD-1#10649 #346",
+      "type": "IL-76MD",
+      "x": -229385.0,
+      "z": 305447.1,
+      "alt": 42.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-Mi-24V-4#10650 #349",
+      "type": "Mi-24V",
+      "x": -229499.0,
+      "z": 305225.0,
+      "alt": 40.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-Mi-8MT-5#10651 #350",
+      "type": "Mi-8MT",
+      "x": -229468.0,
+      "z": 305322.0,
+      "alt": 40.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Sharm [r] combatZone_Sharm-Static-Mi-24V-3#10652 #348",
+      "type": "Mi-24V",
+      "x": -229560.0,
+      "z": 305230.0,
+      "alt": 40.0
+    }
+  ],
+  "image": "sharm.jpg",
+  "heading": 129,
+  "pitch": -30.0,
+  "x": -227933.67654582855,
+  "y": 303817.5557874733,
+  "altitude_m": 1609,
+  "order": 23
+}

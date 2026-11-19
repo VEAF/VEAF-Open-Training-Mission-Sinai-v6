@@ -1,0 +1,298 @@
+{
+  "name": "desertgizeh-hard",
+  "title": "A3 Attaque désert de Gizeh — difficile",
+  "heading_deg": 259.0,
+  "pitch_deg": 30.0,
+  "slant_m": 5250.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_DesertGizeh_Hard",
+  "camera": {
+    "position": [
+      -9329.501454349956,
+      2730.7799999999997,
+      -56111.204424300355
+    ],
+    "forward": [
+      -0.16524543726667515,
+      -0.49999999999999994,
+      -0.8501140779110444
+    ],
+    "up": [
+      -0.09540449768827229,
+      0.8660254037844387,
+      -0.49081359172383193
+    ],
+    "right": [
+      0.981627183447664,
+      0.0,
+      -0.1908089953765446
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -10197.04,
+    "z": -60574.30333333334,
+    "alt_m": 105.78,
+    "lat": 29.945368049814324,
+    "lon": 30.619049091176596,
+    "dms": "N29°56'43.32\" E030°37'08.58\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:33",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] ZSU-23-4 Shilka#10544",
+      "type": "ZSU-23-4 Shilka",
+      "x": -10418.8,
+      "z": -60771.9,
+      "alt": 103.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Ural-375 ZU-23#10542",
+      "type": "Ural-375 ZU-23",
+      "x": -9396.7,
+      "z": -61275.6,
+      "alt": 106.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-T-72B-1#10541",
+      "type": "T-72B",
+      "x": -9261.6,
+      "z": -59993.0,
+      "alt": 115.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-BMP-2-5#10539",
+      "type": "BMP-2",
+      "x": -10444.8,
+      "z": -59829.2,
+      "alt": 107.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-KAMAZ-10#10538",
+      "type": "KAMAZ Truck",
+      "x": -9567.2,
+      "z": -60055.0,
+      "alt": 112.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-BTR-80-7#10537",
+      "type": "BTR-80",
+      "x": -10414.2,
+      "z": -60770.9,
+      "alt": 103.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-Ural-375-9#10536",
+      "type": "Ural-375",
+      "x": -9366.8,
+      "z": -60519.5,
+      "alt": 111.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-BMP-2-4#10534",
+      "type": "BMP-2",
+      "x": -10361.3,
+      "z": -59313.1,
+      "alt": 106.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "Chieftain_mk3",
+      "x": -10295.0,
+      "z": -61697.9,
+      "alt": 107.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "ZSU-23-4 Shilka",
+      "x": -10226.0,
+      "z": -61570.9,
+      "alt": 103.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "CHAP_T64BV",
+      "x": -10063.0,
+      "z": -61386.9,
+      "alt": 103.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "T-72B",
+      "x": -10105.0,
+      "z": -61666.9,
+      "alt": 104.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "ZSU-23-4 Shilka",
+      "x": -10048.0,
+      "z": -61657.9,
+      "alt": 104.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "CHAP_T64BV",
+      "x": -10062.0,
+      "z": -61617.9,
+      "alt": 103.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "Chieftain_mk3",
+      "x": -10200.0,
+      "z": -61487.9,
+      "alt": 103.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10532",
+      "type": "BTR-82A",
+      "x": -10149.0,
+      "z": -61431.9,
+      "alt": 102.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-T-72B-2#10531",
+      "type": "T-72B",
+      "x": -9288.8,
+      "z": -59415.1,
+      "alt": 120.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-T-72B-3#10530",
+      "type": "T-72B",
+      "x": -9900.5,
+      "z": -59388.8,
+      "alt": 112.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Strela-10M3#10528",
+      "type": "Strela-10M3",
+      "x": -11237.8,
+      "z": -60318.5,
+      "alt": 94.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-Ural-375-8#10527",
+      "type": "Ural-375",
+      "x": -9858.7,
+      "z": -60587.2,
+      "alt": 107.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "T-72B",
+      "x": -10868.2,
+      "z": -60757.0,
+      "alt": 98.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "BMP-3",
+      "x": -10821.2,
+      "z": -60674.0,
+      "alt": 100.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "BMP-3",
+      "x": -10917.2,
+      "z": -60827.0,
+      "alt": 97.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "CHAP_BMPT",
+      "x": -10857.2,
+      "z": -60939.0,
+      "alt": 98.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "BMP-3",
+      "x": -10792.2,
+      "z": -60871.0,
+      "alt": 98.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] Armored Platoon#10526",
+      "type": "T-72B",
+      "x": -10978.2,
+      "z": -60821.0,
+      "alt": 97.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Inert-BTR-80-6#10525",
+      "type": "BTR-80",
+      "x": -10632.8,
+      "z": -60240.1,
+      "alt": 107.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Static-Fuel-2#10533 #229",
+      "type": "Fuel tank",
+      "x": -10410.0,
+      "z": -58872.0,
+      "alt": 104.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Static-Fuel-1#10535 #228",
+      "type": "Fuel tank",
+      "x": -10191.0,
+      "z": -58917.0,
+      "alt": 109.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_DesertGizeh_Hard [r] combatZone_DesertGizeh_Easy-Static-Command-3#10540 #230",
+      "type": ".Command Center",
+      "x": -8778.0,
+      "z": -59555.0,
+      "alt": 126.4
+    }
+  ],
+  "image": "desertgizeh-hard.jpg",
+  "heading": 259,
+  "pitch": -30.0,
+  "x": -9329.501454349956,
+  "y": -56111.204424300355,
+  "altitude_m": 2731,
+  "order": 6
+}

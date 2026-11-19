@@ -1,0 +1,114 @@
+{
+  "name": "arad-easy",
+  "title": "H1 Hélico Arad — facile",
+  "heading_deg": 70.0,
+  "pitch_deg": 30.0,
+  "slant_m": 2400.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Arad_Easy",
+  "camera": {
+    "position": [
+      139339.76733860042,
+      1568.7428571428568,
+      382008.8427076187
+    ],
+    "forward": [
+      0.29619813272602397,
+      -0.49999999999999994,
+      0.8137976813493737
+    ],
+    "up": [
+      0.17101007166283438,
+      0.8660254037844387,
+      0.4698463103929541
+    ],
+    "right": [
+      -0.9396926207859083,
+      0.0,
+      0.3420201433256688
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": 140050.64285714287,
+    "z": 383961.9571428572,
+    "alt_m": 368.74285714285713,
+    "lat": 31.302850275499168,
+    "lon": 35.256277930036525,
+    "dms": "N31°18'10.26\" E035°15'22.60\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:48",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-Ural-375-6#10678",
+      "type": "Ural-375",
+      "x": 140324.2,
+      "z": 383392.0,
+      "alt": 406.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-BMP-2-4#10677",
+      "type": "BMP-2",
+      "x": 139246.5,
+      "z": 383996.5,
+      "alt": 364.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-BRDM-2-5#10676",
+      "type": "BRDM-2",
+      "x": 139719.5,
+      "z": 383480.4,
+      "alt": 423.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-BMP-2-3#10675",
+      "type": "BMP-2",
+      "x": 139746.8,
+      "z": 384452.5,
+      "alt": 327.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-T-72B-1#10674",
+      "type": "T-72B",
+      "x": 140594.8,
+      "z": 384018.0,
+      "alt": 355.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-Ural-375-7#10673",
+      "type": "Ural-375",
+      "x": 140325.7,
+      "z": 383792.6,
+      "alt": 384.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Arad_Easy [r] combatZone_Arad_Easy-Inert-T-72B-2#10672",
+      "type": "T-72B",
+      "x": 140397.0,
+      "z": 384601.7,
+      "alt": 319.5
+    }
+  ],
+  "image": "arad-easy.jpg",
+  "heading": 70,
+  "pitch": -30.0,
+  "x": 139339.76733860042,
+  "y": 382008.8427076187,
+  "altitude_m": 1569,
+  "order": 1
+}

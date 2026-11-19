@@ -1,0 +1,114 @@
+{
+  "name": "convoinakhl",
+  "title": "Z07 Convoi — Nakhl vers le col de Mitla",
+  "heading_deg": 94.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_ConvoiNakhl",
+  "camera": {
+    "position": [
+      -10961.28204442407,
+      709.6714285714285,
+      232055.59337148658
+    ],
+    "forward": [
+      -0.06041087834083474,
+      -0.49999999999999994,
+      0.8639158094271043
+    ],
+    "up": [
+      -0.03487823687206266,
+      0.8660254037844387,
+      0.49878202512991204
+    ],
+    "right": [
+      -0.9975640502598242,
+      0.0,
+      -0.06975647374412533
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -10997.528571428571,
+    "z": 232573.94285714286,
+    "alt_m": 409.6714285714285,
+    "lat": 29.95802506450648,
+    "lon": 33.656569512922864,
+    "dms": "N29°57'28.89\" E033°39'23.65\""
+  },
+  "theatre": "SinaiMap",
+  "date": "2025-10-15",
+  "time": "11:39",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "T-72B",
+      "x": -11012.1,
+      "z": 232559.2,
+      "alt": 409.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "T-72B",
+      "x": -11045.1,
+      "z": 232576.4,
+      "alt": 410.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "BMP-2",
+      "x": -11025.1,
+      "z": 232576.4,
+      "alt": 409.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "BMP-2",
+      "x": -11005.1,
+      "z": 232576.4,
+      "alt": 409.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "Ural-375",
+      "x": -10985.1,
+      "z": 232576.4,
+      "alt": 409.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "Ural-375",
+      "x": -10965.1,
+      "z": 232576.4,
+      "alt": 409.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_ConvoiNakhl [r] combatZone_ConvoiNakhl-Convoi#10592",
+      "type": "Strela-10M3",
+      "x": -10945.1,
+      "z": 232576.4,
+      "alt": 409.2
+    }
+  ],
+  "image": "convoinakhl.jpg",
+  "heading": 94,
+  "pitch": -30.0,
+  "x": -10961.28204442407,
+  "y": 232055.59337148658,
+  "altitude_m": 710,
+  "order": 16
+}
